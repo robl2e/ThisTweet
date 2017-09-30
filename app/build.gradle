@@ -42,6 +42,7 @@ dependencies {
     compile 'com.github.javiersantos:BottomDialogs:1.2.1'
     compile 'com.darwinsys:hirondelle-date4j:1.5.1'
     compile 'jp.wasabeef:glide-transformations:2.0.2'
+    compile 'com.codepath.libraries:android-oauth-handler:1.2.5'
 
     testCompile 'junit:junit:4.12'
 }

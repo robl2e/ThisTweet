@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="intent_scheme">x-oauthflow-twitter</string>
+    <string name="intent_host">arbitraryname.com</string>
+</resources>

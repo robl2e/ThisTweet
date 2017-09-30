@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">ThisTweet</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="sign_in">Sign in</string>
+    <string name="error_login_unsuccessful">Could not login. Please try again</string>
 </resources>
