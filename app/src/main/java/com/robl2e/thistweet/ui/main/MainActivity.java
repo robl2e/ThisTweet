@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
         if (!isAuthenticated()) {
             LoginActivity.start(this);
         } else {
+            TwitterApplication.getRestClient().initialize();
             TweetListActivity.start(this);
         }
         finish();

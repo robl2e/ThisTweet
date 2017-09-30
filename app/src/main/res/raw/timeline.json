@@ -1,0 +1,5241 @@
+[
+  {
+    "created_at": "Sat Sep 30 02:37:40 +0000 2017",
+    "id": 913955979578019841,
+    "id_str": "913955979578019841",
+    "text": "NEW VIDEO - iPhone 8 Review: Skip this Great Phone! https://t.co/TJhEUCrtuj - RT! https://t.co/9qmM5n7VE4",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+
+      ],
+      "symbols": [
+
+      ],
+      "user_mentions": [
+
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/TJhEUCrtuj",
+          "expanded_url": "https://youtu.be/ld5H2L4j6LE",
+          "display_url": "youtu.be/ld5H2L4j6LE",
+          "indices": [
+            52,
+            75
+          ]
+        }
+      ],
+      "media": [
+        {
+          "id": 913955976516161536,
+          "id_str": "913955976516161536",
+          "indices": [
+            82,
+            105
+          ],
+          "media_url": "http://pbs.twimg.com/media/DK8GHkiXUAAmCGF.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DK8GHkiXUAAmCGF.jpg",
+          "url": "https://t.co/9qmM5n7VE4",
+          "display_url": "pic.twitter.com/9qmM5n7VE4",
+          "expanded_url": "https://twitter.com/MKBHD/status/913955979578019841/photo/1",
+          "type": "photo",
+          "sizes": {
+            "medium": {
+              "w": 1200,
+              "h": 675,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 1920,
+              "h": 1080,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 383,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 913955976516161536,
+          "id_str": "913955976516161536",
+          "indices": [
+            82,
+            105
+          ],
+          "media_url": "http://pbs.twimg.com/media/DK8GHkiXUAAmCGF.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DK8GHkiXUAAmCGF.jpg",
+          "url": "https://t.co/9qmM5n7VE4",
+          "display_url": "pic.twitter.com/9qmM5n7VE4",
+          "expanded_url": "https://twitter.com/MKBHD/status/913955979578019841/photo/1",
+          "type": "photo",
+          "sizes": {
+            "medium": {
+              "w": 1200,
+              "h": 675,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 1920,
+              "h": 1080,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 383,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            }
+          }
+        }
+      ]
+    },
+    "source": "<a href=\"http://itunes.apple.com/us/app/twitter/id409789998?mt=12\" rel=\"nofollow\">Twitter for Mac</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 29873662,
+      "id_str": "29873662",
+      "name": "Marques Brownlee",
+      "screen_name": "MKBHD",
+      "location": "NYC",
+      "description": "Web Video Producer | ⋈",
+      "url": "https://t.co/zGcF5QxPBI",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/zGcF5QxPBI",
+              "expanded_url": "http://youtube.com/MKBHD",
+              "display_url": "youtube.com/MKBHD",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 1637410,
+      "friends_count": 222,
+      "listed_count": 6796,
+      "created_at": "Thu Apr 09 00:50:00 +0000 2009",
+      "favourites_count": 23536,
+      "utc_offset": -14400,
+      "time_zone": "Eastern Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 39301,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "EDECE9",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000061582783/2a5ada827f010eeaeda7916e800bc394.png",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000061582783/2a5ada827f010eeaeda7916e800bc394.png",
+      "profile_background_tile": true,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/818557354123870208/QRDP8wcd_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/818557354123870208/QRDP8wcd_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/29873662/1480451975",
+      "profile_link_color": "6C4585",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "C0DFEC",
+      "profile_text_color": "333333",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": true,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "regular"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 313,
+    "favorite_count": 1677,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Sat Sep 30 02:24:30 +0000 2017",
+    "id": 913952666652434432,
+    "id_str": "913952666652434432",
+    "text": "RT @Zam2Malik: @MKBHD Me waking up to this tweet https://t.co/ISQHcSEDMu",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+
+      ],
+      "symbols": [
+
+      ],
+      "user_mentions": [
+        {
+          "screen_name": "Zam2Malik",
+          "name": "Zainab Malik",
+          "id": 1508284051,
+          "id_str": "1508284051",
+          "indices": [
+            3,
+            13
+          ]
+        },
+        {
+          "screen_name": "MKBHD",
+          "name": "Marques Brownlee",
+          "id": 29873662,
+          "id_str": "29873662",
+          "indices": [
+            15,
+            21
+          ]
+        }
+      ],
+      "urls": [
+
+      ],
+      "media": [
+        {
+          "id": 913951430410514434,
+          "id_str": "913951430410514434",
+          "indices": [
+            49,
+            72
+          ],
+          "media_url": "http://pbs.twimg.com/tweet_video_thumb/DK8B-8-UMAIxe37.jpg",
+          "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/DK8B-8-UMAIxe37.jpg",
+          "url": "https://t.co/ISQHcSEDMu",
+          "display_url": "pic.twitter.com/ISQHcSEDMu",
+          "expanded_url": "https://twitter.com/Zam2Malik/status/913951438216318976/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 220,
+              "h": 220,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 220,
+              "h": 220,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 220,
+              "h": 220,
+              "resize": "fit"
+            }
+          },
+          "source_status_id": 913951438216318976,
+          "source_status_id_str": "913951438216318976",
+          "source_user_id": 1508284051,
+          "source_user_id_str": "1508284051"
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 913951430410514434,
+          "id_str": "913951430410514434",
+          "indices": [
+            49,
+            72
+          ],
+          "media_url": "http://pbs.twimg.com/tweet_video_thumb/DK8B-8-UMAIxe37.jpg",
+          "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/DK8B-8-UMAIxe37.jpg",
+          "url": "https://t.co/ISQHcSEDMu",
+          "display_url": "pic.twitter.com/ISQHcSEDMu",
+          "expanded_url": "https://twitter.com/Zam2Malik/status/913951438216318976/photo/1",
+          "type": "animated_gif",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 220,
+              "h": 220,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 220,
+              "h": 220,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 220,
+              "h": 220,
+              "resize": "fit"
+            }
+          },
+          "source_status_id": 913951438216318976,
+          "source_status_id_str": "913951438216318976",
+          "source_user_id": 1508284051,
+          "source_user_id_str": "1508284051",
+          "video_info": {
+            "aspect_ratio": [
+              1,
+              1
+            ],
+            "variants": [
+              {
+                "bitrate": 0,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/tweet_video/DK8B-8-UMAIxe37.mp4"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "source": "<a href=\"http://itunes.apple.com/us/app/twitter/id409789998?mt=12\" rel=\"nofollow\">Twitter for Mac</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 29873662,
+      "id_str": "29873662",
+      "name": "Marques Brownlee",
+      "screen_name": "MKBHD",
+      "location": "NYC",
+      "description": "Web Video Producer | ⋈",
+      "url": "https://t.co/zGcF5QxPBI",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/zGcF5QxPBI",
+              "expanded_url": "http://youtube.com/MKBHD",
+              "display_url": "youtube.com/MKBHD",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 1637410,
+      "friends_count": 222,
+      "listed_count": 6796,
+      "created_at": "Thu Apr 09 00:50:00 +0000 2009",
+      "favourites_count": 23536,
+      "utc_offset": -14400,
+      "time_zone": "Eastern Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 39301,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "EDECE9",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000061582783/2a5ada827f010eeaeda7916e800bc394.png",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000061582783/2a5ada827f010eeaeda7916e800bc394.png",
+      "profile_background_tile": true,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/818557354123870208/QRDP8wcd_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/818557354123870208/QRDP8wcd_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/29873662/1480451975",
+      "profile_link_color": "6C4585",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "C0DFEC",
+      "profile_text_color": "333333",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": true,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "regular"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Sat Sep 30 02:19:37 +0000 2017",
+      "id": 913951438216318976,
+      "id_str": "913951438216318976",
+      "text": "@MKBHD Me waking up to this tweet https://t.co/ISQHcSEDMu",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+
+        ],
+        "symbols": [
+
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "MKBHD",
+            "name": "Marques Brownlee",
+            "id": 29873662,
+            "id_str": "29873662",
+            "indices": [
+              0,
+              6
+            ]
+          }
+        ],
+        "urls": [
+
+        ],
+        "media": [
+          {
+            "id": 913951430410514434,
+            "id_str": "913951430410514434",
+            "indices": [
+              34,
+              57
+            ],
+            "media_url": "http://pbs.twimg.com/tweet_video_thumb/DK8B-8-UMAIxe37.jpg",
+            "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/DK8B-8-UMAIxe37.jpg",
+            "url": "https://t.co/ISQHcSEDMu",
+            "display_url": "pic.twitter.com/ISQHcSEDMu",
+            "expanded_url": "https://twitter.com/Zam2Malik/status/913951438216318976/photo/1",
+            "type": "photo",
+            "sizes": {
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "large": {
+                "w": 220,
+                "h": 220,
+                "resize": "fit"
+              },
+              "medium": {
+                "w": 220,
+                "h": 220,
+                "resize": "fit"
+              },
+              "small": {
+                "w": 220,
+                "h": 220,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "extended_entities": {
+        "media": [
+          {
+            "id": 913951430410514434,
+            "id_str": "913951430410514434",
+            "indices": [
+              34,
+              57
+            ],
+            "media_url": "http://pbs.twimg.com/tweet_video_thumb/DK8B-8-UMAIxe37.jpg",
+            "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/DK8B-8-UMAIxe37.jpg",
+            "url": "https://t.co/ISQHcSEDMu",
+            "display_url": "pic.twitter.com/ISQHcSEDMu",
+            "expanded_url": "https://twitter.com/Zam2Malik/status/913951438216318976/photo/1",
+            "type": "animated_gif",
+            "sizes": {
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "large": {
+                "w": 220,
+                "h": 220,
+                "resize": "fit"
+              },
+              "medium": {
+                "w": 220,
+                "h": 220,
+                "resize": "fit"
+              },
+              "small": {
+                "w": 220,
+                "h": 220,
+                "resize": "fit"
+              }
+            },
+            "video_info": {
+              "aspect_ratio": [
+                1,
+                1
+              ],
+              "variants": [
+                {
+                  "bitrate": 0,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/tweet_video/DK8B-8-UMAIxe37.mp4"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+      "in_reply_to_status_id": 913950140121133056,
+      "in_reply_to_status_id_str": "913950140121133056",
+      "in_reply_to_user_id": 29873662,
+      "in_reply_to_user_id_str": "29873662",
+      "in_reply_to_screen_name": "MKBHD",
+      "user": {
+        "id": 1508284051,
+        "id_str": "1508284051",
+        "name": "Zainab Malik",
+        "screen_name": "Zam2Malik",
+        "location": "The City of Champions ",
+        "description": "I love anything that takes me out of my reality my life isnt bad but it could use some excitement",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": [
+
+            ]
+          }
+        },
+        "protected": false,
+        "followers_count": 66,
+        "friends_count": 111,
+        "listed_count": 7,
+        "created_at": "Wed Jun 12 02:26:38 +0000 2013",
+        "favourites_count": 8498,
+        "utc_offset": -25200,
+        "time_zone": "Pacific Time (US & Canada)",
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 6337,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/905865902020861953/8funv-O1_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/905865902020861953/8funv-O1_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1508284051/1481317638",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": true,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 37,
+      "favorite_count": 636,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "possibly_sensitive_appealable": false,
+      "lang": "en"
+    },
+    "is_quote_status": false,
+    "retweet_count": 37,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Sat Sep 30 02:14:28 +0000 2017",
+    "id": 913950140121133056,
+    "id_str": "913950140121133056",
+    "text": "Yooooo a late night upload is on its way right now… who’s up for this one?",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+
+      ],
+      "symbols": [
+
+      ],
+      "user_mentions": [
+
+      ],
+      "urls": [
+
+      ]
+    },
+    "source": "<a href=\"http://itunes.apple.com/us/app/twitter/id409789998?mt=12\" rel=\"nofollow\">Twitter for Mac</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 29873662,
+      "id_str": "29873662",
+      "name": "Marques Brownlee",
+      "screen_name": "MKBHD",
+      "location": "NYC",
+      "description": "Web Video Producer | ⋈",
+      "url": "https://t.co/zGcF5QxPBI",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/zGcF5QxPBI",
+              "expanded_url": "http://youtube.com/MKBHD",
+              "display_url": "youtube.com/MKBHD",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 1637410,
+      "friends_count": 222,
+      "listed_count": 6796,
+      "created_at": "Thu Apr 09 00:50:00 +0000 2009",
+      "favourites_count": 23536,
+      "utc_offset": -14400,
+      "time_zone": "Eastern Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 39301,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "EDECE9",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000061582783/2a5ada827f010eeaeda7916e800bc394.png",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000061582783/2a5ada827f010eeaeda7916e800bc394.png",
+      "profile_background_tile": true,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/818557354123870208/QRDP8wcd_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/818557354123870208/QRDP8wcd_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/29873662/1480451975",
+      "profile_link_color": "6C4585",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "C0DFEC",
+      "profile_text_color": "333333",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": true,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "regular"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 133,
+    "favorite_count": 3911,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Sat Sep 30 01:58:59 +0000 2017",
+    "id": 913946243361116160,
+    "id_str": "913946243361116160",
+    "text": "It wasn't @DwyaneWade's idea. 🤣 https://t.co/ImntgFiUPf",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+
+      ],
+      "symbols": [
+
+      ],
+      "user_mentions": [
+        {
+          "screen_name": "DwyaneWade",
+          "name": "DWade",
+          "id": 33995409,
+          "id_str": "33995409",
+          "indices": [
+            10,
+            21
+          ]
+        }
+      ],
+      "urls": [
+
+      ],
+      "media": [
+        {
+          "id": 913946196326133760,
+          "id_str": "913946196326133760",
+          "indices": [
+            32,
+            55
+          ],
+          "media_url": "http://pbs.twimg.com/ext_tw_video_thumb/913946196326133760/pu/img/1_glYlPrM3TbUbYu.jpg",
+          "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/913946196326133760/pu/img/1_glYlPrM3TbUbYu.jpg",
+          "url": "https://t.co/ImntgFiUPf",
+          "display_url": "pic.twitter.com/ImntgFiUPf",
+          "expanded_url": "https://twitter.com/ESPNNBA/status/913946243361116160/video/1",
+          "type": "photo",
+          "sizes": {
+            "small": {
+              "w": 340,
+              "h": 340,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 600,
+              "h": 600,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 1024,
+              "h": 1024,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 913946196326133760,
+          "id_str": "913946196326133760",
+          "indices": [
+            32,
+            55
+          ],
+          "media_url": "http://pbs.twimg.com/ext_tw_video_thumb/913946196326133760/pu/img/1_glYlPrM3TbUbYu.jpg",
+          "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/913946196326133760/pu/img/1_glYlPrM3TbUbYu.jpg",
+          "url": "https://t.co/ImntgFiUPf",
+          "display_url": "pic.twitter.com/ImntgFiUPf",
+          "expanded_url": "https://twitter.com/ESPNNBA/status/913946243361116160/video/1",
+          "type": "video",
+          "sizes": {
+            "small": {
+              "w": 340,
+              "h": 340,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 600,
+              "h": 600,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 1024,
+              "h": 1024,
+              "resize": "fit"
+            }
+          },
+          "video_info": {
+            "aspect_ratio": [
+              1,
+              1
+            ],
+            "duration_millis": 17384,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/ext_tw_video/913946196326133760/pu/pl/iYLcsYqcYc-w6FF-.m3u8"
+              },
+              {
+                "bitrate": 1280000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/ext_tw_video/913946196326133760/pu/vid/720x720/aP9_DcFaWxUFWvSQ.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/ext_tw_video/913946196326133760/pu/vid/480x480/tyWdjGMq0HMrJ1WZ.mp4"
+              },
+              {
+                "bitrate": 320000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/ext_tw_video/913946196326133760/pu/vid/240x240/_rXK-KYdI-7otRSU.mp4"
+              }
+            ]
+          },
+          "additional_media_info": {
+            "monetizable": false
+          }
+        }
+      ]
+    },
+    "source": "<a href=\"http://www.spredfast.com\" rel=\"nofollow\">Spredfast app</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 74518740,
+      "id_str": "74518740",
+      "name": "NBA on ESPN",
+      "screen_name": "ESPNNBA",
+      "location": "ESPN",
+      "description": "Official Twitter account of the NBA on ESPN, home of the NBA Draft and the NBA Finals. https://t.co/ZXP0Y8bs4T",
+      "url": "https://t.co/4FNCeu2Z1a",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/4FNCeu2Z1a",
+              "expanded_url": "http://espn.go.com/nba/",
+              "display_url": "espn.go.com/nba/",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "https://t.co/ZXP0Y8bs4T",
+              "expanded_url": "http://Instagram.com/nbaonespn",
+              "display_url": "Instagram.com/nbaonespn",
+              "indices": [
+                87,
+                110
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 5061414,
+      "friends_count": 788,
+      "listed_count": 13428,
+      "created_at": "Tue Sep 15 18:37:13 +0000 2009",
+      "favourites_count": 1479,
+      "utc_offset": -14400,
+      "time_zone": "Eastern Time (US & Canada)",
+      "geo_enabled": false,
+      "verified": true,
+      "statuses_count": 61896,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "A15E00",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/47166024/NBA_bg.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/47166024/NBA_bg.jpg",
+      "profile_background_tile": true,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/884879324410675200/8nw2pYKc_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/884879324410675200/8nw2pYKc_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/74518740/1498596763",
+      "profile_link_color": "0000FF",
+      "profile_sidebar_border_color": "EEEEEE",
+      "profile_sidebar_fill_color": "E6EDF2",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": true,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 341,
+    "favorite_count": 1440,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Sat Sep 30 01:15:27 +0000 2017",
+    "id": 913935287205498880,
+    "id_str": "913935287205498880",
+    "text": "Everything you need to know Saturday's preseason opener 👀 https://t.co/WxToWWJzf7",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+
+      ],
+      "symbols": [
+
+      ],
+      "user_mentions": [
+
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/WxToWWJzf7",
+          "expanded_url": "http://on.nba.com/2yfjIS5",
+          "display_url": "on.nba.com/2yfjIS5",
+          "indices": [
+            58,
+            81
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 26270913,
+      "id_str": "26270913",
+      "name": "GoldenStateWarriors",
+      "screen_name": "warriors",
+      "location": "Oakland, CA",
+      "description": "🏆 2017 NBA Champions • #DubNation • #WarriorsGround",
+      "url": "https://t.co/Z122zHtval",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/Z122zHtval",
+              "expanded_url": "http://warriors.com",
+              "display_url": "warriors.com",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 4601930,
+      "friends_count": 981,
+      "listed_count": 8453,
+      "created_at": "Tue Mar 24 16:42:22 +0000 2009",
+      "favourites_count": 9751,
+      "utc_offset": -25200,
+      "time_zone": "Pacific Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 68342,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FFCC33",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/458788447965040640/hNch3If2.jpeg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/458788447965040640/hNch3If2.jpeg",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/854505341484019712/OzIV0ZiF_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/854505341484019712/OzIV0ZiF_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/26270913/1506047864",
+      "profile_link_color": "002A5C",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "E4E8F1",
+      "profile_text_color": "666666",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": true,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "regular"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 101,
+    "favorite_count": 547,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Sat Sep 30 01:10:06 +0000 2017",
+    "id": 913933943589658624,
+    "id_str": "913933943589658624",
+    "text": ".@Money23Green approves of his bobblehead 💪 Be one of the first 10K fans in the door tomorrow night to score one »… https://t.co/LsTrsStGlG",
+    "truncated": true,
+    "entities": {
+      "hashtags": [
+
+      ],
+      "symbols": [
+
+      ],
+      "user_mentions": [
+        {
+          "screen_name": "Money23Green",
+          "name": "Draymond Green",
+          "id": 116485600,
+          "id_str": "116485600",
+          "indices": [
+            1,
+            14
+          ]
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/LsTrsStGlG",
+          "expanded_url": "https://twitter.com/i/web/status/913933943589658624",
+          "display_url": "twitter.com/i/web/status/9…",
+          "indices": [
+            116,
+            139
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"https://studio.twitter.com\" rel=\"nofollow\">Media Studio</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 26270913,
+      "id_str": "26270913",
+      "name": "GoldenStateWarriors",
+      "screen_name": "warriors",
+      "location": "Oakland, CA",
+      "description": "🏆 2017 NBA Champions • #DubNation • #WarriorsGround",
+      "url": "https://t.co/Z122zHtval",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/Z122zHtval",
+              "expanded_url": "http://warriors.com",
+              "display_url": "warriors.com",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 4601930,
+      "friends_count": 981,
+      "listed_count": 8453,
+      "created_at": "Tue Mar 24 16:42:22 +0000 2009",
+      "favourites_count": 9751,
+      "utc_offset": -25200,
+      "time_zone": "Pacific Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 68342,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FFCC33",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/458788447965040640/hNch3If2.jpeg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/458788447965040640/hNch3If2.jpeg",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/854505341484019712/OzIV0ZiF_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/854505341484019712/OzIV0ZiF_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/26270913/1506047864",
+      "profile_link_color": "002A5C",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "E4E8F1",
+      "profile_text_color": "666666",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": true,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "regular"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 94,
+    "favorite_count": 722,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Sat Sep 30 01:03:30 +0000 2017",
+    "id": 913932281508651008,
+    "id_str": "913932281508651008",
+    "text": "RT @espn: It's real. https://t.co/kRN8xJPgSB",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+
+      ],
+      "symbols": [
+
+      ],
+      "user_mentions": [
+        {
+          "screen_name": "espn",
+          "name": "ESPN",
+          "id": 2557521,
+          "id_str": "2557521",
+          "indices": [
+            3,
+            8
+          ]
+        }
+      ],
+      "urls": [
+
+      ],
+      "media": [
+        {
+          "id": 913931647883595776,
+          "id_str": "913931647883595776",
+          "indices": [
+            21,
+            44
+          ],
+          "media_url": "http://pbs.twimg.com/media/DK7v_dUW0AAF4m3.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DK7v_dUW0AAF4m3.jpg",
+          "url": "https://t.co/kRN8xJPgSB",
+          "display_url": "pic.twitter.com/kRN8xJPgSB",
+          "expanded_url": "https://twitter.com/espn/status/913931653789208577/photo/1",
+          "type": "photo",
+          "sizes": {
+            "large": {
+              "w": 1340,
+              "h": 1468,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 621,
+              "h": 680,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 1095,
+              "h": 1200,
+              "resize": "fit"
+            }
+          },
+          "source_status_id": 913931653789208577,
+          "source_status_id_str": "913931653789208577",
+          "source_user_id": 2557521,
+          "source_user_id_str": "2557521"
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 913931647883595776,
+          "id_str": "913931647883595776",
+          "indices": [
+            21,
+            44
+          ],
+          "media_url": "http://pbs.twimg.com/media/DK7v_dUW0AAF4m3.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DK7v_dUW0AAF4m3.jpg",
+          "url": "https://t.co/kRN8xJPgSB",
+          "display_url": "pic.twitter.com/kRN8xJPgSB",
+          "expanded_url": "https://twitter.com/espn/status/913931653789208577/photo/1",
+          "type": "photo",
+          "sizes": {
+            "large": {
+              "w": 1340,
+              "h": 1468,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 621,
+              "h": 680,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 1095,
+              "h": 1200,
+              "resize": "fit"
+            }
+          },
+          "source_status_id": 913931653789208577,
+          "source_status_id_str": "913931653789208577",
+          "source_user_id": 2557521,
+          "source_user_id_str": "2557521"
+        }
+      ]
+    },
+    "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 74518740,
+      "id_str": "74518740",
+      "name": "NBA on ESPN",
+      "screen_name": "ESPNNBA",
+      "location": "ESPN",
+      "description": "Official Twitter account of the NBA on ESPN, home of the NBA Draft and the NBA Finals. https://t.co/ZXP0Y8bs4T",
+      "url": "https://t.co/4FNCeu2Z1a",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/4FNCeu2Z1a",
+              "expanded_url": "http://espn.go.com/nba/",
+              "display_url": "espn.go.com/nba/",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "https://t.co/ZXP0Y8bs4T",
+              "expanded_url": "http://Instagram.com/nbaonespn",
+              "display_url": "Instagram.com/nbaonespn",
+              "indices": [
+                87,
+                110
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 5061414,
+      "friends_count": 788,
+      "listed_count": 13428,
+      "created_at": "Tue Sep 15 18:37:13 +0000 2009",
+      "favourites_count": 1479,
+      "utc_offset": -14400,
+      "time_zone": "Eastern Time (US & Canada)",
+      "geo_enabled": false,
+      "verified": true,
+      "statuses_count": 61896,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "A15E00",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/47166024/NBA_bg.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/47166024/NBA_bg.jpg",
+      "profile_background_tile": true,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/884879324410675200/8nw2pYKc_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/884879324410675200/8nw2pYKc_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/74518740/1498596763",
+      "profile_link_color": "0000FF",
+      "profile_sidebar_border_color": "EEEEEE",
+      "profile_sidebar_fill_color": "E6EDF2",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": true,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Sat Sep 30 01:01:00 +0000 2017",
+      "id": 913931653789208577,
+      "id_str": "913931653789208577",
+      "text": "It's real. https://t.co/kRN8xJPgSB",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+
+        ],
+        "symbols": [
+
+        ],
+        "user_mentions": [
+
+        ],
+        "urls": [
+
+        ],
+        "media": [
+          {
+            "id": 913931647883595776,
+            "id_str": "913931647883595776",
+            "indices": [
+              11,
+              34
+            ],
+            "media_url": "http://pbs.twimg.com/media/DK7v_dUW0AAF4m3.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/DK7v_dUW0AAF4m3.jpg",
+            "url": "https://t.co/kRN8xJPgSB",
+            "display_url": "pic.twitter.com/kRN8xJPgSB",
+            "expanded_url": "https://twitter.com/espn/status/913931653789208577/photo/1",
+            "type": "photo",
+            "sizes": {
+              "large": {
+                "w": 1340,
+                "h": 1468,
+                "resize": "fit"
+              },
+              "small": {
+                "w": 621,
+                "h": 680,
+                "resize": "fit"
+              },
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "medium": {
+                "w": 1095,
+                "h": 1200,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "extended_entities": {
+        "media": [
+          {
+            "id": 913931647883595776,
+            "id_str": "913931647883595776",
+            "indices": [
+              11,
+              34
+            ],
+            "media_url": "http://pbs.twimg.com/media/DK7v_dUW0AAF4m3.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/DK7v_dUW0AAF4m3.jpg",
+            "url": "https://t.co/kRN8xJPgSB",
+            "display_url": "pic.twitter.com/kRN8xJPgSB",
+            "expanded_url": "https://twitter.com/espn/status/913931653789208577/photo/1",
+            "type": "photo",
+            "sizes": {
+              "large": {
+                "w": 1340,
+                "h": 1468,
+                "resize": "fit"
+              },
+              "small": {
+                "w": 621,
+                "h": 680,
+                "resize": "fit"
+              },
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "medium": {
+                "w": 1095,
+                "h": 1200,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "source": "<a href=\"http://www.spredfast.com\" rel=\"nofollow\">Spredfast app</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 2557521,
+        "id_str": "2557521",
+        "name": "ESPN",
+        "screen_name": "espn",
+        "location": "Bristol, CT",
+        "description": "",
+        "url": "https://t.co/RqqkIx8GI7",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/RqqkIx8GI7",
+                "expanded_url": "http://es.pn/app",
+                "display_url": "es.pn/app",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": [
+
+            ]
+          }
+        },
+        "protected": false,
+        "followers_count": 33572366,
+        "friends_count": 283,
+        "listed_count": 58012,
+        "created_at": "Tue Mar 27 20:46:16 +0000 2007",
+        "favourites_count": 94,
+        "utc_offset": -14400,
+        "time_zone": "Eastern Time (US & Canada)",
+        "geo_enabled": true,
+        "verified": true,
+        "statuses_count": 91578,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": true,
+        "profile_background_color": "C8C8C8",
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/601774592/rqjossil7yrf5tn5fdvl.jpeg",
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/601774592/rqjossil7yrf5tn5fdvl.jpeg",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/903763131872288768/lR7-Fb1N_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/903763131872288768/lR7-Fb1N_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/2557521/1503329004",
+        "profile_link_color": "CC0000",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "EFEFEF",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "regular"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 5712,
+      "favorite_count": 24373,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "possibly_sensitive_appealable": false,
+      "lang": "en"
+    },
+    "is_quote_status": false,
+    "retweet_count": 5712,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Sat Sep 30 00:30:23 +0000 2017",
+    "id": 913923945170112512,
+    "id_str": "913923945170112512",
+    "text": "24 hours until Warriors basketball is back in your life, #DubNation 👀\n\nSee you on #WarriorsGround. https://t.co/VV9gXAAgOY",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "DubNation",
+          "indices": [
+            57,
+            67
+          ]
+        },
+        {
+          "text": "WarriorsGround",
+          "indices": [
+            82,
+            97
+          ]
+        }
+      ],
+      "symbols": [
+
+      ],
+      "user_mentions": [
+
+      ],
+      "urls": [
+
+      ],
+      "media": [
+        {
+          "id": 913923939000348672,
+          "id_str": "913923939000348672",
+          "indices": [
+            99,
+            122
+          ],
+          "media_url": "http://pbs.twimg.com/tweet_video_thumb/DK7o-vfXcAAWC4r.jpg",
+          "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/DK7o-vfXcAAWC4r.jpg",
+          "url": "https://t.co/VV9gXAAgOY",
+          "display_url": "pic.twitter.com/VV9gXAAgOY",
+          "expanded_url": "https://twitter.com/warriors/status/913923945170112512/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "small": {
+              "w": 340,
+              "h": 190,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 500,
+              "h": 280,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 500,
+              "h": 280,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 913923939000348672,
+          "id_str": "913923939000348672",
+          "indices": [
+            99,
+            122
+          ],
+          "media_url": "http://pbs.twimg.com/tweet_video_thumb/DK7o-vfXcAAWC4r.jpg",
+          "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/DK7o-vfXcAAWC4r.jpg",
+          "url": "https://t.co/VV9gXAAgOY",
+          "display_url": "pic.twitter.com/VV9gXAAgOY",
+          "expanded_url": "https://twitter.com/warriors/status/913923945170112512/photo/1",
+          "type": "animated_gif",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "small": {
+              "w": 340,
+              "h": 190,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 500,
+              "h": 280,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 500,
+              "h": 280,
+              "resize": "fit"
+            }
+          },
+          "video_info": {
+            "aspect_ratio": [
+              25,
+              14
+            ],
+            "variants": [
+              {
+                "bitrate": 0,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/tweet_video/DK7o-vfXcAAWC4r.mp4"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "source": "<a href=\"http://bufferapp.com\" rel=\"nofollow\">Buffer</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 26270913,
+      "id_str": "26270913",
+      "name": "GoldenStateWarriors",
+      "screen_name": "warriors",
+      "location": "Oakland, CA",
+      "description": "🏆 2017 NBA Champions • #DubNation • #WarriorsGround",
+      "url": "https://t.co/Z122zHtval",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/Z122zHtval",
+              "expanded_url": "http://warriors.com",
+              "display_url": "warriors.com",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 4601930,
+      "friends_count": 981,
+      "listed_count": 8453,
+      "created_at": "Tue Mar 24 16:42:22 +0000 2009",
+      "favourites_count": 9751,
+      "utc_offset": -25200,
+      "time_zone": "Pacific Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 68342,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FFCC33",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/458788447965040640/hNch3If2.jpeg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/458788447965040640/hNch3If2.jpeg",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/854505341484019712/OzIV0ZiF_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/854505341484019712/OzIV0ZiF_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/26270913/1506047864",
+      "profile_link_color": "002A5C",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "E4E8F1",
+      "profile_text_color": "666666",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": true,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "regular"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 486,
+    "favorite_count": 1567,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Fri Sep 29 23:59:04 +0000 2017",
+    "id": 913916064928600065,
+    "id_str": "913916064928600065",
+    "text": "D-Wade wants to go out in the same jersey he started in. https://t.co/1DPHYSKcwx",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+
+      ],
+      "symbols": [
+
+      ],
+      "user_mentions": [
+
+      ],
+      "urls": [
+
+      ],
+      "media": [
+        {
+          "id": 913916062042816517,
+          "id_str": "913916062042816517",
+          "indices": [
+            57,
+            80
+          ],
+          "media_url": "http://pbs.twimg.com/media/DK7h0PiWAAUjHhz.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DK7h0PiWAAUjHhz.jpg",
+          "url": "https://t.co/1DPHYSKcwx",
+          "display_url": "pic.twitter.com/1DPHYSKcwx",
+          "expanded_url": "https://twitter.com/ESPNNBA/status/913916064928600065/photo/1",
+          "type": "photo",
+          "sizes": {
+            "medium": {
+              "w": 960,
+              "h": 1200,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 1080,
+              "h": 1350,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 544,
+              "h": 680,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 913916062042816517,
+          "id_str": "913916062042816517",
+          "indices": [
+            57,
+            80
+          ],
+          "media_url": "http://pbs.twimg.com/media/DK7h0PiWAAUjHhz.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DK7h0PiWAAUjHhz.jpg",
+          "url": "https://t.co/1DPHYSKcwx",
+          "display_url": "pic.twitter.com/1DPHYSKcwx",
+          "expanded_url": "https://twitter.com/ESPNNBA/status/913916064928600065/photo/1",
+          "type": "photo",
+          "sizes": {
+            "medium": {
+              "w": 960,
+              "h": 1200,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 1080,
+              "h": 1350,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 544,
+              "h": 680,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "source": "<a href=\"http://www.spredfast.com\" rel=\"nofollow\">Spredfast app</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 74518740,
+      "id_str": "74518740",
+      "name": "NBA on ESPN",
+      "screen_name": "ESPNNBA",
+      "location": "ESPN",
+      "description": "Official Twitter account of the NBA on ESPN, home of the NBA Draft and the NBA Finals. https://t.co/ZXP0Y8bs4T",
+      "url": "https://t.co/4FNCeu2Z1a",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/4FNCeu2Z1a",
+              "expanded_url": "http://espn.go.com/nba/",
+              "display_url": "espn.go.com/nba/",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "https://t.co/ZXP0Y8bs4T",
+              "expanded_url": "http://Instagram.com/nbaonespn",
+              "display_url": "Instagram.com/nbaonespn",
+              "indices": [
+                87,
+                110
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 5061414,
+      "friends_count": 788,
+      "listed_count": 13428,
+      "created_at": "Tue Sep 15 18:37:13 +0000 2009",
+      "favourites_count": 1479,
+      "utc_offset": -14400,
+      "time_zone": "Eastern Time (US & Canada)",
+      "geo_enabled": false,
+      "verified": true,
+      "statuses_count": 61896,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "A15E00",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/47166024/NBA_bg.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/47166024/NBA_bg.jpg",
+      "profile_background_tile": true,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/884879324410675200/8nw2pYKc_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/884879324410675200/8nw2pYKc_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/74518740/1498596763",
+      "profile_link_color": "0000FF",
+      "profile_sidebar_border_color": "EEEEEE",
+      "profile_sidebar_fill_color": "E6EDF2",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": true,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 547,
+    "favorite_count": 1747,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Fri Sep 29 23:02:16 +0000 2017",
+    "id": 913901773613666309,
+    "id_str": "913901773613666309",
+    "text": "RT @DwyaneWade: Yes sir!!! https://t.co/nNcofw3nlo",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+
+      ],
+      "symbols": [
+
+      ],
+      "user_mentions": [
+        {
+          "screen_name": "DwyaneWade",
+          "name": "DWade",
+          "id": 33995409,
+          "id_str": "33995409",
+          "indices": [
+            3,
+            14
+          ]
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/nNcofw3nlo",
+          "expanded_url": "https://twitter.com/kingjames/status/913889928181948416",
+          "display_url": "twitter.com/kingjames/stat…",
+          "indices": [
+            27,
+            50
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 22178780,
+      "id_str": "22178780",
+      "name": "NBA on TNT",
+      "screen_name": "NBAonTNT",
+      "location": "Atlanta, GA ",
+      "description": "Home of EJ, Kenny, Shaq & Chuck",
+      "url": "https://t.co/NfosAUFB1q",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/NfosAUFB1q",
+              "expanded_url": "http://bit.ly/2ldMBE1",
+              "display_url": "bit.ly/2ldMBE1",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 2600228,
+      "friends_count": 838,
+      "listed_count": 7667,
+      "created_at": "Fri Feb 27 19:32:32 +0000 2009",
+      "favourites_count": 2881,
+      "utc_offset": -14400,
+      "time_zone": "Eastern Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 25221,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "131516",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/590956757582684162/KEVBCIE0.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/590956757582684162/KEVBCIE0.jpg",
+      "profile_background_tile": true,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/869587561508814848/fidYzrsp_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/869587561508814848/fidYzrsp_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/22178780/1497369151",
+      "profile_link_color": "009999",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "EFEFEF",
+      "profile_text_color": "333333",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": true,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Fri Sep 29 22:57:08 +0000 2017",
+      "id": 913900481281511425,
+      "id_str": "913900481281511425",
+      "text": "Yes sir!!! https://t.co/nNcofw3nlo",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+
+        ],
+        "symbols": [
+
+        ],
+        "user_mentions": [
+
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/nNcofw3nlo",
+            "expanded_url": "https://twitter.com/kingjames/status/913889928181948416",
+            "display_url": "twitter.com/kingjames/stat…",
+            "indices": [
+              11,
+              34
+            ]
+          }
+        ]
+      },
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 33995409,
+        "id_str": "33995409",
+        "name": "DWade",
+        "screen_name": "DwyaneWade",
+        "location": "I'm everywhere...",
+        "description": "From Robbins, IL..I'm a father First and everything else after that...",
+        "url": "https://t.co/bqPjgUVg7o",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/bqPjgUVg7o",
+                "expanded_url": "http://amzn.to/dwyanewade",
+                "display_url": "amzn.to/dwyanewade",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": [
+
+            ]
+          }
+        },
+        "protected": false,
+        "followers_count": 7250067,
+        "friends_count": 626,
+        "listed_count": 22231,
+        "created_at": "Tue Apr 21 18:42:20 +0000 2009",
+        "favourites_count": 103,
+        "utc_offset": -18000,
+        "time_zone": "Quito",
+        "geo_enabled": true,
+        "verified": true,
+        "statuses_count": 10054,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "000000",
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/717098051651903488/ddewhNwL.jpg",
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/717098051651903488/ddewhNwL.jpg",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/2722827188/90ede922ff595304402c10221fb5f346_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/2722827188/90ede922ff595304402c10221fb5f346_normal.jpeg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/33995409/1505572020",
+        "profile_link_color": "000000",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "252429",
+        "profile_text_color": "666666",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": true,
+      "quoted_status_id": 913889928181948416,
+      "quoted_status_id_str": "913889928181948416",
+      "quoted_status": {
+        "created_at": "Fri Sep 29 22:15:12 +0000 2017",
+        "id": 913889928181948416,
+        "id_str": "913889928181948416",
+        "text": "Once again it's on @DwyaneWade!! 👑 ⚡️",
+        "truncated": false,
+        "entities": {
+          "hashtags": [
+
+          ],
+          "symbols": [
+
+          ],
+          "user_mentions": [
+            {
+              "screen_name": "DwyaneWade",
+              "name": "DWade",
+              "id": 33995409,
+              "id_str": "33995409",
+              "indices": [
+                19,
+                30
+              ]
+            }
+          ],
+          "urls": [
+
+          ]
+        },
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 23083404,
+          "id_str": "23083404",
+          "name": "LeBron James",
+          "screen_name": "KingJames",
+          "location": "Amongst La Familia! ",
+          "description": "EST. AKRON - ST.V/M Class of '03  http://t.co/IneJylUd1m #IPROMISE",
+          "url": "http://t.co/TuET0GeB2Z",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "http://t.co/TuET0GeB2Z",
+                  "expanded_url": "http://LeBronJames.com",
+                  "display_url": "LeBronJames.com",
+                  "indices": [
+                    0,
+                    22
+                  ]
+                }
+              ]
+            },
+            "description": {
+              "urls": [
+                {
+                  "url": "http://t.co/IneJylUd1m",
+                  "expanded_url": "http://LeBronJamesFamilyFoundation.org",
+                  "display_url": "LeBronJamesFamilyFoundation.org",
+                  "indices": [
+                    34,
+                    56
+                  ]
+                }
+              ]
+            }
+          },
+          "protected": false,
+          "followers_count": 38674087,
+          "friends_count": 173,
+          "listed_count": 42273,
+          "created_at": "Fri Mar 06 16:25:53 +0000 2009",
+          "favourites_count": 81,
+          "utc_offset": -18000,
+          "time_zone": "Quito",
+          "geo_enabled": false,
+          "verified": true,
+          "statuses_count": 5496,
+          "lang": "en",
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": true,
+          "profile_background_color": "000000",
+          "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000104492008/d11e7b1d2751298ff3f81494ad045d9d.jpeg",
+          "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000104492008/d11e7b1d2751298ff3f81494ad045d9d.jpeg",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/748603714705952768/-8HcqbKS_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/748603714705952768/-8HcqbKS_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/23083404/1467315994",
+          "profile_link_color": "FBAF41",
+          "profile_sidebar_border_color": "000000",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "has_extended_profile": false,
+          "default_profile": false,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 30787,
+        "favorite_count": 99208,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en"
+      },
+      "retweet_count": 6943,
+      "favorite_count": 22491,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "possibly_sensitive_appealable": false,
+      "lang": "en"
+    },
+    "is_quote_status": true,
+    "quoted_status_id": 913889928181948416,
+    "quoted_status_id_str": "913889928181948416",
+    "retweet_count": 6943,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Fri Sep 29 23:00:40 +0000 2017",
+    "id": 913901369911762944,
+    "id_str": "913901369911762944",
+    "text": "When Swaggy P and @JaValeMcGee34 hit up vegan waffles... 😂 https://t.co/xi5zVOahzC",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+
+      ],
+      "symbols": [
+
+      ],
+      "user_mentions": [
+        {
+          "screen_name": "JaValeMcGee34",
+          "name": "Javale McGee",
+          "id": 24838521,
+          "id_str": "24838521",
+          "indices": [
+            18,
+            32
+          ]
+        }
+      ],
+      "urls": [
+
+      ],
+      "media": [
+        {
+          "id": 913901320746274816,
+          "id_str": "913901320746274816",
+          "indices": [
+            59,
+            82
+          ],
+          "media_url": "http://pbs.twimg.com/ext_tw_video_thumb/913901320746274816/pu/img/E6n0WATbNEf_ehiq.jpg",
+          "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/913901320746274816/pu/img/E6n0WATbNEf_ehiq.jpg",
+          "url": "https://t.co/xi5zVOahzC",
+          "display_url": "pic.twitter.com/xi5zVOahzC",
+          "expanded_url": "https://twitter.com/NBAonTNT/status/913901369911762944/video/1",
+          "type": "photo",
+          "sizes": {
+            "small": {
+              "w": 340,
+              "h": 604,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 576,
+              "h": 1024,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 576,
+              "h": 1024,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 913901320746274816,
+          "id_str": "913901320746274816",
+          "indices": [
+            59,
+            82
+          ],
+          "media_url": "http://pbs.twimg.com/ext_tw_video_thumb/913901320746274816/pu/img/E6n0WATbNEf_ehiq.jpg",
+          "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/913901320746274816/pu/img/E6n0WATbNEf_ehiq.jpg",
+          "url": "https://t.co/xi5zVOahzC",
+          "display_url": "pic.twitter.com/xi5zVOahzC",
+          "expanded_url": "https://twitter.com/NBAonTNT/status/913901369911762944/video/1",
+          "type": "video",
+          "sizes": {
+            "small": {
+              "w": 340,
+              "h": 604,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 576,
+              "h": 1024,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 576,
+              "h": 1024,
+              "resize": "fit"
+            }
+          },
+          "video_info": {
+            "aspect_ratio": [
+              9,
+              16
+            ],
+            "duration_millis": 15250,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/ext_tw_video/913901320746274816/pu/pl/YH8kPd5MuE-_7zA9.m3u8"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/ext_tw_video/913901320746274816/pu/vid/360x640/3pyi2_7kDKf1ff77.mp4"
+              },
+              {
+                "bitrate": 320000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/ext_tw_video/913901320746274816/pu/vid/180x320/zfsBJvET134a3MNt.mp4"
+              }
+            ]
+          },
+          "additional_media_info": {
+            "monetizable": false
+          }
+        }
+      ]
+    },
+    "source": "<a href=\"http://www.spredfast.com\" rel=\"nofollow\">Spredfast app</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 22178780,
+      "id_str": "22178780",
+      "name": "NBA on TNT",
+      "screen_name": "NBAonTNT",
+      "location": "Atlanta, GA ",
+      "description": "Home of EJ, Kenny, Shaq & Chuck",
+      "url": "https://t.co/NfosAUFB1q",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/NfosAUFB1q",
+              "expanded_url": "http://bit.ly/2ldMBE1",
+              "display_url": "bit.ly/2ldMBE1",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 2600228,
+      "friends_count": 838,
+      "listed_count": 7667,
+      "created_at": "Fri Feb 27 19:32:32 +0000 2009",
+      "favourites_count": 2881,
+      "utc_offset": -14400,
+      "time_zone": "Eastern Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 25221,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "131516",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/590956757582684162/KEVBCIE0.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/590956757582684162/KEVBCIE0.jpg",
+      "profile_background_tile": true,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/869587561508814848/fidYzrsp_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/869587561508814848/fidYzrsp_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/22178780/1497369151",
+      "profile_link_color": "009999",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "EFEFEF",
+      "profile_text_color": "333333",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": true,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 81,
+    "favorite_count": 341,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Fri Sep 29 22:34:18 +0000 2017",
+    "id": 913894732647899136,
+    "id_str": "913894732647899136",
+    "text": "RT @espn: A+ gratitude from this awesome fan. (via @swish41) https://t.co/OgkMYqBYa8",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+
+      ],
+      "symbols": [
+
+      ],
+      "user_mentions": [
+        {
+          "screen_name": "espn",
+          "name": "ESPN",
+          "id": 2557521,
+          "id_str": "2557521",
+          "indices": [
+            3,
+            8
+          ]
+        },
+        {
+          "screen_name": "swish41",
+          "name": "Dirk Nowitzki",
+          "id": 205415788,
+          "id_str": "205415788",
+          "indices": [
+            51,
+            59
+          ]
+        }
+      ],
+      "urls": [
+
+      ],
+      "media": [
+        {
+          "id": 913893083703644160,
+          "id_str": "913893083703644160",
+          "indices": [
+            61,
+            84
+          ],
+          "media_url": "http://pbs.twimg.com/media/DK7M6ujXkAAKVK-.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DK7M6ujXkAAKVK-.jpg",
+          "url": "https://t.co/OgkMYqBYa8",
+          "display_url": "pic.twitter.com/OgkMYqBYa8",
+          "expanded_url": "https://twitter.com/espn/status/913893086564151302/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "small": {
+              "w": 544,
+              "h": 680,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 800,
+              "h": 1000,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 800,
+              "h": 1000,
+              "resize": "fit"
+            }
+          },
+          "source_status_id": 913893086564151302,
+          "source_status_id_str": "913893086564151302",
+          "source_user_id": 2557521,
+          "source_user_id_str": "2557521"
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 913893083703644160,
+          "id_str": "913893083703644160",
+          "indices": [
+            61,
+            84
+          ],
+          "media_url": "http://pbs.twimg.com/media/DK7M6ujXkAAKVK-.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DK7M6ujXkAAKVK-.jpg",
+          "url": "https://t.co/OgkMYqBYa8",
+          "display_url": "pic.twitter.com/OgkMYqBYa8",
+          "expanded_url": "https://twitter.com/espn/status/913893086564151302/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "small": {
+              "w": 544,
+              "h": 680,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 800,
+              "h": 1000,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 800,
+              "h": 1000,
+              "resize": "fit"
+            }
+          },
+          "source_status_id": 913893086564151302,
+          "source_status_id_str": "913893086564151302",
+          "source_user_id": 2557521,
+          "source_user_id_str": "2557521"
+        }
+      ]
+    },
+    "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 74518740,
+      "id_str": "74518740",
+      "name": "NBA on ESPN",
+      "screen_name": "ESPNNBA",
+      "location": "ESPN",
+      "description": "Official Twitter account of the NBA on ESPN, home of the NBA Draft and the NBA Finals. https://t.co/ZXP0Y8bs4T",
+      "url": "https://t.co/4FNCeu2Z1a",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/4FNCeu2Z1a",
+              "expanded_url": "http://espn.go.com/nba/",
+              "display_url": "espn.go.com/nba/",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "https://t.co/ZXP0Y8bs4T",
+              "expanded_url": "http://Instagram.com/nbaonespn",
+              "display_url": "Instagram.com/nbaonespn",
+              "indices": [
+                87,
+                110
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 5061414,
+      "friends_count": 788,
+      "listed_count": 13428,
+      "created_at": "Tue Sep 15 18:37:13 +0000 2009",
+      "favourites_count": 1479,
+      "utc_offset": -14400,
+      "time_zone": "Eastern Time (US & Canada)",
+      "geo_enabled": false,
+      "verified": true,
+      "statuses_count": 61896,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "A15E00",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/47166024/NBA_bg.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/47166024/NBA_bg.jpg",
+      "profile_background_tile": true,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/884879324410675200/8nw2pYKc_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/884879324410675200/8nw2pYKc_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/74518740/1498596763",
+      "profile_link_color": "0000FF",
+      "profile_sidebar_border_color": "EEEEEE",
+      "profile_sidebar_fill_color": "E6EDF2",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": true,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Fri Sep 29 22:27:45 +0000 2017",
+      "id": 913893086564151302,
+      "id_str": "913893086564151302",
+      "text": "A+ gratitude from this awesome fan. (via @swish41) https://t.co/OgkMYqBYa8",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+
+        ],
+        "symbols": [
+
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "swish41",
+            "name": "Dirk Nowitzki",
+            "id": 205415788,
+            "id_str": "205415788",
+            "indices": [
+              41,
+              49
+            ]
+          }
+        ],
+        "urls": [
+
+        ],
+        "media": [
+          {
+            "id": 913893083703644160,
+            "id_str": "913893083703644160",
+            "indices": [
+              51,
+              74
+            ],
+            "media_url": "http://pbs.twimg.com/media/DK7M6ujXkAAKVK-.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/DK7M6ujXkAAKVK-.jpg",
+            "url": "https://t.co/OgkMYqBYa8",
+            "display_url": "pic.twitter.com/OgkMYqBYa8",
+            "expanded_url": "https://twitter.com/espn/status/913893086564151302/photo/1",
+            "type": "photo",
+            "sizes": {
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "small": {
+                "w": 544,
+                "h": 680,
+                "resize": "fit"
+              },
+              "medium": {
+                "w": 800,
+                "h": 1000,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 800,
+                "h": 1000,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "extended_entities": {
+        "media": [
+          {
+            "id": 913893083703644160,
+            "id_str": "913893083703644160",
+            "indices": [
+              51,
+              74
+            ],
+            "media_url": "http://pbs.twimg.com/media/DK7M6ujXkAAKVK-.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/DK7M6ujXkAAKVK-.jpg",
+            "url": "https://t.co/OgkMYqBYa8",
+            "display_url": "pic.twitter.com/OgkMYqBYa8",
+            "expanded_url": "https://twitter.com/espn/status/913893086564151302/photo/1",
+            "type": "photo",
+            "sizes": {
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "small": {
+                "w": 544,
+                "h": 680,
+                "resize": "fit"
+              },
+              "medium": {
+                "w": 800,
+                "h": 1000,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 800,
+                "h": 1000,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "source": "<a href=\"http://www.spredfast.com\" rel=\"nofollow\">Spredfast app</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 2557521,
+        "id_str": "2557521",
+        "name": "ESPN",
+        "screen_name": "espn",
+        "location": "Bristol, CT",
+        "description": "",
+        "url": "https://t.co/RqqkIx8GI7",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/RqqkIx8GI7",
+                "expanded_url": "http://es.pn/app",
+                "display_url": "es.pn/app",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": [
+
+            ]
+          }
+        },
+        "protected": false,
+        "followers_count": 33572366,
+        "friends_count": 283,
+        "listed_count": 58012,
+        "created_at": "Tue Mar 27 20:46:16 +0000 2007",
+        "favourites_count": 94,
+        "utc_offset": -14400,
+        "time_zone": "Eastern Time (US & Canada)",
+        "geo_enabled": true,
+        "verified": true,
+        "statuses_count": 91578,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": true,
+        "profile_background_color": "C8C8C8",
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/601774592/rqjossil7yrf5tn5fdvl.jpeg",
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/601774592/rqjossil7yrf5tn5fdvl.jpeg",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/903763131872288768/lR7-Fb1N_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/903763131872288768/lR7-Fb1N_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/2557521/1503329004",
+        "profile_link_color": "CC0000",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "EFEFEF",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "regular"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 1143,
+      "favorite_count": 5467,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "possibly_sensitive_appealable": false,
+      "lang": "en"
+    },
+    "is_quote_status": false,
+    "retweet_count": 1143,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Fri Sep 29 22:25:11 +0000 2017",
+    "id": 913892441375363072,
+    "id_str": "913892441375363072",
+    "text": "RT @NBA: New threads for @DwyaneWade of the @Cavs! https://t.co/ltMXU4LzHJ",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+
+      ],
+      "symbols": [
+
+      ],
+      "user_mentions": [
+        {
+          "screen_name": "NBA",
+          "name": "NBA",
+          "id": 19923144,
+          "id_str": "19923144",
+          "indices": [
+            3,
+            7
+          ]
+        },
+        {
+          "screen_name": "DwyaneWade",
+          "name": "DWade",
+          "id": 33995409,
+          "id_str": "33995409",
+          "indices": [
+            25,
+            36
+          ]
+        },
+        {
+          "screen_name": "cavs",
+          "name": "Cleveland Cavaliers",
+          "id": 19263978,
+          "id_str": "19263978",
+          "indices": [
+            44,
+            49
+          ]
+        }
+      ],
+      "urls": [
+
+      ],
+      "media": [
+        {
+          "id": 913877704864182272,
+          "id_str": "913877704864182272",
+          "indices": [
+            51,
+            74
+          ],
+          "media_url": "http://pbs.twimg.com/media/DK6-7j6UMAAgsU5.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DK6-7j6UMAAgsU5.jpg",
+          "url": "https://t.co/ltMXU4LzHJ",
+          "display_url": "pic.twitter.com/ltMXU4LzHJ",
+          "expanded_url": "https://twitter.com/NBA/status/913877711441072128/photo/1",
+          "type": "photo",
+          "sizes": {
+            "medium": {
+              "w": 896,
+              "h": 1200,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "small": {
+              "w": 508,
+              "h": 680,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 1529,
+              "h": 2048,
+              "resize": "fit"
+            }
+          },
+          "source_status_id": 913877711441072128,
+          "source_status_id_str": "913877711441072128",
+          "source_user_id": 19923144,
+          "source_user_id_str": "19923144"
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 913877704864182272,
+          "id_str": "913877704864182272",
+          "indices": [
+            51,
+            74
+          ],
+          "media_url": "http://pbs.twimg.com/media/DK6-7j6UMAAgsU5.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DK6-7j6UMAAgsU5.jpg",
+          "url": "https://t.co/ltMXU4LzHJ",
+          "display_url": "pic.twitter.com/ltMXU4LzHJ",
+          "expanded_url": "https://twitter.com/NBA/status/913877711441072128/photo/1",
+          "type": "photo",
+          "sizes": {
+            "medium": {
+              "w": 896,
+              "h": 1200,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "small": {
+              "w": 508,
+              "h": 680,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 1529,
+              "h": 2048,
+              "resize": "fit"
+            }
+          },
+          "source_status_id": 913877711441072128,
+          "source_status_id_str": "913877711441072128",
+          "source_user_id": 19923144,
+          "source_user_id_str": "19923144"
+        },
+        {
+          "id": 913877704864284672,
+          "id_str": "913877704864284672",
+          "indices": [
+            51,
+            74
+          ],
+          "media_url": "http://pbs.twimg.com/media/DK6-7j6VwAAYjf2.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DK6-7j6VwAAYjf2.jpg",
+          "url": "https://t.co/ltMXU4LzHJ",
+          "display_url": "pic.twitter.com/ltMXU4LzHJ",
+          "expanded_url": "https://twitter.com/NBA/status/913877711441072128/photo/1",
+          "type": "photo",
+          "sizes": {
+            "large": {
+              "w": 1394,
+              "h": 2048,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 463,
+              "h": 680,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 817,
+              "h": 1200,
+              "resize": "fit"
+            }
+          },
+          "source_status_id": 913877711441072128,
+          "source_status_id_str": "913877711441072128",
+          "source_user_id": 19923144,
+          "source_user_id_str": "19923144"
+        },
+        {
+          "id": 913877704889442305,
+          "id_str": "913877704889442305",
+          "indices": [
+            51,
+            74
+          ],
+          "media_url": "http://pbs.twimg.com/media/DK6-7kAVoAEns4m.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DK6-7kAVoAEns4m.jpg",
+          "url": "https://t.co/ltMXU4LzHJ",
+          "display_url": "pic.twitter.com/ltMXU4LzHJ",
+          "expanded_url": "https://twitter.com/NBA/status/913877711441072128/photo/1",
+          "type": "photo",
+          "sizes": {
+            "large": {
+              "w": 1420,
+              "h": 2047,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "small": {
+              "w": 472,
+              "h": 680,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 832,
+              "h": 1200,
+              "resize": "fit"
+            }
+          },
+          "source_status_id": 913877711441072128,
+          "source_status_id_str": "913877711441072128",
+          "source_user_id": 19923144,
+          "source_user_id_str": "19923144"
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 22178780,
+      "id_str": "22178780",
+      "name": "NBA on TNT",
+      "screen_name": "NBAonTNT",
+      "location": "Atlanta, GA ",
+      "description": "Home of EJ, Kenny, Shaq & Chuck",
+      "url": "https://t.co/NfosAUFB1q",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/NfosAUFB1q",
+              "expanded_url": "http://bit.ly/2ldMBE1",
+              "display_url": "bit.ly/2ldMBE1",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 2600228,
+      "friends_count": 838,
+      "listed_count": 7667,
+      "created_at": "Fri Feb 27 19:32:32 +0000 2009",
+      "favourites_count": 2881,
+      "utc_offset": -14400,
+      "time_zone": "Eastern Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 25221,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "131516",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/590956757582684162/KEVBCIE0.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/590956757582684162/KEVBCIE0.jpg",
+      "profile_background_tile": true,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/869587561508814848/fidYzrsp_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/869587561508814848/fidYzrsp_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/22178780/1497369151",
+      "profile_link_color": "009999",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "EFEFEF",
+      "profile_text_color": "333333",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": true,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Fri Sep 29 21:26:40 +0000 2017",
+      "id": 913877711441072128,
+      "id_str": "913877711441072128",
+      "text": "New threads for @DwyaneWade of the @Cavs! https://t.co/ltMXU4LzHJ",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+
+        ],
+        "symbols": [
+
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "DwyaneWade",
+            "name": "DWade",
+            "id": 33995409,
+            "id_str": "33995409",
+            "indices": [
+              16,
+              27
+            ]
+          },
+          {
+            "screen_name": "cavs",
+            "name": "Cleveland Cavaliers",
+            "id": 19263978,
+            "id_str": "19263978",
+            "indices": [
+              35,
+              40
+            ]
+          }
+        ],
+        "urls": [
+
+        ],
+        "media": [
+          {
+            "id": 913877704864182272,
+            "id_str": "913877704864182272",
+            "indices": [
+              42,
+              65
+            ],
+            "media_url": "http://pbs.twimg.com/media/DK6-7j6UMAAgsU5.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/DK6-7j6UMAAgsU5.jpg",
+            "url": "https://t.co/ltMXU4LzHJ",
+            "display_url": "pic.twitter.com/ltMXU4LzHJ",
+            "expanded_url": "https://twitter.com/NBA/status/913877711441072128/photo/1",
+            "type": "photo",
+            "sizes": {
+              "medium": {
+                "w": 896,
+                "h": 1200,
+                "resize": "fit"
+              },
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "small": {
+                "w": 508,
+                "h": 680,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 1529,
+                "h": 2048,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "extended_entities": {
+        "media": [
+          {
+            "id": 913877704864182272,
+            "id_str": "913877704864182272",
+            "indices": [
+              42,
+              65
+            ],
+            "media_url": "http://pbs.twimg.com/media/DK6-7j6UMAAgsU5.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/DK6-7j6UMAAgsU5.jpg",
+            "url": "https://t.co/ltMXU4LzHJ",
+            "display_url": "pic.twitter.com/ltMXU4LzHJ",
+            "expanded_url": "https://twitter.com/NBA/status/913877711441072128/photo/1",
+            "type": "photo",
+            "sizes": {
+              "medium": {
+                "w": 896,
+                "h": 1200,
+                "resize": "fit"
+              },
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "small": {
+                "w": 508,
+                "h": 680,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 1529,
+                "h": 2048,
+                "resize": "fit"
+              }
+            }
+          },
+          {
+            "id": 913877704864284672,
+            "id_str": "913877704864284672",
+            "indices": [
+              42,
+              65
+            ],
+            "media_url": "http://pbs.twimg.com/media/DK6-7j6VwAAYjf2.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/DK6-7j6VwAAYjf2.jpg",
+            "url": "https://t.co/ltMXU4LzHJ",
+            "display_url": "pic.twitter.com/ltMXU4LzHJ",
+            "expanded_url": "https://twitter.com/NBA/status/913877711441072128/photo/1",
+            "type": "photo",
+            "sizes": {
+              "large": {
+                "w": 1394,
+                "h": 2048,
+                "resize": "fit"
+              },
+              "small": {
+                "w": 463,
+                "h": 680,
+                "resize": "fit"
+              },
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "medium": {
+                "w": 817,
+                "h": 1200,
+                "resize": "fit"
+              }
+            }
+          },
+          {
+            "id": 913877704889442305,
+            "id_str": "913877704889442305",
+            "indices": [
+              42,
+              65
+            ],
+            "media_url": "http://pbs.twimg.com/media/DK6-7kAVoAEns4m.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/DK6-7kAVoAEns4m.jpg",
+            "url": "https://t.co/ltMXU4LzHJ",
+            "display_url": "pic.twitter.com/ltMXU4LzHJ",
+            "expanded_url": "https://twitter.com/NBA/status/913877711441072128/photo/1",
+            "type": "photo",
+            "sizes": {
+              "large": {
+                "w": 1420,
+                "h": 2047,
+                "resize": "fit"
+              },
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "small": {
+                "w": 472,
+                "h": 680,
+                "resize": "fit"
+              },
+              "medium": {
+                "w": 832,
+                "h": 1200,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 19923144,
+        "id_str": "19923144",
+        "name": "NBA",
+        "screen_name": "NBA",
+        "location": "",
+        "description": "30 teams, 1 goal. #ThisIsWhyWePlay",
+        "url": "https://t.co/krBlSjaSod",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/krBlSjaSod",
+                "expanded_url": "http://NBA.com",
+                "display_url": "NBA.com",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": [
+
+            ]
+          }
+        },
+        "protected": false,
+        "followers_count": 26510826,
+        "friends_count": 1650,
+        "listed_count": 46810,
+        "created_at": "Mon Feb 02 19:04:42 +0000 2009",
+        "favourites_count": 240,
+        "utc_offset": -14400,
+        "time_zone": "Eastern Time (US & Canada)",
+        "geo_enabled": true,
+        "verified": true,
+        "statuses_count": 172903,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": true,
+        "profile_background_color": "003969",
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/651942155276054528/Ry82B6Mn.png",
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/651942155276054528/Ry82B6Mn.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/883314710069882881/BdhO941X_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/883314710069882881/BdhO941X_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/19923144/1506726295",
+        "profile_link_color": "3B94D9",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "FFFFFF",
+        "profile_text_color": "333333",
+        "profile_use_background_image": false,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "regular"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 6700,
+      "favorite_count": 18239,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "possibly_sensitive_appealable": false,
+      "lang": "en"
+    },
+    "is_quote_status": false,
+    "retweet_count": 6700,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Fri Sep 29 21:52:46 +0000 2017",
+    "id": 913884282296373248,
+    "id_str": "913884282296373248",
+    "text": "Historic season ⏩ historic contract\n\nWHY NOT??? https://t.co/ZJQmd4yBoV",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+
+      ],
+      "symbols": [
+
+      ],
+      "user_mentions": [
+
+      ],
+      "urls": [
+
+      ],
+      "media": [
+        {
+          "id": 913884279410712576,
+          "id_str": "913884279410712576",
+          "indices": [
+            48,
+            71
+          ],
+          "media_url": "http://pbs.twimg.com/media/DK7E6QAW4AAl7QQ.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DK7E6QAW4AAl7QQ.jpg",
+          "url": "https://t.co/ZJQmd4yBoV",
+          "display_url": "pic.twitter.com/ZJQmd4yBoV",
+          "expanded_url": "https://twitter.com/ESPNNBA/status/913884282296373248/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "small": {
+              "w": 544,
+              "h": 680,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 960,
+              "h": 1200,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 1080,
+              "h": 1350,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 913884279410712576,
+          "id_str": "913884279410712576",
+          "indices": [
+            48,
+            71
+          ],
+          "media_url": "http://pbs.twimg.com/media/DK7E6QAW4AAl7QQ.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DK7E6QAW4AAl7QQ.jpg",
+          "url": "https://t.co/ZJQmd4yBoV",
+          "display_url": "pic.twitter.com/ZJQmd4yBoV",
+          "expanded_url": "https://twitter.com/ESPNNBA/status/913884282296373248/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "small": {
+              "w": 544,
+              "h": 680,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 960,
+              "h": 1200,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 1080,
+              "h": 1350,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "source": "<a href=\"http://www.spredfast.com\" rel=\"nofollow\">Spredfast app</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 74518740,
+      "id_str": "74518740",
+      "name": "NBA on ESPN",
+      "screen_name": "ESPNNBA",
+      "location": "ESPN",
+      "description": "Official Twitter account of the NBA on ESPN, home of the NBA Draft and the NBA Finals. https://t.co/ZXP0Y8bs4T",
+      "url": "https://t.co/4FNCeu2Z1a",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/4FNCeu2Z1a",
+              "expanded_url": "http://espn.go.com/nba/",
+              "display_url": "espn.go.com/nba/",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "https://t.co/ZXP0Y8bs4T",
+              "expanded_url": "http://Instagram.com/nbaonespn",
+              "display_url": "Instagram.com/nbaonespn",
+              "indices": [
+                87,
+                110
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 5061414,
+      "friends_count": 788,
+      "listed_count": 13428,
+      "created_at": "Tue Sep 15 18:37:13 +0000 2009",
+      "favourites_count": 1479,
+      "utc_offset": -14400,
+      "time_zone": "Eastern Time (US & Canada)",
+      "geo_enabled": false,
+      "verified": true,
+      "statuses_count": 61896,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "A15E00",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/47166024/NBA_bg.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/47166024/NBA_bg.jpg",
+      "profile_background_tile": true,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/884879324410675200/8nw2pYKc_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/884879324410675200/8nw2pYKc_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/74518740/1498596763",
+      "profile_link_color": "0000FF",
+      "profile_sidebar_border_color": "EEEEEE",
+      "profile_sidebar_fill_color": "E6EDF2",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": true,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 332,
+    "favorite_count": 1307,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Fri Sep 29 21:39:54 +0000 2017",
+    "id": 913881042737545216,
+    "id_str": "913881042737545216",
+    "text": ".@BillSimmons on Donald Trump and the NFL's Unsolvable Crisis https://t.co/qFCIsZQArg via @ringer",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+
+      ],
+      "symbols": [
+
+      ],
+      "user_mentions": [
+        {
+          "screen_name": "BillSimmons",
+          "name": "Bill Simmons",
+          "id": 32765534,
+          "id_str": "32765534",
+          "indices": [
+            1,
+            13
+          ]
+        },
+        {
+          "screen_name": "ringer",
+          "name": "The Ringer",
+          "id": 4760694445,
+          "id_str": "4760694445",
+          "indices": [
+            90,
+            97
+          ]
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/qFCIsZQArg",
+          "expanded_url": "https://www.theringer.com/nfl/2017/9/29/16387550/donald-trump-protest-nfl-nba-colin-kaepernick-week-4-nfl-picks?utm_campaign=theringer&utm_content=entry&utm_medium=social&utm_source=twitter",
+          "display_url": "theringer.com/nfl/2017/9/29/…",
+          "indices": [
+            62,
+            85
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 26053643,
+      "id_str": "26053643",
+      "name": "Jimmy Kimmel",
+      "screen_name": "jimmykimmel",
+      "location": "Los Angeles",
+      "description": "Blessed. Fortunate. Ready to Serve.  https://t.co/ruFTB3yu8L",
+      "url": "http://t.co/vxqRce2D2n",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/vxqRce2D2n",
+              "expanded_url": "http://www.youtube.com/user/JimmyKimmelLive",
+              "display_url": "youtube.com/user/JimmyKimm…",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "https://t.co/ruFTB3yu8L",
+              "expanded_url": "http://Facebook.com/JimmyKimmel",
+              "display_url": "Facebook.com/JimmyKimmel",
+              "indices": [
+                37,
+                60
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 9899576,
+      "friends_count": 552,
+      "listed_count": 23789,
+      "created_at": "Mon Mar 23 18:05:56 +0000 2009",
+      "favourites_count": 7120,
+      "utc_offset": -25200,
+      "time_zone": "Pacific Time (US & Canada)",
+      "geo_enabled": false,
+      "verified": true,
+      "statuses_count": 4761,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "0099B9",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/220777287/supermoon.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/220777287/supermoon.jpg",
+      "profile_background_tile": true,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/836673015374987264/BFOVLxBr_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/836673015374987264/BFOVLxBr_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/26053643/1488313386",
+      "profile_link_color": "2416E3",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "95E8EC",
+      "profile_text_color": "3C3940",
+      "profile_use_background_image": true,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": true,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 156,
+    "favorite_count": 653,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Fri Sep 29 21:01:06 +0000 2017",
+    "id": 913871277529747456,
+    "id_str": "913871277529747456",
+    "text": "Traveling the 🌎 with 🏆 » https://t.co/LONZ8iAYg6 https://t.co/Ds3kULfm2s",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+
+      ],
+      "symbols": [
+
+      ],
+      "user_mentions": [
+
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/LONZ8iAYg6",
+          "expanded_url": "http://bit.ly/Larry17",
+          "display_url": "bit.ly/Larry17",
+          "indices": [
+            25,
+            48
+          ]
+        }
+      ],
+      "media": [
+        {
+          "id": 913871275537436678,
+          "id_str": "913871275537436678",
+          "indices": [
+            49,
+            72
+          ],
+          "media_url": "http://pbs.twimg.com/media/DK65FUzXkAYk3UR.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DK65FUzXkAYk3UR.jpg",
+          "url": "https://t.co/Ds3kULfm2s",
+          "display_url": "pic.twitter.com/Ds3kULfm2s",
+          "expanded_url": "https://twitter.com/warriors/status/913871277529747456/photo/1",
+          "type": "photo",
+          "sizes": {
+            "small": {
+              "w": 453,
+              "h": 680,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 800,
+              "h": 1200,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 800,
+              "h": 1200,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 913871275537436678,
+          "id_str": "913871275537436678",
+          "indices": [
+            49,
+            72
+          ],
+          "media_url": "http://pbs.twimg.com/media/DK65FUzXkAYk3UR.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DK65FUzXkAYk3UR.jpg",
+          "url": "https://t.co/Ds3kULfm2s",
+          "display_url": "pic.twitter.com/Ds3kULfm2s",
+          "expanded_url": "https://twitter.com/warriors/status/913871277529747456/photo/1",
+          "type": "photo",
+          "sizes": {
+            "small": {
+              "w": 453,
+              "h": 680,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 800,
+              "h": 1200,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 800,
+              "h": 1200,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "source": "<a href=\"http://bufferapp.com\" rel=\"nofollow\">Buffer</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 26270913,
+      "id_str": "26270913",
+      "name": "GoldenStateWarriors",
+      "screen_name": "warriors",
+      "location": "Oakland, CA",
+      "description": "🏆 2017 NBA Champions • #DubNation • #WarriorsGround",
+      "url": "https://t.co/Z122zHtval",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/Z122zHtval",
+              "expanded_url": "http://warriors.com",
+              "display_url": "warriors.com",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 4601930,
+      "friends_count": 981,
+      "listed_count": 8453,
+      "created_at": "Tue Mar 24 16:42:22 +0000 2009",
+      "favourites_count": 9751,
+      "utc_offset": -25200,
+      "time_zone": "Pacific Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 68342,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FFCC33",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/458788447965040640/hNch3If2.jpeg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/458788447965040640/hNch3If2.jpeg",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/854505341484019712/OzIV0ZiF_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/854505341484019712/OzIV0ZiF_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/26270913/1506047864",
+      "profile_link_color": "002A5C",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "E4E8F1",
+      "profile_text_color": "666666",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": true,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "regular"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 93,
+    "favorite_count": 613,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Fri Sep 29 20:55:30 +0000 2017",
+    "id": 913869871167033345,
+    "id_str": "913869871167033345",
+    "text": "RT @swish41: Got this from a fan today at open practice...  much appreciated! https://t.co/qpRhwB1vmG",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+
+      ],
+      "symbols": [
+
+      ],
+      "user_mentions": [
+        {
+          "screen_name": "swish41",
+          "name": "Dirk Nowitzki",
+          "id": 205415788,
+          "id_str": "205415788",
+          "indices": [
+            3,
+            11
+          ]
+        }
+      ],
+      "urls": [
+
+      ],
+      "media": [
+        {
+          "id": 913852745173549056,
+          "id_str": "913852745173549056",
+          "indices": [
+            78,
+            101
+          ],
+          "media_url": "http://pbs.twimg.com/media/DK6oOt0VwAAoBeF.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DK6oOt0VwAAoBeF.jpg",
+          "url": "https://t.co/qpRhwB1vmG",
+          "display_url": "pic.twitter.com/qpRhwB1vmG",
+          "expanded_url": "https://twitter.com/swish41/status/913852758108893184/photo/1",
+          "type": "photo",
+          "sizes": {
+            "medium": {
+              "w": 900,
+              "h": 1200,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 1536,
+              "h": 2048,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 510,
+              "h": 680,
+              "resize": "fit"
+            }
+          },
+          "source_status_id": 913852758108893184,
+          "source_status_id_str": "913852758108893184",
+          "source_user_id": 205415788,
+          "source_user_id_str": "205415788"
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 913852745173549056,
+          "id_str": "913852745173549056",
+          "indices": [
+            78,
+            101
+          ],
+          "media_url": "http://pbs.twimg.com/media/DK6oOt0VwAAoBeF.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DK6oOt0VwAAoBeF.jpg",
+          "url": "https://t.co/qpRhwB1vmG",
+          "display_url": "pic.twitter.com/qpRhwB1vmG",
+          "expanded_url": "https://twitter.com/swish41/status/913852758108893184/photo/1",
+          "type": "photo",
+          "sizes": {
+            "medium": {
+              "w": 900,
+              "h": 1200,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 1536,
+              "h": 2048,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 510,
+              "h": 680,
+              "resize": "fit"
+            }
+          },
+          "source_status_id": 913852758108893184,
+          "source_status_id_str": "913852758108893184",
+          "source_user_id": 205415788,
+          "source_user_id_str": "205415788"
+        },
+        {
+          "id": 913852745186107392,
+          "id_str": "913852745186107392",
+          "indices": [
+            78,
+            101
+          ],
+          "media_url": "http://pbs.twimg.com/media/DK6oOt3VYAAIPUh.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DK6oOt3VYAAIPUh.jpg",
+          "url": "https://t.co/qpRhwB1vmG",
+          "display_url": "pic.twitter.com/qpRhwB1vmG",
+          "expanded_url": "https://twitter.com/swish41/status/913852758108893184/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 1536,
+              "h": 2048,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 510,
+              "h": 680,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 900,
+              "h": 1200,
+              "resize": "fit"
+            }
+          },
+          "source_status_id": 913852758108893184,
+          "source_status_id_str": "913852758108893184",
+          "source_user_id": 205415788,
+          "source_user_id_str": "205415788"
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 22178780,
+      "id_str": "22178780",
+      "name": "NBA on TNT",
+      "screen_name": "NBAonTNT",
+      "location": "Atlanta, GA ",
+      "description": "Home of EJ, Kenny, Shaq & Chuck",
+      "url": "https://t.co/NfosAUFB1q",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/NfosAUFB1q",
+              "expanded_url": "http://bit.ly/2ldMBE1",
+              "display_url": "bit.ly/2ldMBE1",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 2600228,
+      "friends_count": 838,
+      "listed_count": 7667,
+      "created_at": "Fri Feb 27 19:32:32 +0000 2009",
+      "favourites_count": 2881,
+      "utc_offset": -14400,
+      "time_zone": "Eastern Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 25221,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "131516",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/590956757582684162/KEVBCIE0.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/590956757582684162/KEVBCIE0.jpg",
+      "profile_background_tile": true,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/869587561508814848/fidYzrsp_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/869587561508814848/fidYzrsp_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/22178780/1497369151",
+      "profile_link_color": "009999",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "EFEFEF",
+      "profile_text_color": "333333",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": true,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Fri Sep 29 19:47:30 +0000 2017",
+      "id": 913852758108893184,
+      "id_str": "913852758108893184",
+      "text": "Got this from a fan today at open practice...  much appreciated! https://t.co/qpRhwB1vmG",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+
+        ],
+        "symbols": [
+
+        ],
+        "user_mentions": [
+
+        ],
+        "urls": [
+
+        ],
+        "media": [
+          {
+            "id": 913852745173549056,
+            "id_str": "913852745173549056",
+            "indices": [
+              65,
+              88
+            ],
+            "media_url": "http://pbs.twimg.com/media/DK6oOt0VwAAoBeF.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/DK6oOt0VwAAoBeF.jpg",
+            "url": "https://t.co/qpRhwB1vmG",
+            "display_url": "pic.twitter.com/qpRhwB1vmG",
+            "expanded_url": "https://twitter.com/swish41/status/913852758108893184/photo/1",
+            "type": "photo",
+            "sizes": {
+              "medium": {
+                "w": 900,
+                "h": 1200,
+                "resize": "fit"
+              },
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "large": {
+                "w": 1536,
+                "h": 2048,
+                "resize": "fit"
+              },
+              "small": {
+                "w": 510,
+                "h": 680,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "extended_entities": {
+        "media": [
+          {
+            "id": 913852745173549056,
+            "id_str": "913852745173549056",
+            "indices": [
+              65,
+              88
+            ],
+            "media_url": "http://pbs.twimg.com/media/DK6oOt0VwAAoBeF.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/DK6oOt0VwAAoBeF.jpg",
+            "url": "https://t.co/qpRhwB1vmG",
+            "display_url": "pic.twitter.com/qpRhwB1vmG",
+            "expanded_url": "https://twitter.com/swish41/status/913852758108893184/photo/1",
+            "type": "photo",
+            "sizes": {
+              "medium": {
+                "w": 900,
+                "h": 1200,
+                "resize": "fit"
+              },
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "large": {
+                "w": 1536,
+                "h": 2048,
+                "resize": "fit"
+              },
+              "small": {
+                "w": 510,
+                "h": 680,
+                "resize": "fit"
+              }
+            }
+          },
+          {
+            "id": 913852745186107392,
+            "id_str": "913852745186107392",
+            "indices": [
+              65,
+              88
+            ],
+            "media_url": "http://pbs.twimg.com/media/DK6oOt3VYAAIPUh.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/DK6oOt3VYAAIPUh.jpg",
+            "url": "https://t.co/qpRhwB1vmG",
+            "display_url": "pic.twitter.com/qpRhwB1vmG",
+            "expanded_url": "https://twitter.com/swish41/status/913852758108893184/photo/1",
+            "type": "photo",
+            "sizes": {
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "large": {
+                "w": 1536,
+                "h": 2048,
+                "resize": "fit"
+              },
+              "small": {
+                "w": 510,
+                "h": 680,
+                "resize": "fit"
+              },
+              "medium": {
+                "w": 900,
+                "h": 1200,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 205415788,
+        "id_str": "205415788",
+        "name": "Dirk Nowitzki",
+        "screen_name": "swish41",
+        "location": "Dallas",
+        "description": "Tall Baller from the G!",
+        "url": "http://t.co/RwKuFKxU1E",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "http://t.co/RwKuFKxU1E",
+                "expanded_url": "http://www.facebook.com/DirkNowitzki",
+                "display_url": "facebook.com/DirkNowitzki",
+                "indices": [
+                  0,
+                  22
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": [
+
+            ]
+          }
+        },
+        "protected": false,
+        "followers_count": 3074921,
+        "friends_count": 509,
+        "listed_count": 8986,
+        "created_at": "Wed Oct 20 20:45:57 +0000 2010",
+        "favourites_count": 1097,
+        "utc_offset": -18000,
+        "time_zone": "Central Time (US & Canada)",
+        "geo_enabled": false,
+        "verified": true,
+        "statuses_count": 1483,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "F2F2F2",
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/886602782/ede5245fe5ca587a4e1616000e44e6b1.jpeg",
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/886602782/ede5245fe5ca587a4e1616000e44e6b1.jpeg",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/3669044632/8177070479aeb345d84745272ed1b614_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/3669044632/8177070479aeb345d84745272ed1b614_normal.jpeg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/205415788/1429043103",
+        "profile_link_color": "0066CC",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "B3AFB3",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 28397,
+      "favorite_count": 90638,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "possibly_sensitive_appealable": false,
+      "lang": "en"
+    },
+    "is_quote_status": false,
+    "retweet_count": 28397,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Fri Sep 29 20:55:02 +0000 2017",
+    "id": 913869754196250624,
+    "id_str": "913869754196250624",
+    "text": "everyone tweeting screenshots of the @bigmouth app notification will be visited by the hormone monster tonight https://t.co/yPAcKKIdaM",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+
+      ],
+      "symbols": [
+
+      ],
+      "user_mentions": [
+        {
+          "screen_name": "bigmouth",
+          "name": "Big Mouth",
+          "id": 4889963682,
+          "id_str": "4889963682",
+          "indices": [
+            37,
+            46
+          ]
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/yPAcKKIdaM",
+          "expanded_url": "https://twitter.com/StephEvz43/status/913855764225155073",
+          "display_url": "twitter.com/StephEvz43/sta…",
+          "indices": [
+            111,
+            134
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 16573941,
+      "id_str": "16573941",
+      "name": "Netflix US",
+      "screen_name": "netflix",
+      "location": "Los Gatos, CA",
+      "description": "Not liable for any emotional trauma you may suffer as a result of watching Gerald's Game  //  Customer Service: @NetflixHelps",
+      "url": "https://t.co/i4spcePMBR",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/i4spcePMBR",
+              "expanded_url": "http://netflix.com",
+              "display_url": "netflix.com",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 3693546,
+      "friends_count": 917,
+      "listed_count": 13363,
+      "created_at": "Fri Oct 03 04:16:17 +0000 2008",
+      "favourites_count": 10194,
+      "utc_offset": -25200,
+      "time_zone": "Pacific Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 20539,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "C0DEED",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/682982712886476800/tXck5049.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/682982712886476800/tXck5049.jpg",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/744949842720391168/wuzyVTTX_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/744949842720391168/wuzyVTTX_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/16573941/1503085562",
+      "profile_link_color": "E50914",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": true,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": true,
+    "quoted_status_id": 913855764225155073,
+    "quoted_status_id_str": "913855764225155073",
+    "quoted_status": {
+      "created_at": "Fri Sep 29 19:59:27 +0000 2017",
+      "id": 913855764225155073,
+      "id_str": "913855764225155073",
+      "text": "WTF are you trying to say, @netflix?? https://t.co/pjlTpLqk4P",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+
+        ],
+        "symbols": [
+
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "netflix",
+            "name": "Netflix US",
+            "id": 16573941,
+            "id_str": "16573941",
+            "indices": [
+              27,
+              35
+            ]
+          }
+        ],
+        "urls": [
+
+        ],
+        "media": [
+          {
+            "id": 913855757329694720,
+            "id_str": "913855757329694720",
+            "indices": [
+              38,
+              61
+            ],
+            "media_url": "http://pbs.twimg.com/media/DK6q-C-VAAAoLzG.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/DK6q-C-VAAAoLzG.jpg",
+            "url": "https://t.co/pjlTpLqk4P",
+            "display_url": "pic.twitter.com/pjlTpLqk4P",
+            "expanded_url": "https://twitter.com/StephEvz43/status/913855764225155073/photo/1",
+            "type": "photo",
+            "sizes": {
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "small": {
+                "w": 680,
+                "h": 137,
+                "resize": "fit"
+              },
+              "medium": {
+                "w": 745,
+                "h": 150,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 745,
+                "h": 150,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "extended_entities": {
+        "media": [
+          {
+            "id": 913855757329694720,
+            "id_str": "913855757329694720",
+            "indices": [
+              38,
+              61
+            ],
+            "media_url": "http://pbs.twimg.com/media/DK6q-C-VAAAoLzG.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/DK6q-C-VAAAoLzG.jpg",
+            "url": "https://t.co/pjlTpLqk4P",
+            "display_url": "pic.twitter.com/pjlTpLqk4P",
+            "expanded_url": "https://twitter.com/StephEvz43/status/913855764225155073/photo/1",
+            "type": "photo",
+            "sizes": {
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "small": {
+                "w": 680,
+                "h": 137,
+                "resize": "fit"
+              },
+              "medium": {
+                "w": 745,
+                "h": 150,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 745,
+                "h": 150,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 38798614,
+        "id_str": "38798614",
+        "name": "Steph Evz",
+        "screen_name": "StephEvz43",
+        "location": "San Jose, CA ",
+        "description": "Engineer. Rocket scientist. Satellite builder. Geek. Lover of bad jokes. Proponent for women in STEM. Creator of @TheSTEMulus https://t.co/JH0KAxiclT",
+        "url": "https://t.co/eNiCIh7kuu",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/eNiCIh7kuu",
+                "expanded_url": "http://www.thestemulus.com",
+                "display_url": "thestemulus.com",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": [
+              {
+                "url": "https://t.co/JH0KAxiclT",
+                "expanded_url": "http://www.youtube.com/TheSTEMulus",
+                "display_url": "youtube.com/TheSTEMulus",
+                "indices": [
+                  126,
+                  149
+                ]
+              }
+            ]
+          }
+        },
+        "protected": false,
+        "followers_count": 7176,
+        "friends_count": 1701,
+        "listed_count": 353,
+        "created_at": "Sat May 09 04:35:34 +0000 2009",
+        "favourites_count": 57656,
+        "utc_offset": -18000,
+        "time_zone": "Central Time (US & Canada)",
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 57700,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "01070A",
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/152749625/sts76_93.jpg",
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/152749625/sts76_93.jpg",
+        "profile_background_tile": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/835964849494503424/keQZSzvw_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/835964849494503424/keQZSzvw_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/38798614/1483940494",
+        "profile_link_color": "49F70F",
+        "profile_sidebar_border_color": "0867F7",
+        "profile_sidebar_fill_color": "0D0D0D",
+        "profile_text_color": "0E48F5",
+        "profile_use_background_image": true,
+        "has_extended_profile": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 9,
+      "favorite_count": 65,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "possibly_sensitive_appealable": false,
+      "lang": "en"
+    },
+    "retweet_count": 44,
+    "favorite_count": 389,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Fri Sep 29 20:50:49 +0000 2017",
+    "id": 913868691845951488,
+    "id_str": "913868691845951488",
+    "text": "RT @espn: LeBron just crashed D-Wade's interview and it's pure gold. 😂\n\nhttps://t.co/borvd8YfIa",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+
+      ],
+      "symbols": [
+
+      ],
+      "user_mentions": [
+        {
+          "screen_name": "espn",
+          "name": "ESPN",
+          "id": 2557521,
+          "id_str": "2557521",
+          "indices": [
+            3,
+            8
+          ]
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/borvd8YfIa",
+          "expanded_url": "http://es.pn/2xLcFyQ",
+          "display_url": "es.pn/2xLcFyQ",
+          "indices": [
+            72,
+            95
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 74518740,
+      "id_str": "74518740",
+      "name": "NBA on ESPN",
+      "screen_name": "ESPNNBA",
+      "location": "ESPN",
+      "description": "Official Twitter account of the NBA on ESPN, home of the NBA Draft and the NBA Finals. https://t.co/ZXP0Y8bs4T",
+      "url": "https://t.co/4FNCeu2Z1a",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/4FNCeu2Z1a",
+              "expanded_url": "http://espn.go.com/nba/",
+              "display_url": "espn.go.com/nba/",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "https://t.co/ZXP0Y8bs4T",
+              "expanded_url": "http://Instagram.com/nbaonespn",
+              "display_url": "Instagram.com/nbaonespn",
+              "indices": [
+                87,
+                110
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 5061414,
+      "friends_count": 788,
+      "listed_count": 13428,
+      "created_at": "Tue Sep 15 18:37:13 +0000 2009",
+      "favourites_count": 1479,
+      "utc_offset": -14400,
+      "time_zone": "Eastern Time (US & Canada)",
+      "geo_enabled": false,
+      "verified": true,
+      "statuses_count": 61896,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "A15E00",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/47166024/NBA_bg.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/47166024/NBA_bg.jpg",
+      "profile_background_tile": true,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/884879324410675200/8nw2pYKc_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/884879324410675200/8nw2pYKc_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/74518740/1498596763",
+      "profile_link_color": "0000FF",
+      "profile_sidebar_border_color": "EEEEEE",
+      "profile_sidebar_fill_color": "E6EDF2",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": true,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Fri Sep 29 15:58:01 +0000 2017",
+      "id": 913795004602159105,
+      "id_str": "913795004602159105",
+      "text": "LeBron just crashed D-Wade's interview and it's pure gold. 😂\n\nhttps://t.co/borvd8YfIa",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+
+        ],
+        "symbols": [
+
+        ],
+        "user_mentions": [
+
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/borvd8YfIa",
+            "expanded_url": "http://es.pn/2xLcFyQ",
+            "display_url": "es.pn/2xLcFyQ",
+            "indices": [
+              62,
+              85
+            ]
+          }
+        ]
+      },
+      "source": "<a href=\"http://www.spredfast.com\" rel=\"nofollow\">Spredfast app</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 2557521,
+        "id_str": "2557521",
+        "name": "ESPN",
+        "screen_name": "espn",
+        "location": "Bristol, CT",
+        "description": "",
+        "url": "https://t.co/RqqkIx8GI7",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/RqqkIx8GI7",
+                "expanded_url": "http://es.pn/app",
+                "display_url": "es.pn/app",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": [
+
+            ]
+          }
+        },
+        "protected": false,
+        "followers_count": 33572366,
+        "friends_count": 283,
+        "listed_count": 58012,
+        "created_at": "Tue Mar 27 20:46:16 +0000 2007",
+        "favourites_count": 94,
+        "utc_offset": -14400,
+        "time_zone": "Eastern Time (US & Canada)",
+        "geo_enabled": true,
+        "verified": true,
+        "statuses_count": 91578,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": true,
+        "profile_background_color": "C8C8C8",
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/601774592/rqjossil7yrf5tn5fdvl.jpeg",
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/601774592/rqjossil7yrf5tn5fdvl.jpeg",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/903763131872288768/lR7-Fb1N_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/903763131872288768/lR7-Fb1N_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/2557521/1503329004",
+        "profile_link_color": "CC0000",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "EFEFEF",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "regular"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 3139,
+      "favorite_count": 8412,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "possibly_sensitive_appealable": false,
+      "lang": "en"
+    },
+    "is_quote_status": false,
+    "retweet_count": 3139,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Fri Sep 29 20:18:46 +0000 2017",
+    "id": 913860626233077760,
+    "id_str": "913860626233077760",
+    "text": "RT @KingJames: Congrats to my G @russwest44 on that bag!!! OKC got a great one!!(like they don't already know)🤷🏾‍♂️ #WhyNot",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "WhyNot",
+          "indices": [
+            116,
+            123
+          ]
+        }
+      ],
+      "symbols": [
+
+      ],
+      "user_mentions": [
+        {
+          "screen_name": "KingJames",
+          "name": "LeBron James",
+          "id": 23083404,
+          "id_str": "23083404",
+          "indices": [
+            3,
+            13
+          ]
+        },
+        {
+          "screen_name": "russwest44",
+          "name": "Russell Westbrook",
+          "id": 35982046,
+          "id_str": "35982046",
+          "indices": [
+            32,
+            43
+          ]
+        }
+      ],
+      "urls": [
+
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 22178780,
+      "id_str": "22178780",
+      "name": "NBA on TNT",
+      "screen_name": "NBAonTNT",
+      "location": "Atlanta, GA ",
+      "description": "Home of EJ, Kenny, Shaq & Chuck",
+      "url": "https://t.co/NfosAUFB1q",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/NfosAUFB1q",
+              "expanded_url": "http://bit.ly/2ldMBE1",
+              "display_url": "bit.ly/2ldMBE1",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 2600228,
+      "friends_count": 838,
+      "listed_count": 7667,
+      "created_at": "Fri Feb 27 19:32:32 +0000 2009",
+      "favourites_count": 2881,
+      "utc_offset": -14400,
+      "time_zone": "Eastern Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 25221,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "131516",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/590956757582684162/KEVBCIE0.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/590956757582684162/KEVBCIE0.jpg",
+      "profile_background_tile": true,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/869587561508814848/fidYzrsp_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/869587561508814848/fidYzrsp_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/22178780/1497369151",
+      "profile_link_color": "009999",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "EFEFEF",
+      "profile_text_color": "333333",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": true,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Fri Sep 29 20:01:22 +0000 2017",
+      "id": 913856246947643393,
+      "id_str": "913856246947643393",
+      "text": "Congrats to my G @russwest44 on that bag!!! OKC got a great one!!(like they don't already know)🤷🏾‍♂️ #WhyNot",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "WhyNot",
+            "indices": [
+              101,
+              108
+            ]
+          }
+        ],
+        "symbols": [
+
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "russwest44",
+            "name": "Russell Westbrook",
+            "id": 35982046,
+            "id_str": "35982046",
+            "indices": [
+              17,
+              28
+            ]
+          }
+        ],
+        "urls": [
+
+        ]
+      },
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 23083404,
+        "id_str": "23083404",
+        "name": "LeBron James",
+        "screen_name": "KingJames",
+        "location": "Amongst La Familia! ",
+        "description": "EST. AKRON - ST.V/M Class of '03  http://t.co/IneJylUd1m #IPROMISE",
+        "url": "http://t.co/TuET0GeB2Z",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "http://t.co/TuET0GeB2Z",
+                "expanded_url": "http://LeBronJames.com",
+                "display_url": "LeBronJames.com",
+                "indices": [
+                  0,
+                  22
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": [
+              {
+                "url": "http://t.co/IneJylUd1m",
+                "expanded_url": "http://LeBronJamesFamilyFoundation.org",
+                "display_url": "LeBronJamesFamilyFoundation.org",
+                "indices": [
+                  34,
+                  56
+                ]
+              }
+            ]
+          }
+        },
+        "protected": false,
+        "followers_count": 38674087,
+        "friends_count": 173,
+        "listed_count": 42273,
+        "created_at": "Fri Mar 06 16:25:53 +0000 2009",
+        "favourites_count": 81,
+        "utc_offset": -18000,
+        "time_zone": "Quito",
+        "geo_enabled": false,
+        "verified": true,
+        "statuses_count": 5496,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": true,
+        "profile_background_color": "000000",
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000104492008/d11e7b1d2751298ff3f81494ad045d9d.jpeg",
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000104492008/d11e7b1d2751298ff3f81494ad045d9d.jpeg",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/748603714705952768/-8HcqbKS_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/748603714705952768/-8HcqbKS_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/23083404/1467315994",
+        "profile_link_color": "FBAF41",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 23957,
+      "favorite_count": 88395,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+    },
+    "is_quote_status": false,
+    "retweet_count": 23957,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+  }
+]

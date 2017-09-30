@@ -3,4 +3,5 @@
     <string name="title_activity_login">Sign in</string>
     <string name="sign_in">Sign in</string>
     <string name="error_login_unsuccessful">Could not login. Please try again</string>
+    <string name="error_fetch_timeline">Could not fetch timeline. Please try again later</string>
 </resources>
