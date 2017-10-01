@@ -1,12 +1,18 @@
 package com.robl2e.thistweet.ui.tweetlist;
 
 import android.support.annotation.Nullable;
+import android.text.TextUtils;
+import android.util.Log;
 
 import com.robl2e.thistweet.data.model.timeline.Entities;
 import com.robl2e.thistweet.data.model.timeline.Media;
 import com.robl2e.thistweet.data.model.timeline.Tweet;
 import com.robl2e.thistweet.data.model.timeline.User;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Locale;
 import java.util.TimeZone;
 
 import hirondelle.date4j.DateTime;
@@ -16,6 +22,8 @@ import hirondelle.date4j.DateTime;
  */
 
 public class TweetViewModel {
+    private static final String TAG = TweetViewModel.class.getSimpleName();
+
     private Long id;
     private String text;
     private Integer retweetCount;
@@ -94,14 +102,46 @@ public class TweetViewModel {
 
     @Nullable
     public Integer getNumDaysFromCreation() {
-        String createdAt = getCreatedAt();
+        DateTime createdDateTime = calculateCreatedAtDateTime();
+        if (createdDateTime == null) return null;
 
-        if (!DateTime.isParseable(createdAt)) return null;
-
-        DateTime dateTime = new DateTime(createdAt);
         DateTime now = DateTime.now(TimeZone.getDefault());
 
-        return now.numDaysFrom(dateTime);
+        return createdDateTime.numDaysFrom(now);
+    }
+
+    @Nullable
+    public Long getNumSecondsFromCreation() {
+        DateTime createdDateTime = calculateCreatedAtDateTime();
+        if (createdDateTime == null) return null;
+
+        DateTime now = DateTime.now(TimeZone.getDefault());
+
+        return createdDateTime.numSecondsFrom(now);
+    }
+
+    public DateTime calculateCreatedAtDateTime() {
+        String createdAt = getCreatedAt();
+
+        Date date = parseDateString(createdAt);
+        if (date == null) return null;
+
+        DateTime createdDateTime = DateTime.forInstant(date.getTime(), TimeZone.getDefault());
+        return createdDateTime;
+    }
+
+    private Date parseDateString(String rawDateTime) {
+        if (TextUtils.isEmpty(rawDateTime)) return null;
+
+        // Example "Sat Sep 30 02:24:30 +0000 2017"
+        String pattern = "EEE MMM d HH:mm:ss Z yyyy";
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat(pattern, Locale.getDefault());
+        try {
+            return simpleDateFormat.parse(rawDateTime);
+        } catch (ParseException e) {
+            Log.e(TAG, Log.getStackTraceString(e));
+        }
+        return null;
     }
 
     public static TweetViewModel convert(Tweet tweet) {

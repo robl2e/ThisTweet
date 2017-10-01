@@ -2,15 +2,15 @@
 
 **Name of your app** is an android app that allows a user to view his Twitter timeline and post a new tweet. The app utilizes [Twitter REST API](https://developer.twitter.com/en/docs/api-reference-index).
 
-Time spent: **11** hours spent in total
+Time spent: **13** hours spent in total
 
 ## User Stories
 
 The following **required** functionality is completed:
 
-* [ ]	User can **sign in to Twitter** using OAuth login
-* [ ]	User can **view tweets from their home timeline**
-  * [ ] User is displayed the username, name, and body for each tweet
+* [x]	User can **sign in to Twitter** using OAuth login
+* [x]	User can **view tweets from their home timeline**
+  * [x] User is displayed the username, name, and body for each tweet
   * [ ] User is displayed the [relative timestamp](https://gist.github.com/nesquena/f786232f5ef72f6e10a7) for each tweet "8m", "7h"
   * [ ] User can view more tweets as they scroll with [infinite pagination](http://guides.codepath.com/android/Endless-Scrolling-with-AdapterViews-and-RecyclerView). Number of tweets is unlimited.
     However there are [Twitter Api Rate Limits](https://developer.twitter.com/en/docs/basics/rate-limiting) in place.

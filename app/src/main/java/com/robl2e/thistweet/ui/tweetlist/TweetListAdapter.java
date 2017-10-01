@@ -12,13 +12,15 @@ import android.widget.TextView;
 import com.bumptech.glide.Glide;
 import com.robl2e.thistweet.R;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
+
+import hirondelle.date4j.DateTime;
 
 /**
  * Created by robl2e on 9/26/17.
  */
 
 public class TweetListAdapter extends RecyclerView.Adapter<TweetListAdapter.ViewHolder> {
-
     private List<TweetViewModel> items;
     private LayoutInflater inflater;
 
@@ -55,6 +57,14 @@ public class TweetListAdapter extends RecyclerView.Adapter<TweetListAdapter.View
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {
+        // Time in seconds
+        private static final long ONE_MINUTE = 60;
+        private static final long ONE_HOUR = 3600;
+        private static final long ONE_DAY = 86400;
+
+        // Time in days
+        private static final long ONE_WEEK = 7;
+
         private ImageView userProfileImage;
         private TextView usernameText;
         private TextView screenNameText;
@@ -108,10 +118,32 @@ public class TweetListAdapter extends RecyclerView.Adapter<TweetListAdapter.View
         }
 
         private void renderCreatedAtText(TweetViewModel viewModel) {
+            Long seconds = viewModel.getNumSecondsFromCreation();
+            if (seconds == null) return;
+
             Integer days = viewModel.getNumDaysFromCreation();
             if (days == null) return;
 
-            String creationString = itemView.getResources().getString(R.string.days_abbreviation, days);
+            String creationString = null;
+            if (seconds < ONE_MINUTE) {
+                creationString = itemView.getResources().getString(R.string.now);
+            } else if (seconds >= ONE_MINUTE && seconds < ONE_HOUR) {
+                Long min = TimeUnit.SECONDS.toMinutes(seconds);
+                creationString = itemView.getResources().getString(R.string.minute_abbreviation, min);
+            } else if (seconds >= ONE_HOUR && seconds < ONE_DAY) {
+                Long hour = TimeUnit.SECONDS.toHours(seconds);
+                creationString = itemView.getResources().getString(R.string.hour_abbreviation, hour);
+            } else if (days < ONE_WEEK) {
+                creationString = itemView.getResources().getString(R.string.days_abbreviation, days);
+            } else {
+                DateTime dateTime = viewModel.calculateCreatedAtDateTime();
+                if (dateTime == null) return;
+
+                creationString = dateTime.format("DD MMM");
+            }
+
+            if (TextUtils.isEmpty(creationString)) return;
+
             createAtText.setText(creationString);
         }
 
