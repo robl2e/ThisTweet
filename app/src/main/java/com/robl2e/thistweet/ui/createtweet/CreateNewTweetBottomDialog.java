@@ -147,10 +147,12 @@ public class CreateNewTweetBottomDialog extends BottomDialog {
             layoutTextInput.setVisibility(View.INVISIBLE);
             progressBar.setVisibility(View.VISIBLE);
             if (positiveButton != null) positiveButton.setVisibility(View.INVISIBLE);
+            if (negativeButton!= null) negativeButton.setVisibility(View.INVISIBLE);
         } else {
             layoutTextInput.setVisibility(View.VISIBLE);
             progressBar.setVisibility(View.INVISIBLE);
             if (positiveButton != null) positiveButton.setVisibility(View.VISIBLE);
+            if (negativeButton!= null) negativeButton.setVisibility(View.VISIBLE);
         }
     }
 

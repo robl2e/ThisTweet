@@ -1,6 +1,6 @@
-# Project 3 - *Name of App Here*
+# Project 3 - *ThisTweet*
 
-**Name of your app** is an android app that allows a user to view his Twitter timeline and post a new tweet. The app utilizes [Twitter REST API](https://developer.twitter.com/en/docs/api-reference-index).
+**ThisTweet** is an android app that allows a user to view his Twitter timeline and post a new tweet. The app utilizes [Twitter REST API](https://developer.twitter.com/en/docs/api-reference-index).
 
 Time spent: **17** hours spent in total
 

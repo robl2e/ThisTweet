@@ -37,8 +37,8 @@ public class TimelineRepository {
     }
 
     public void getTimeline(final AppResponseHandler<List<Tweet>> responseHandler) {
-        getTimeLineTest(responseHandler);
-        //_getTimeline(null, responseHandler);
+        //getTimeLineTest(responseHandler);
+        _getTimeline(null, responseHandler);
     }
 
     public void getTimeline(Long maxId, final AppResponseHandler<List<Tweet>> responseHandler) {
