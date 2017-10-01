@@ -103,6 +103,7 @@ public class TweetListActivity extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
+        endlessScrollListener.resetState();
         timelineRepository.getTimeline(new TimeLineResponseHandler(this) {
             @Override
             public void onComplete(Response response, List<Tweet> tweets) {
