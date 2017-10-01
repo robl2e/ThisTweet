@@ -26,6 +26,9 @@ public class Tweet {
     @SerializedName("entities")
     @Expose
     private Entities entities;
+    @SerializedName("extended_entities")
+    @Expose
+    private ExtendedEntities extendedEntities;
     @SerializedName("text")
     @Expose
     private String text;
@@ -38,6 +41,9 @@ public class Tweet {
     @SerializedName("retweet_count")
     @Expose
     private Integer retweetCount;
+    @SerializedName("favorite_count")
+    @Expose
+    private Integer favoriteCount;
     @SerializedName("in_reply_to_status_id_str")
     @Expose
     private Object inReplyToStatusIdStr;
@@ -125,6 +131,14 @@ public class Tweet {
         this.entities = entities;
     }
 
+    public ExtendedEntities getExtendedEntities() {
+        return extendedEntities;
+    }
+
+    public void setExtendedEntities(ExtendedEntities extendedEntities) {
+        this.extendedEntities = extendedEntities;
+    }
+
     public String getText() {
         return text;
     }
@@ -155,6 +169,14 @@ public class Tweet {
 
     public void setRetweetCount(Integer retweetCount) {
         this.retweetCount = retweetCount;
+    }
+
+    public Integer getFavoriteCount() {
+        return favoriteCount;
+    }
+
+    public void setFavoriteCount(Integer favoriteCount) {
+        this.favoriteCount = favoriteCount;
     }
 
     public Object getInReplyToStatusIdStr() {

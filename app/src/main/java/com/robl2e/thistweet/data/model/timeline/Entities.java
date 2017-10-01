@@ -13,9 +13,15 @@ public class Entities {
     @SerializedName("hashtags")
     @Expose
     private List<Object> hashtags = null;
+    @SerializedName("symbols")
+    @Expose
+    private List<Object> symbols = null;
     @SerializedName("user_mentions")
     @Expose
     private List<UserMention> userMentions = null;
+    @SerializedName("media")
+    @Expose
+    private List<Media> media = null;
 
     public List<Url> getUrls() {
         return urls;
@@ -41,4 +47,19 @@ public class Entities {
         this.userMentions = userMentions;
     }
 
+    public List<Object> getSymbols() {
+        return symbols;
+    }
+
+    public void setSymbols(List<Object> symbols) {
+        this.symbols = symbols;
+    }
+
+    public List<Media> getMedia() {
+        return media;
+    }
+
+    public void setMedia(List<Media> media) {
+        this.media = media;
+    }
 }
