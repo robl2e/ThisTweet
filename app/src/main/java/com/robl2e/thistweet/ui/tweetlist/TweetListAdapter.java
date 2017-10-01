@@ -3,6 +3,7 @@ package com.robl2e.thistweet.ui.tweetlist;
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
 import android.text.TextUtils;
+import android.text.format.DateUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,9 +13,13 @@ import android.widget.TextView;
 import com.bumptech.glide.Glide;
 import com.robl2e.thistweet.R;
 import java.util.List;
-import java.util.concurrent.TimeUnit;
-
+import java.util.TimeZone;
 import hirondelle.date4j.DateTime;
+
+import static android.text.format.DateUtils.FORMAT_ABBREV_MONTH;
+import static android.text.format.DateUtils.FORMAT_ABBREV_RELATIVE;
+import static android.text.format.DateUtils.FORMAT_SHOW_DATE;
+import static android.text.format.DateUtils.FORMAT_SHOW_YEAR;
 
 /**
  * Created by robl2e on 9/26/17.
@@ -65,14 +70,6 @@ public class TweetListAdapter extends RecyclerView.Adapter<TweetListAdapter.View
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {
-        // Time in seconds
-        private static final long ONE_MINUTE = 60;
-        private static final long ONE_HOUR = 3600;
-        private static final long ONE_DAY = 86400;
-
-        // Time in days
-        private static final long ONE_WEEK = 7;
-
         private ImageView userProfileImage;
         private TextView usernameText;
         private TextView screenNameText;
@@ -126,33 +123,14 @@ public class TweetListAdapter extends RecyclerView.Adapter<TweetListAdapter.View
         }
 
         private void renderCreatedAtText(TweetViewModel viewModel) {
-            Long seconds = viewModel.getNumSecondsFromCreation();
-            if (seconds == null) return;
+            DateTime createdDateTime = viewModel.calculateCreatedAtDateTime();
+            if (createdDateTime == null) return;
 
-            Integer days = viewModel.getNumDaysFromCreation();
-            if (days == null) return;
+            int flags = FORMAT_SHOW_DATE | FORMAT_SHOW_YEAR | FORMAT_ABBREV_MONTH | FORMAT_ABBREV_RELATIVE;
+            String relativeDate = DateUtils.getRelativeTimeSpanString(createdDateTime.getMilliseconds(TimeZone.getDefault()),
+                    System.currentTimeMillis(), DateUtils.SECOND_IN_MILLIS, flags).toString();
 
-            String creationString = null;
-            if (seconds < ONE_MINUTE) {
-                creationString = itemView.getResources().getString(R.string.now);
-            } else if (seconds >= ONE_MINUTE && seconds < ONE_HOUR) {
-                Long min = TimeUnit.SECONDS.toMinutes(seconds);
-                creationString = itemView.getResources().getString(R.string.minute_abbreviation, min);
-            } else if (seconds >= ONE_HOUR && seconds < ONE_DAY) {
-                Long hour = TimeUnit.SECONDS.toHours(seconds);
-                creationString = itemView.getResources().getString(R.string.hour_abbreviation, hour);
-            } else if (days < ONE_WEEK) {
-                creationString = itemView.getResources().getString(R.string.days_abbreviation, days);
-            } else {
-                DateTime dateTime = viewModel.calculateCreatedAtDateTime();
-                if (dateTime == null) return;
-
-                creationString = dateTime.format("DD MMM");
-            }
-
-            if (TextUtils.isEmpty(creationString)) return;
-
-            createAtText.setText(creationString);
+            createAtText.setText(relativeDate);
         }
 
         private void renderProfileImage(TweetViewModel viewModel) {

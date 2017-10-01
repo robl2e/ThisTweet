@@ -2,7 +2,6 @@ package com.robl2e.thistweet.ui.tweetlist;
 
 import android.support.annotation.Nullable;
 import android.text.TextUtils;
-import android.text.format.DateUtils;
 import android.util.Log;
 
 import com.robl2e.thistweet.data.model.timeline.Entities;
@@ -101,41 +100,25 @@ public class TweetViewModel {
         return media.getMediaUrlHttps();
     }
 
-    @Nullable
-    public Integer getNumDaysFromCreation() {
-        DateTime createdDateTime = calculateCreatedAtDateTime();
-        if (createdDateTime == null) return null;
-
-        DateTime now = DateTime.now(TimeZone.getDefault());
-
-        return createdDateTime.numDaysFrom(now);
-    }
-
-    @Nullable
-    public Long getNumSecondsFromCreation() {
-        DateTime createdDateTime = calculateCreatedAtDateTime();
-        if (createdDateTime == null) return null;
-
-        DateTime now = DateTime.now(TimeZone.getDefault());
-
-        return createdDateTime.numSecondsFrom(now);
-    }
-
     public DateTime calculateCreatedAtDateTime() {
         String createdAt = getCreatedAt();
 
         Date date = parseDateString(createdAt);
         if (date == null) return null;
 
-        DateTime createdDateTime = DateTime.forInstant(date.getTime(), TimeZone.getDefault());
+        DateTime createdDateTime = DateTime.forInstant(date.getTime(), getTimeZone());
         return createdDateTime;
+    }
+
+    private TimeZone getTimeZone() {
+        return TimeZone.getDefault();
     }
 
     private Date parseDateString(String rawDateTime) {
         if (TextUtils.isEmpty(rawDateTime)) return null;
 
         // Example "Sat Sep 30 02:24:30 +0000 2017"
-        String pattern = "EEE MMM d HH:mm:ss ZZZZZ yyyy";
+        String pattern = "EEE MMM dd HH:mm:ss ZZZZZ yyyy";
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat(pattern, Locale.getDefault());
         simpleDateFormat.setLenient(true);
         try {
