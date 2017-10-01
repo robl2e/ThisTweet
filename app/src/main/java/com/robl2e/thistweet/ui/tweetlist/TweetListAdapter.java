@@ -56,6 +56,14 @@ public class TweetListAdapter extends RecyclerView.Adapter<TweetListAdapter.View
         this.items = items;
     }
 
+    public void addItems(List<TweetViewModel> items) {
+        this.items.addAll(items);
+    }
+
+    public TweetViewModel getItem(int position) {
+        return items.get(position);
+    }
+
     public class ViewHolder extends RecyclerView.ViewHolder {
         // Time in seconds
         private static final long ONE_MINUTE = 60;

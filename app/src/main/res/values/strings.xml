@@ -9,4 +9,5 @@
     <string name="days_abbreviation">%dd</string>
     <string name="hour_abbreviation">%dh</string>
     <string name="minute_abbreviation">%dm</string>
+    <string name="error_too_many_requests">Too many requests. Please try again later.</string>
 </resources>

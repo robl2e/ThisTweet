@@ -1,6 +1,7 @@
 package com.robl2e.thistweet.data.remote;
 
 import android.content.Context;
+import android.text.TextUtils;
 import android.util.Log;
 
 import com.codepath.oauth.OAuthBaseClient;
@@ -34,8 +35,8 @@ public class TwitterClient extends OAuthBaseClient{
     public static final String REST_CALLBACK_URL = "x-oauthflow-twitter://arbitraryname.com";
 
     private static final String HOME_TIMELINE_ENDPOINT = REST_URL + "/statuses/home_timeline.json";
-    private static final String PARAM_PAGE = "page";
-
+    private static final String PARAM_MAX_ID = "max_id";
+    private static final String PARAM_SINCE_ID = "since_id";
 
     private OkHttpClient okHttpClient;
 
@@ -79,14 +80,14 @@ public class TwitterClient extends OAuthBaseClient{
     }
 
 
-    public void homeTimelineRequest(Integer page, final Callback callback) {
+    public void homeTimelineRequest(Long maxId, final Callback callback) {
         if (okHttpClient == null) return;
 
         HttpUrl.Builder urlBuilder = HttpUrl
                 .parse(HOME_TIMELINE_ENDPOINT).newBuilder();
 
-        if (page != null) {
-            urlBuilder.addQueryParameter(PARAM_PAGE, String.valueOf(page));
+        if (maxId != null) {
+            urlBuilder.addQueryParameter(PARAM_MAX_ID, String.valueOf(maxId));
         }
 
         HttpUrl url = urlBuilder.build();
@@ -109,12 +110,5 @@ public class TwitterClient extends OAuthBaseClient{
                 }
             }
         });
-
-//        public void getHomeTimeline(int page, AsyncHttpResponseHandler handler) {
-//            String apiUrl = getApiUrl("statuses/home_timeline.json");
-//            RequestParams params = new RequestParams();
-//            params.put("page", String.valueOf(page));
-//            client.get(apiUrl, params, handler);
-//        }
     }
 }

@@ -35,31 +35,17 @@ public class TimelineRepository {
         this.resources = resources;
     }
 
-    public void getTimeline(Integer page, final AppResponseHandler<List<Tweet>> responseHandler) {
-        _getTimeLineTest(responseHandler);
+    public void getTimeline(final AppResponseHandler<List<Tweet>> responseHandler) {
+        _getTimeline(null, responseHandler);
     }
 
-    private void _getTimeLineTest(AppResponseHandler<List<Tweet>> responseHandler) {
-        //Get Test data;
-        InputStream inputStream = resources.openRawResource(R.raw.timeline);
-
-        try {
-            String jsonTimeLine = IOUtils.toString(inputStream, "UTF-8");
-            Log.d(TAG, "jsonTimeline= " + jsonTimeLine);
-
-            Type listType = new TypeToken<List<Tweet>>() {}.getType();
-            List<Tweet> tweets = JsonUtils.fromJson(jsonTimeLine, listType);
-
-            if (responseHandler != null) {
-                responseHandler.onComplete(null, tweets);
-            }
-        } catch (IOException e) {
-            Log.e(TAG, Log.getStackTraceString(e));
-        }
+    public void getTimeline(Long maxId, final AppResponseHandler<List<Tweet>> responseHandler) {
+        _getTimeline(maxId, responseHandler);
     }
 
-    private void _getTimeline(Integer page, final AppResponseHandler<List<Tweet>> responseHandler) {
-        client.homeTimelineRequest(page, new Callback() {
+    private void _getTimeline(Long maxId, final AppResponseHandler<List<Tweet>> responseHandler) {
+        Long oneLessMaxId = maxId != null ? maxId - 1 : null;
+        client.homeTimelineRequest(oneLessMaxId, new Callback() {
             @Override
             public void onFailure(Call call, IOException e) {
                 Log.e(TAG, Log.getStackTraceString(e));
@@ -82,5 +68,25 @@ public class TimelineRepository {
                 }
             }
         });
+    }
+
+    // For testing
+    private void getTimeLineTest(AppResponseHandler<List<Tweet>> responseHandler) {
+        //Get Test data;
+        InputStream inputStream = resources.openRawResource(R.raw.timeline);
+
+        try {
+            String jsonTimeLine = IOUtils.toString(inputStream, "UTF-8");
+            Log.d(TAG, "jsonTimeline= " + jsonTimeLine);
+
+            Type listType = new TypeToken<List<Tweet>>() {}.getType();
+            List<Tweet> tweets = JsonUtils.fromJson(jsonTimeLine, listType);
+
+            if (responseHandler != null) {
+                responseHandler.onComplete(null, tweets);
+            }
+        } catch (IOException e) {
+            Log.e(TAG, Log.getStackTraceString(e));
+        }
     }
 }
