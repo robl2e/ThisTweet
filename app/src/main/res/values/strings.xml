@@ -15,4 +15,5 @@
     <string name="new_tweet">New Tweet</string>
     <string name="cancel">Cancel</string>
     <string name="error_create_tweet">Unable to post. Please try again later.</string>
+    <string name="home">Home</string>
 </resources>

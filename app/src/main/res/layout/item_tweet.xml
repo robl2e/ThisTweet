@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:background="@android:color/white"
     android:orientation="vertical">
 
     <ImageView
@@ -29,6 +30,7 @@
             <TextView
                 android:id="@+id/text_username"
                 style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:textStyle="bold"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
@@ -37,6 +39,7 @@
             <TextView
                 android:id="@+id/text_screename"
                 style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:textColor="@color/secondary_text"
                 android:layout_marginLeft="4dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -47,6 +50,7 @@
             <TextView
                 android:id="@+id/text_created_at"
                 style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:textColor="@color/secondary_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"

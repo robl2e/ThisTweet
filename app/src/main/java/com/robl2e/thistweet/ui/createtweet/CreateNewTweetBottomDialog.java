@@ -17,6 +17,7 @@ import com.robl2e.thistweet.R;
 import com.robl2e.thistweet.data.local.timeline.TimelineRepository;
 import com.robl2e.thistweet.data.model.timeline.Tweet;
 import com.robl2e.thistweet.data.remote.AppResponseHandler;
+import com.robl2e.thistweet.ui.util.KeyboardUtil;
 
 import okhttp3.Response;
 
@@ -135,6 +136,18 @@ public class CreateNewTweetBottomDialog extends BottomDialog {
                 });
             }
         });
+    }
+
+    @Override
+    public void show() {
+        super.show();
+        tweetEditText.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                KeyboardUtil.showSoftInput(tweetEditText);
+            }
+        }, tweetEditText.getResources()
+                .getInteger(android.R.integer.config_shortAnimTime));
     }
 
     private void showErrorToastMessage() {

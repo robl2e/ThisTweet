@@ -61,7 +61,7 @@ public class TweetListActivity extends AppCompatActivity {
 
     private void setupViews() {
         toolbar = (Toolbar) findViewById(R.id.toolbar);
-        toolbar.setTitle(R.string.app_name);
+        toolbar.setTitle(R.string.home);
 
         tweetList = (RecyclerView) findViewById(R.id.list_tweets);
         newTweetFAB = (FloatingActionButton) findViewById(R.id.fab_new_tweet);

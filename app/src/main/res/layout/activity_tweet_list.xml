@@ -16,10 +16,10 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="?attr/colorPrimary"
+            android:background="@android:color/white"
             android:minHeight="?attr/actionBarSize"
             app:layout_scrollFlags="scroll|enterAlways"
-            app:titleTextColor="@android:color/white" />
+            app:titleTextColor="@color/primary_text" />
     </android.support.design.widget.AppBarLayout>
 
     <android.support.v7.widget.RecyclerView

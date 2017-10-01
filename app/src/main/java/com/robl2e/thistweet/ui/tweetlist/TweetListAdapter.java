@@ -15,6 +15,7 @@ import com.robl2e.thistweet.R;
 import java.util.List;
 import java.util.TimeZone;
 import hirondelle.date4j.DateTime;
+import jp.wasabeef.glide.transformations.RoundedCornersTransformation;
 
 import static android.text.format.DateUtils.FORMAT_ABBREV_MONTH;
 import static android.text.format.DateUtils.FORMAT_ABBREV_RELATIVE;
@@ -143,6 +144,11 @@ public class TweetListAdapter extends RecyclerView.Adapter<TweetListAdapter.View
 
             Glide.with(itemView.getContext())
                     .load(imageUrl)
+                    .bitmapTransform(
+                            new RoundedCornersTransformation(
+                                    itemView.getContext()
+                                    ,23,0
+                                    ))
                     .into(userProfileImage);
         }
 
