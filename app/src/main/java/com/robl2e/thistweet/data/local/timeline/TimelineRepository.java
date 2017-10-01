@@ -16,8 +16,11 @@ import java.io.InputStream;
 import java.lang.reflect.Type;
 import java.util.List;
 
+import cz.msebera.android.httpclient.client.methods.RequestBuilder;
 import okhttp3.Call;
 import okhttp3.Callback;
+import okhttp3.Protocol;
+import okhttp3.Request;
 import okhttp3.Response;
 
 /**
@@ -36,7 +39,7 @@ public class TimelineRepository {
     }
 
     public void getTimeline(final AppResponseHandler<List<Tweet>> responseHandler) {
-        _getTimeline(null, responseHandler);
+        getTimeLineTest(responseHandler);
     }
 
     public void getTimeline(Long maxId, final AppResponseHandler<List<Tweet>> responseHandler) {
@@ -83,7 +86,17 @@ public class TimelineRepository {
             List<Tweet> tweets = JsonUtils.fromJson(jsonTimeLine, listType);
 
             if (responseHandler != null) {
-                responseHandler.onComplete(null, tweets);
+                Request.Builder requestBuilder = new Request.Builder();
+                requestBuilder.url("http://www.twitter.com");
+                Request request = requestBuilder.build();
+
+                Response.Builder builder = new Response.Builder();
+                builder.request(request);
+                builder.protocol(Protocol.HTTP_1_0);
+                builder.code(200);
+
+                Response response = builder.build();
+                responseHandler.onComplete(response, tweets);
             }
         } catch (IOException e) {
             Log.e(TAG, Log.getStackTraceString(e));
