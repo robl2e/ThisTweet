@@ -15,8 +15,10 @@ import java.io.IOException;
 import okhttp3.Call;
 import okhttp3.Callback;
 import okhttp3.HttpUrl;
+import okhttp3.MediaType;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
+import okhttp3.RequestBody;
 import okhttp3.Response;
 import se.akerfeldt.okhttp.signpost.OkHttpOAuthConsumer;
 import se.akerfeldt.okhttp.signpost.SigningInterceptor;
@@ -125,9 +127,14 @@ public class TwitterClient extends OAuthBaseClient{
             urlBuilder.addQueryParameter(PARAM_STATUS, tweetText);
         }
 
+        // Empty POST body
+        RequestBody body = RequestBody
+                .create(null, new byte[]{});
+
         HttpUrl url = urlBuilder.build();
         Request request = new Request.Builder()
                 .url(url)
+                .post(body)
                 .build();
 
         okHttpClient.newCall(request).enqueue(new Callback() {

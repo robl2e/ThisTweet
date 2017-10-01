@@ -17,7 +17,7 @@ The following **required** functionality is completed:
 * [x] User can **compose and post a new tweet**
   * [x] User can click a “Compose” icon in the Action Bar on the top right
   * [x] User can then enter a new tweet and post this to twitter
-  * [ ] User is taken back to home timeline with **new tweet visible** in timeline
+  * [x] User is taken back to home timeline with **new tweet visible** in timeline
 
 The following **optional** features are implemented:
 
@@ -61,8 +61,16 @@ Describe any challenges encountered while building the app.
 
 ## Open-source libraries used
 
-- [Android Async HTTP](https://github.com/loopj/android-async-http) - Simple asynchronous HTTP requests with JSON parsing
-- [Picasso](http://square.github.io/picasso/) - Image loading and caching library for Android
+- [Okhttp](http://square.github.io/okhttp/) - An HTTP+HTTP/2 client for Android and Java applications.
+- [Glide](http://bumptech.github.io/glide/) - An image loading and caching library for Android focused on smooth scrolling.
+- [Gson](https://github.com/google/gson) - A Java serialization/deserialization library to convert Java Objects into JSON and back.
+- [Apache Commons IO](https://github.com/apache/commons-io) - The Apache Commons IO library contains utility classes, stream implementations, file filters, file comparators, endian transformation classes, and much more.
+- [BottomDialog](https://github.com/javiersantos/BottomDialogs) - An Android library that shows a customizable Material-based bottom sheet.
+- [Date4J](http://www.date4j.net/) - Lightweight alternative to Java's built-in date-time classes.
+- [glide-transformations](https://github.com/wasabeef/glide-transformations) - An Android transformation library providing a variety of image transformations for Glide.
+- [okhttp-signpost](https://github.com/pakerfeldt/okhttp-signpost) - OAuth signing with signpost and okhttp
+- [signpost](https://github.com/mttkay/signpost) - A light-weight client-side OAuth library for Java
+- [android-oauth-handler](https://github.com/codepath/android-oauth-handler) - Android OAuth Wrapper makes authenticating with APIs simple
 
 ## License
 
