@@ -35,8 +35,11 @@ public class TwitterClient extends OAuthBaseClient{
     public static final String REST_CALLBACK_URL = "x-oauthflow-twitter://arbitraryname.com";
 
     private static final String HOME_TIMELINE_ENDPOINT = REST_URL + "/statuses/home_timeline.json";
+    private static final String POST_STATUS_UPDATE_ENDPOINT = REST_URL + "/statuses/update.json";
+
     private static final String PARAM_MAX_ID = "max_id";
     private static final String PARAM_SINCE_ID = "since_id";
+    private static final String PARAM_STATUS = "status";
 
     private OkHttpClient okHttpClient;
 
@@ -105,6 +108,45 @@ public class TwitterClient extends OAuthBaseClient{
 
             @Override
             public void onResponse(Call call, Response response) throws IOException {
+                if (callback != null) {
+                    callback.onResponse(call, response);
+                }
+            }
+        });
+    }
+
+    public void postStatusUpdateRequest(String tweetText, final Callback callback) {
+        if (okHttpClient == null) return;
+
+        HttpUrl.Builder urlBuilder = HttpUrl
+                .parse(POST_STATUS_UPDATE_ENDPOINT).newBuilder();
+
+        if (!TextUtils.isEmpty(tweetText)) {
+            urlBuilder.addQueryParameter(PARAM_STATUS, tweetText);
+        }
+
+        HttpUrl url = urlBuilder.build();
+        Request request = new Request.Builder()
+                .url(url)
+                .build();
+
+        okHttpClient.newCall(request).enqueue(new Callback() {
+            @Override
+            public void onFailure(Call call, IOException e) {
+                if (callback != null) {
+                    callback.onFailure(call, e);
+                }
+            }
+
+            @Override
+            public void onResponse(Call call, Response response) throws IOException {
+                if (response.code() != 200) {
+                    if (callback != null) {
+                        callback.onFailure(call, new IOException(response.message()));
+                    }
+                    return;
+                }
+
                 if (callback != null) {
                     callback.onResponse(call, response);
                 }

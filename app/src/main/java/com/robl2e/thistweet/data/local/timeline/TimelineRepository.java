@@ -15,8 +15,6 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.lang.reflect.Type;
 import java.util.List;
-
-import cz.msebera.android.httpclient.client.methods.RequestBuilder;
 import okhttp3.Call;
 import okhttp3.Callback;
 import okhttp3.Protocol;
@@ -39,7 +37,8 @@ public class TimelineRepository {
     }
 
     public void getTimeline(final AppResponseHandler<List<Tweet>> responseHandler) {
-        _getTimeline(null, responseHandler);
+        getTimeLineTest(responseHandler);
+        //_getTimeline(null, responseHandler);
     }
 
     public void getTimeline(Long maxId, final AppResponseHandler<List<Tweet>> responseHandler) {
@@ -73,6 +72,29 @@ public class TimelineRepository {
         });
     }
 
+    public void createTweet(String tweetText, final AppResponseHandler<Tweet> responseHandler) {
+        client.postStatusUpdateRequest(tweetText, new Callback() {
+            @Override
+            public void onFailure(Call call, IOException e) {
+                if (responseHandler != null) {
+                    responseHandler.onFailure(e);
+                }
+            }
+
+            @Override
+            public void onResponse(Call call, Response response) throws IOException {
+                String rawString = response.body().string();
+                Log.d(TAG, "postStatus Update rawString = " + rawString);
+
+                Tweet tweet = JsonUtils.fromJson(rawString, Tweet.class);
+                if (responseHandler != null) {
+                    responseHandler.onComplete(response, tweet);
+                }
+            }
+        });
+
+    }
+
     // For testing
     private void getTimeLineTest(AppResponseHandler<List<Tweet>> responseHandler) {
         //Get Test data;
@@ -102,4 +124,5 @@ public class TimelineRepository {
             Log.e(TAG, Log.getStackTraceString(e));
         }
     }
+
 }

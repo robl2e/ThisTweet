@@ -3,12 +3,15 @@ package com.robl2e.thistweet.ui.tweetlist;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Handler;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.Toolbar;
 import android.util.Log;
+import android.view.View;
 import android.widget.Toast;
 
 import com.robl2e.thistweet.R;
@@ -18,6 +21,7 @@ import com.robl2e.thistweet.data.model.timeline.Tweet;
 import com.robl2e.thistweet.data.remote.AppResponseHandler;
 import com.robl2e.thistweet.data.remote.ErrorCodes;
 import com.robl2e.thistweet.ui.common.EndlessRecyclerViewScrollListener;
+import com.robl2e.thistweet.ui.createtweet.CreateNewTweetBottomDialog;
 
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
@@ -29,9 +33,13 @@ public class TweetListActivity extends AppCompatActivity {
     private static final String TAG = TweetListActivity.class.getSimpleName();
     private static final long REFRESH_DELAY = 500;
 
+    private Toolbar toolbar;
+    private RecyclerView tweetList;
+    private FloatingActionButton newTweetFAB;
+    private CreateNewTweetBottomDialog newTweetBottomDialog;
+
     private TimelineRepository timelineRepository;
     private TweetListAdapter adapter;
-    private RecyclerView tweetList;
     private EndlessRecyclerViewScrollListener endlessScrollListener;
     private Handler handler;
 
@@ -48,10 +56,47 @@ public class TweetListActivity extends AppCompatActivity {
         timelineRepository = new TimelineRepository(TwitterApplication.getRestClient(), getResources());
         setupViews();
         initializeList();
+        initializeFAB();
     }
 
     private void setupViews() {
+        toolbar = (Toolbar) findViewById(R.id.toolbar);
+        toolbar.setTitle(R.string.app_name);
+
         tweetList = (RecyclerView) findViewById(R.id.list_tweets);
+        newTweetFAB = (FloatingActionButton) findViewById(R.id.fab_new_tweet);
+    }
+
+    private void initializeFAB() {
+        newTweetFAB.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                showNewTweetDialog();
+            }
+        });
+    }
+
+    private void showNewTweetDialog() {
+        if (newTweetBottomDialog == null) {
+            newTweetBottomDialog = CreateNewTweetBottomDialog.newInstance(this
+                    , timelineRepository, new CreateNewTweetBottomDialog.Listener() {
+                @Override
+                public void onCancel() {
+                    newTweetBottomDialog = null;
+                }
+
+                @Override
+                public void onPostTweet(Tweet tweet) {
+                    newTweetBottomDialog = null;
+                    TweetViewModel viewModel =
+                            TweetViewModel.convert(tweet);
+                    adapter.addItem(viewModel);
+                    adapter.notifyItemInserted(0);
+                    tweetList.scrollToPosition(0);
+                }
+            });
+            newTweetBottomDialog.show();
+        }
     }
 
     private void initializeList() {
@@ -67,7 +112,7 @@ public class TweetListActivity extends AppCompatActivity {
         endlessScrollListener = new EndlessRecyclerViewScrollListener(layoutManager) {
             @Override
             public void onLoadMore(final int page, final int totalItemsCount, RecyclerView view) {
-                int lastItemIndex = totalItemsCount > 0 ? totalItemsCount-1:0;
+                int lastItemIndex = totalItemsCount > 0 ? totalItemsCount - 1 : 0;
                 final TweetViewModel viewModel = adapter.getItem(lastItemIndex);
                 if (viewModel == null) return;
 

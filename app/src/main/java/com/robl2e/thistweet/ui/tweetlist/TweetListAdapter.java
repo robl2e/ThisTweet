@@ -65,6 +65,10 @@ public class TweetListAdapter extends RecyclerView.Adapter<TweetListAdapter.View
         this.items.addAll(items);
     }
 
+    public void addItem(TweetViewModel item) {
+        this.items.add(0, item);
+    }
+
     public TweetViewModel getItem(int position) {
         return items.get(position);
     }

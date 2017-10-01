@@ -10,4 +10,9 @@
     <string name="hour_abbreviation">%dh</string>
     <string name="minute_abbreviation">%dm</string>
     <string name="error_too_many_requests">Too many requests. Please try again later.</string>
+    <string name="create_tweet_hint">What\'s happening?</string>
+    <string name="tweet">Tweet</string>
+    <string name="new_tweet">New Tweet</string>
+    <string name="cancel">Cancel</string>
+    <string name="error_create_tweet">Unable to post. Please try again later.</string>
 </resources>
