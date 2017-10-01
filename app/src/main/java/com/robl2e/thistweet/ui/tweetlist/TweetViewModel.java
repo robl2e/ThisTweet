@@ -2,6 +2,7 @@ package com.robl2e.thistweet.ui.tweetlist;
 
 import android.support.annotation.Nullable;
 import android.text.TextUtils;
+import android.text.format.DateUtils;
 import android.util.Log;
 
 import com.robl2e.thistweet.data.model.timeline.Entities;
@@ -134,8 +135,9 @@ public class TweetViewModel {
         if (TextUtils.isEmpty(rawDateTime)) return null;
 
         // Example "Sat Sep 30 02:24:30 +0000 2017"
-        String pattern = "EEE MMM d HH:mm:ss Z yyyy";
+        String pattern = "EEE MMM d HH:mm:ss ZZZZZ yyyy";
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat(pattern, Locale.getDefault());
+        simpleDateFormat.setLenient(true);
         try {
             return simpleDateFormat.parse(rawDateTime);
         } catch (ParseException e) {
