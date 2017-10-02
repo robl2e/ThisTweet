@@ -3,6 +3,7 @@ package com.robl2e.thistweet.ui.login;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -31,6 +32,9 @@ public class LoginActivity extends OAuthLoginActivity<TwitterClient> {
     }
 
     private void setupViews() {
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        toolbar.setTitle(R.string.sign_in);
+
         signInButton = (Button) findViewById(R.id.button_sign_in);
         signInButton.setOnClickListener(new View.OnClickListener() {
             @Override
