@@ -16,4 +16,5 @@
     <string name="cancel">Cancel</string>
     <string name="error_create_tweet">Unable to post. Please try again later.</string>
     <string name="home">Home</string>
+    <string name="no_tweets">You have no tweets</string>
 </resources>

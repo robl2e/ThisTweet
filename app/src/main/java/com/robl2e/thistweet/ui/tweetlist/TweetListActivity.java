@@ -35,6 +35,7 @@ public class TweetListActivity extends AppCompatActivity {
 
     private Toolbar toolbar;
     private RecyclerView tweetList;
+    private View emptyView;
     private FloatingActionButton newTweetFAB;
     private CreateNewTweetBottomDialog newTweetBottomDialog;
 
@@ -63,8 +64,19 @@ public class TweetListActivity extends AppCompatActivity {
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         toolbar.setTitle(R.string.home);
 
+        emptyView = findViewById(R.id.layout_empty_view);
         tweetList = (RecyclerView) findViewById(R.id.list_tweets);
         newTweetFAB = (FloatingActionButton) findViewById(R.id.fab_new_tweet);
+    }
+
+    private void showEmptyView(boolean show) {
+        if (show) {
+            emptyView.setVisibility(View.VISIBLE);
+            tweetList.setVisibility(View.INVISIBLE);
+        } else {
+            emptyView.setVisibility(View.INVISIBLE);
+            tweetList.setVisibility(View.VISIBLE);
+        }
     }
 
     private void initializeFAB() {
@@ -133,6 +145,7 @@ public class TweetListActivity extends AppCompatActivity {
                                 runOnUiThread(new Runnable() {
                                     @Override
                                     public void run() {
+                                        showEmptyView(adapter.getItemCount() <= 0);
                                         updateListAdapterWithNewItems(tweets.size());
                                     }
                                 });
@@ -164,6 +177,7 @@ public class TweetListActivity extends AppCompatActivity {
                 runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
+                        showEmptyView(adapter.getItemCount() <= 0);
                         updateListAdapter();
                     }
                 });

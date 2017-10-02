@@ -2,7 +2,7 @@
 
 **ThisTweet** is an android app that allows a user to view his Twitter timeline and post a new tweet. The app utilizes [Twitter REST API](https://developer.twitter.com/en/docs/api-reference-index).
 
-Time spent: **17** hours spent in total
+Time spent: **19** hours spent in total
 
 ## User Stories
 
@@ -51,9 +51,9 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+[Video via Dropbox Link]().
 
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
+Video created with [AZ Screen Recorder](https://play.google.com/store/apps/details?id=com.hecorat.screenrecorder.free&hl=en).
 
 ## Notes
 

@@ -22,12 +22,43 @@
             app:titleTextColor="@color/primary_text" />
     </android.support.design.widget.AppBarLayout>
 
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/list_tweets"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+    <FrameLayout
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        tools:listitem="@layout/item_tweet" />
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/list_tweets"
+            android:visibility="invisible"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            tools:listitem="@layout/item_tweet" />
+
+        <LinearLayout
+            android:id="@+id/layout_empty_view"
+            android:layout_marginBottom="60dp"
+            android:visibility="visible"
+            tools:visibility="visible"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:src="@drawable/ic_twitter_empty"
+                android:layout_gravity="center"
+                android:layout_width="200dp"
+                android:layout_height="200dp" />
+
+            <TextView
+                style="@style/TextAppearance.AppCompat.Light.SearchResult.Title"
+                android:textColor="@color/light_gray"
+                android:text="@string/no_tweets"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </FrameLayout>
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab_new_tweet"
