@@ -51,13 +51,17 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-[Video via Dropbox Link]().
+[Video via Dropbox Link](https://www.dropbox.com/s/b4phshtp282cobe/ThisTweet_2017_10_01_17_35_44.mp4?dl=0).
 
 Video created with [AZ Screen Recorder](https://play.google.com/store/apps/details?id=com.hecorat.screenrecorder.free&hl=en).
 
 ## Notes
 
 Describe any challenges encountered while building the app.
+
+A challenge I had was with OAuth. I used the provided template to perform the OAuth login process, but took some
+time to understand how to incorporate OAuth token signing with OkHttp. I wanted to use OkHttp instead of the HTTP client
+that was provided in the template.
 
 ## Open-source libraries used
 
@@ -74,7 +78,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [2017] [Robert Lee]
+    Copyright 2017 Robert Lee
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
