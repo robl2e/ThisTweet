@@ -13,7 +13,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
         <activity android:name=".ui.main.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,12 +20,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
-            android:name=".ui.tweetlist.TweetListActivity"
-            android:theme="@style/AppTheme.NoActionBar" />
-
-        <activity android:name=".ui.login.LoginActivity"
+            android:name=".ui.login.LoginActivity"
             android:excludeFromRecents="true"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -40,7 +35,9 @@
                     android:scheme="@string/intent_scheme" />
             </intent-filter>
         </activity>
-
+        <activity
+            android:name=".ui.home.HomeActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>

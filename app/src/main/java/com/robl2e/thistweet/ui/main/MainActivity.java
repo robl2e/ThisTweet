@@ -4,8 +4,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.robl2e.thistweet.application.TwitterApplication;
+import com.robl2e.thistweet.ui.home.HomeActivity;
 import com.robl2e.thistweet.ui.login.LoginActivity;
-import com.robl2e.thistweet.ui.tweetlist.TweetListActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
             LoginActivity.start(this);
         } else {
             TwitterApplication.getRestClient().initialize();
-            TweetListActivity.start(this);
+            HomeActivity.start(this);
         }
         finish();
     }

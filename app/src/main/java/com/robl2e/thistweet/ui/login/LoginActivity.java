@@ -13,7 +13,8 @@ import com.codepath.oauth.OAuthLoginActivity;
 import com.robl2e.thistweet.R;
 import com.robl2e.thistweet.application.TwitterApplication;
 import com.robl2e.thistweet.data.remote.TwitterClient;
-import com.robl2e.thistweet.ui.tweetlist.TweetListActivity;
+import com.robl2e.thistweet.ui.home.HomeActivity;
+import com.robl2e.thistweet.ui.tweetlist.TweetListFragment;
 
 public class LoginActivity extends OAuthLoginActivity<TwitterClient> {
     private String TAG = LoginActivity.class.getSimpleName();
@@ -47,7 +48,7 @@ public class LoginActivity extends OAuthLoginActivity<TwitterClient> {
     @Override
     public void onLoginSuccess() {
         TwitterApplication.getRestClient().initialize();
-        TweetListActivity.start(this);
+        HomeActivity.start(this);
         finish();
     }
 

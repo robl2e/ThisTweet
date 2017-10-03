@@ -1,17 +1,19 @@
 package com.robl2e.thistweet.ui.tweetlist;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Handler;
+import android.support.annotation.Nullable;
 import android.support.design.widget.FloatingActionButton;
-import android.support.v7.app.AppCompatActivity;
+import android.support.v4.app.Fragment;
 import android.os.Bundle;
 import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Toast;
 
 import com.robl2e.thistweet.R;
@@ -29,8 +31,8 @@ import java.util.List;
 
 import okhttp3.Response;
 
-public class TweetListActivity extends AppCompatActivity {
-    private static final String TAG = TweetListActivity.class.getSimpleName();
+public class TweetListFragment extends Fragment {
+    private static final String TAG = TweetListFragment.class.getSimpleName();
     private static final long REFRESH_DELAY = 500;
 
     private Toolbar toolbar;
@@ -44,29 +46,38 @@ public class TweetListActivity extends AppCompatActivity {
     private EndlessRecyclerViewScrollListener endlessScrollListener;
     private Handler handler;
 
-    public static void start(Activity activity) {
-        Intent intent = new Intent(activity, TweetListActivity.class);
-        activity.startActivity(intent);
+    public static TweetListFragment newInstance() {
+        Bundle args = new Bundle();
+        TweetListFragment fragment = new TweetListFragment();
+        fragment.setArguments(args);
+        return fragment;
     }
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_tweet_list);
         handler = new Handler();
         timelineRepository = new TimelineRepository(TwitterApplication.getRestClient(), getResources());
-        setupViews();
+    }
+
+    @Nullable
+    @Override
+    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        return inflater.inflate(R.layout.fragment_tweet_list, container, false);
+    }
+
+    @Override
+    public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+        setupViews(view);
         initializeList();
         initializeFAB();
     }
 
-    private void setupViews() {
-        toolbar = (Toolbar) findViewById(R.id.toolbar);
-        toolbar.setTitle(R.string.home);
-
-        emptyView = findViewById(R.id.layout_empty_view);
-        tweetList = (RecyclerView) findViewById(R.id.list_tweets);
-        newTweetFAB = (FloatingActionButton) findViewById(R.id.fab_new_tweet);
+    private void setupViews(View view) {
+        emptyView = view.findViewById(R.id.layout_empty_view);
+        tweetList = (RecyclerView) view.findViewById(R.id.list_tweets);
+        newTweetFAB = (FloatingActionButton) view.findViewById(R.id.fab_new_tweet);
     }
 
     private void showEmptyView(boolean show) {
@@ -90,7 +101,7 @@ public class TweetListActivity extends AppCompatActivity {
 
     private void showNewTweetDialog() {
         if (newTweetBottomDialog == null) {
-            newTweetBottomDialog = CreateNewTweetBottomDialog.newInstance(this
+            newTweetBottomDialog = CreateNewTweetBottomDialog.newInstance(getContext()
                     , timelineRepository, new CreateNewTweetBottomDialog.Listener() {
                 @Override
                 public void onCancel() {
@@ -112,12 +123,12 @@ public class TweetListActivity extends AppCompatActivity {
     }
 
     private void initializeList() {
-        LinearLayoutManager layoutManager = new LinearLayoutManager(this);
+        LinearLayoutManager layoutManager = new LinearLayoutManager(getContext());
         tweetList.setLayoutManager(layoutManager);
-        tweetList.addItemDecoration(new DividerItemDecoration(this, DividerItemDecoration.VERTICAL));
+        tweetList.addItemDecoration(new DividerItemDecoration(getContext(), DividerItemDecoration.VERTICAL));
 
         if (adapter == null) {
-            adapter = new TweetListAdapter(this, new ArrayList<TweetViewModel>());
+            adapter = new TweetListAdapter(getContext(), new ArrayList<TweetViewModel>());
         }
         tweetList.setAdapter(adapter);
 
@@ -131,7 +142,7 @@ public class TweetListActivity extends AppCompatActivity {
                 handler.postDelayed(new Runnable() {
                     @Override
                     public void run() {
-                        timelineRepository.getTimeline(viewModel.getId(), new TimeLineResponseHandler(TweetListActivity.this) {
+                        timelineRepository.getTimeline(viewModel.getId(), new TimeLineResponseHandler(getActivity()) {
                             @Override
                             public void onComplete(Response response, final List<Tweet> tweets) {
                                 super.onComplete(response, tweets);
@@ -142,7 +153,7 @@ public class TweetListActivity extends AppCompatActivity {
                                     tweetViewModels.add(TweetViewModel.convert(tweet));
                                 }
                                 adapter.addItems(tweetViewModels);
-                                runOnUiThread(new Runnable() {
+                                getActivity().runOnUiThread(new Runnable() {
                                     @Override
                                     public void run() {
                                         showEmptyView(adapter.getItemCount() <= 0);
@@ -159,10 +170,10 @@ public class TweetListActivity extends AppCompatActivity {
     }
 
     @Override
-    protected void onStart() {
+    public void onStart() {
         super.onStart();
         endlessScrollListener.resetState();
-        timelineRepository.getTimeline(new TimeLineResponseHandler(this) {
+        timelineRepository.getTimeline(new TimeLineResponseHandler(getActivity()) {
             @Override
             public void onComplete(Response response, List<Tweet> tweets) {
                 super.onComplete(response, tweets);
@@ -174,7 +185,7 @@ public class TweetListActivity extends AppCompatActivity {
                     tweetViewModels.add(TweetViewModel.convert(tweet));
                 }
                 adapter.setItems(tweetViewModels);
-                runOnUiThread(new Runnable() {
+                getActivity().runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
                         showEmptyView(adapter.getItemCount() <= 0);

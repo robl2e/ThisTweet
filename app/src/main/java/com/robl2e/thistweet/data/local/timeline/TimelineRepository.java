@@ -6,6 +6,7 @@ import com.google.gson.reflect.TypeToken;
 import com.robl2e.thistweet.R;
 import com.robl2e.thistweet.data.model.timeline.Tweet;
 import com.robl2e.thistweet.data.remote.AppResponseHandler;
+import com.robl2e.thistweet.data.remote.ErrorCodes;
 import com.robl2e.thistweet.data.remote.TwitterClient;
 import com.robl2e.thistweet.util.JsonUtils;
 
@@ -58,12 +59,30 @@ public class TimelineRepository {
 
             @Override
             public void onResponse(Call call, Response response) throws IOException {
-
                 String rawString = response.body().string();
                 Log.d(TAG, "rawString = " + rawString);
 
+                int code = response.code();
+                if (code != 200) {
+                    if (code == ErrorCodes.INVALID_OR_EXPIRED_TOKEN) {
+                        client.clearAccessToken();
+                    }
+                    if (responseHandler != null) {
+                        responseHandler.onFailure(new IOException(rawString));
+                    }
+                    return;
+                }
+
                 Type listType = new TypeToken<List<Tweet>>() {}.getType();
-                List<Tweet> tweets = JsonUtils.fromJson(rawString, listType);
+                List<Tweet> tweets = null;
+                try {
+                    tweets = JsonUtils.fromJson(rawString, listType);
+                } catch (IllegalStateException ex) {
+                    Log.e(TAG, Log.getStackTraceString(ex));
+                    if (responseHandler != null) {
+                        responseHandler.onFailure(ex);
+                    }
+                }
 
                 if (responseHandler != null) {
                     responseHandler.onComplete(response, tweets);
