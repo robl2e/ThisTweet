@@ -2,22 +2,34 @@ package com.robl2e.thistweet.ui.home;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.drawable.Drawable;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
+import android.support.v4.content.ContextCompat;
+import android.support.v4.graphics.drawable.DrawableCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
+import android.text.TextUtils;
 import android.view.View;
 
 import com.robl2e.thistweet.R;
 
 
 public class HomeActivity extends AppCompatActivity {
+    private Toolbar toolbar;
     private TabLayout homeTab;
     private ViewPager homeViewPager;
     private FloatingActionButton homeFAB;
     private HomeFragmentPagerAdapter pagerAdapter;
+
+    // Tab icons
+    private int[] imageResId = {
+            R.drawable.ic_home_outline,
+            R.drawable.ic_bell_outline
+    };
 
     public static void start(Activity activity) {
         Intent intent = new Intent(activity, HomeActivity.class);
@@ -41,11 +53,14 @@ public class HomeActivity extends AppCompatActivity {
             @Override
             public void onTabSelected(TabLayout.Tab tab) {
                 showFAB(tab);
+                renderTabIcon(tab, true);
+                renderToolbarTitle(tab);
             }
 
             @Override
             public void onTabUnselected(TabLayout.Tab tab) {
                 showFAB(tab);
+                renderTabIcon(tab, false);
             }
 
             @Override
@@ -53,6 +68,34 @@ public class HomeActivity extends AppCompatActivity {
 
             }
         });
+
+
+        for (int i = 0; i < imageResId.length; i++) {
+            TabLayout.Tab tab = homeTab.getTabAt(i);
+            boolean isSelected = i == 0;
+            if (tab != null) renderTabIcon(tab, isSelected);
+            if (i == 0) renderToolbarTitle(tab);
+        }
+    }
+
+    private void renderTabIcon(TabLayout.Tab tab, boolean isSelected) {
+        Drawable iconDrawable =
+                ContextCompat.getDrawable(this, imageResId[tab.getPosition()]);
+        iconDrawable = iconDrawable.mutate();
+
+        int color = ContextCompat.getColor(this, android.R.color.black);
+        if (isSelected) {
+            color = ContextCompat.getColor(this, R.color.colorPrimary);
+        }
+        DrawableCompat.setTint(iconDrawable, color);
+        tab.setIcon(iconDrawable);
+    }
+
+    private void renderToolbarTitle(TabLayout.Tab tab) {
+        String title = pagerAdapter.getToolbarTitle(tab.getPosition());
+        if (TextUtils.isEmpty(title)) return;
+
+        toolbar.setTitle(title);
     }
 
     private void initializeFAB() {
@@ -77,6 +120,7 @@ public class HomeActivity extends AppCompatActivity {
     }
 
     private void setupViews() {
+        toolbar = (Toolbar) findViewById(R.id.toolbar);
         homeTab = (TabLayout) findViewById(R.id.tab_home);
         homeViewPager = (ViewPager) findViewById(R.id.viewpager_home);
         homeFAB = (FloatingActionButton) findViewById(R.id.fab_home);

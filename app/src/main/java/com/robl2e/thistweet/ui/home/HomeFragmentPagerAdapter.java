@@ -51,15 +51,14 @@ public class HomeFragmentPagerAdapter extends FragmentPagerAdapter {
         return null;
     }
 
-    @Override
-    public CharSequence getPageTitle(int position) {
+    public String getToolbarTitle(int position) {
         switch (position) {
             case PAGE_HOME:
                 return context.getString(R.string.home);
             case PAGE_MENTION:
                 return context.getString(R.string.mention);
         }
-        return super.getPageTitle(position);
+        return "";
     }
 
     @Override
