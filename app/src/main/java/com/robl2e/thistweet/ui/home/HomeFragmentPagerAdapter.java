@@ -7,8 +7,8 @@ import android.support.v4.app.FragmentPagerAdapter;
 import android.view.ViewGroup;
 
 import com.robl2e.thistweet.R;
+import com.robl2e.thistweet.ui.homelist.HomeTweetListFragment;
 import com.robl2e.thistweet.ui.mentionlist.MentionListFragment;
-import com.robl2e.thistweet.ui.tweetlist.TweetListFragment;
 
 /**
  * Created by robl2e on 10/2/17.
@@ -44,7 +44,7 @@ public class HomeFragmentPagerAdapter extends FragmentPagerAdapter {
     public Fragment getItem(int position) {
         switch (position) {
             case PAGE_HOME:
-                return TweetListFragment.newInstance();
+                return HomeTweetListFragment.newInstance();
             case PAGE_MENTION:
                 return MentionListFragment.newInstance();
         }

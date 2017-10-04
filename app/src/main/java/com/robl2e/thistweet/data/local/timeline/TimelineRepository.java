@@ -37,18 +37,18 @@ public class TimelineRepository {
         this.resources = resources;
     }
 
-    public void getTimeline(final AppResponseHandler<List<Tweet>> responseHandler) {
+    public void getTimeline(TimelineType type, final AppResponseHandler<List<Tweet>> responseHandler) {
         //getTimeLineTest(responseHandler);
-        _getTimeline(null, responseHandler);
+        _getTimeline(type, null, responseHandler);
     }
 
-    public void getTimeline(Long maxId, final AppResponseHandler<List<Tweet>> responseHandler) {
-        _getTimeline(maxId, responseHandler);
+    public void getTimeline(TimelineType type, Long maxId, final AppResponseHandler<List<Tweet>> responseHandler) {
+        _getTimeline(type, maxId, responseHandler);
     }
 
-    private void _getTimeline(Long maxId, final AppResponseHandler<List<Tweet>> responseHandler) {
+    private void _getTimeline(TimelineType type, Long maxId, final AppResponseHandler<List<Tweet>> responseHandler) {
         Long oneLessMaxId = maxId != null ? maxId - 1 : null;
-        client.homeTimelineRequest(oneLessMaxId, new Callback() {
+        client.getTimelineRequest(type, oneLessMaxId, new Callback() {
             @Override
             public void onFailure(Call call, IOException e) {
                 Log.e(TAG, Log.getStackTraceString(e));

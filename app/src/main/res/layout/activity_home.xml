@@ -48,6 +48,5 @@
         android:src="@drawable/ic_feather"
         app:fabSize="normal"
         app:layout_anchor="@id/viewpager_home"
-        app:layout_anchorGravity="bottom|right|end"
-        app:layout_behavior="com.robl2e.thistweet.ui.common.ScrollAwareFABBehavior" />
+        app:layout_anchorGravity="bottom|right|end" />
 </android.support.design.widget.CoordinatorLayout>

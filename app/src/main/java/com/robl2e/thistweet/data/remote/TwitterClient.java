@@ -1,6 +1,7 @@
 package com.robl2e.thistweet.data.remote;
 
 import android.content.Context;
+import android.support.annotation.NonNull;
 import android.text.TextUtils;
 import android.util.Log;
 
@@ -9,13 +10,13 @@ import com.github.scribejava.apis.TwitterApi;
 import com.github.scribejava.core.builder.api.BaseApi;
 import com.github.scribejava.core.model.OAuth1AccessToken;
 import com.github.scribejava.core.model.Token;
+import com.robl2e.thistweet.data.local.timeline.TimelineType;
 
 import java.io.IOException;
 
 import okhttp3.Call;
 import okhttp3.Callback;
 import okhttp3.HttpUrl;
-import okhttp3.MediaType;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.RequestBody;
@@ -37,6 +38,8 @@ public class TwitterClient extends OAuthBaseClient{
     public static final String REST_CALLBACK_URL = "x-oauthflow-twitter://arbitraryname.com";
 
     private static final String HOME_TIMELINE_ENDPOINT = REST_URL + "/statuses/home_timeline.json";
+    private static final String MENTIONS_TIMELINE_ENDPOINT = REST_URL + "/statuses/mentions_timeline.json";
+    private static final String USER_TIMELINE_ENDPOINT = REST_URL + "/statuses/user_timeline.json";
     private static final String POST_STATUS_UPDATE_ENDPOINT = REST_URL + "/statuses/update.json";
 
     private static final String PARAM_MAX_ID = "max_id";
@@ -85,11 +88,12 @@ public class TwitterClient extends OAuthBaseClient{
     }
 
 
-    public void homeTimelineRequest(Long maxId, final Callback callback) {
+    public void getTimelineRequest(@NonNull TimelineType type, Long maxId, final Callback callback) {
         if (okHttpClient == null) return;
 
+        String endpoint = resolveEndpoint(type);
         HttpUrl.Builder urlBuilder = HttpUrl
-                .parse(HOME_TIMELINE_ENDPOINT).newBuilder();
+                .parse(endpoint).newBuilder();
 
         if (maxId != null) {
             urlBuilder.addQueryParameter(PARAM_MAX_ID, String.valueOf(maxId));
@@ -115,6 +119,18 @@ public class TwitterClient extends OAuthBaseClient{
                 }
             }
         });
+    }
+
+    private String resolveEndpoint(TimelineType from) {
+        switch (from) {
+            case HOME_TIMELINE:
+                return HOME_TIMELINE_ENDPOINT;
+            case MENTIONS_TIMELINE:
+                return MENTIONS_TIMELINE_ENDPOINT;
+            case USER_TIMELINE:
+                return USER_TIMELINE_ENDPOINT;
+        }
+        return HOME_TIMELINE_ENDPOINT;
     }
 
     public void postStatusUpdateRequest(String tweetText, final Callback callback) {

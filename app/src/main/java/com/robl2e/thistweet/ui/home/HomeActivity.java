@@ -72,10 +72,13 @@ public class HomeActivity extends AppCompatActivity {
 
         for (int i = 0; i < imageResId.length; i++) {
             TabLayout.Tab tab = homeTab.getTabAt(i);
-            boolean isSelected = i == 0;
+            boolean isSelected = i == homeTab.getSelectedTabPosition();
             if (tab != null) renderTabIcon(tab, isSelected);
-            if (i == 0) renderToolbarTitle(tab);
         }
+
+        TabLayout.Tab selectedTab =
+                homeTab.getTabAt(homeTab.getSelectedTabPosition());
+        renderToolbarTitle(selectedTab);
     }
 
     private void renderTabIcon(TabLayout.Tab tab, boolean isSelected) {

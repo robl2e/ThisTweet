@@ -3,7 +3,6 @@ package com.robl2e.thistweet.ui.tweetlist;
 import android.app.Activity;
 import android.os.Handler;
 import android.support.annotation.Nullable;
-import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
 import android.support.v7.widget.DividerItemDecoration;
@@ -18,12 +17,11 @@ import android.widget.Toast;
 import com.robl2e.thistweet.R;
 import com.robl2e.thistweet.application.TwitterApplication;
 import com.robl2e.thistweet.data.local.timeline.TimelineRepository;
+import com.robl2e.thistweet.data.local.timeline.TimelineType;
 import com.robl2e.thistweet.data.model.timeline.Tweet;
 import com.robl2e.thistweet.data.remote.AppResponseHandler;
 import com.robl2e.thistweet.data.remote.ErrorCodes;
 import com.robl2e.thistweet.ui.common.EndlessRecyclerViewScrollListener;
-import com.robl2e.thistweet.ui.createtweet.CreateNewTweetBottomDialog;
-import com.robl2e.thistweet.ui.home.TabPage;
 
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
@@ -31,26 +29,19 @@ import java.util.List;
 
 import okhttp3.Response;
 
-public class TweetListFragment extends Fragment implements TabPage {
+public abstract class TweetListFragment extends Fragment {
     private static final String TAG = TweetListFragment.class.getSimpleName();
     private static final long REFRESH_DELAY = 500;
 
     private RecyclerView tweetList;
     private View emptyView;
-    private FloatingActionButton newTweetFAB;
-    private CreateNewTweetBottomDialog newTweetBottomDialog;
 
-    private TimelineRepository timelineRepository;
+    protected TimelineRepository timelineRepository;
     private TweetListAdapter adapter;
     private EndlessRecyclerViewScrollListener endlessScrollListener;
     private Handler handler;
 
-    public static TweetListFragment newInstance() {
-        Bundle args = new Bundle();
-        TweetListFragment fragment = new TweetListFragment();
-        fragment.setArguments(args);
-        return fragment;
-    }
+    public abstract TimelineType getTimelineType();
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -87,29 +78,6 @@ public class TweetListFragment extends Fragment implements TabPage {
         }
     }
 
-    private void showNewTweetDialog() {
-        if (newTweetBottomDialog == null) {
-            newTweetBottomDialog = CreateNewTweetBottomDialog.newInstance(getContext()
-                    , timelineRepository, new CreateNewTweetBottomDialog.Listener() {
-                @Override
-                public void onCancel() {
-                    newTweetBottomDialog = null;
-                }
-
-                @Override
-                public void onPostTweet(Tweet tweet) {
-                    newTweetBottomDialog = null;
-                    TweetViewModel viewModel =
-                            TweetViewModel.convert(tweet);
-                    adapter.addItem(viewModel);
-                    adapter.notifyItemInserted(0);
-                    tweetList.scrollToPosition(0);
-                }
-            });
-            newTweetBottomDialog.show();
-        }
-    }
-
     private void initializeList() {
         LinearLayoutManager layoutManager = new LinearLayoutManager(getContext());
         tweetList.setLayoutManager(layoutManager);
@@ -130,7 +98,8 @@ public class TweetListFragment extends Fragment implements TabPage {
                 handler.postDelayed(new Runnable() {
                     @Override
                     public void run() {
-                        timelineRepository.getTimeline(viewModel.getId(), new TimeLineResponseHandler(getActivity()) {
+                        timelineRepository.getTimeline(getTimelineType()
+                                ,viewModel.getId(), new TimeLineResponseHandler(getActivity()) {
                             @Override
                             public void onComplete(Response response, final List<Tweet> tweets) {
                                 super.onComplete(response, tweets);
@@ -161,7 +130,7 @@ public class TweetListFragment extends Fragment implements TabPage {
     public void onStart() {
         super.onStart();
         endlessScrollListener.resetState();
-        timelineRepository.getTimeline(new TimeLineResponseHandler(getActivity()) {
+        timelineRepository.getTimeline(getTimelineType(),new TimeLineResponseHandler(getActivity()) {
             @Override
             public void onComplete(Response response, List<Tweet> tweets) {
                 super.onComplete(response, tweets);
@@ -194,9 +163,10 @@ public class TweetListFragment extends Fragment implements TabPage {
         adapter.notifyItemRangeInserted(currentItemCount, itemsToInsert);
     }
 
-    @Override
-    public void onFABClicked(View v) {
-        showNewTweetDialog();
+    protected void addSingleItemToFront(TweetViewModel viewModel) {
+        adapter.addItem(viewModel);
+        adapter.notifyItemInserted(0);
+        tweetList.scrollToPosition(0);
     }
 
     private static class TimeLineResponseHandler implements AppResponseHandler<List<Tweet>> {
