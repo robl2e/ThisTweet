@@ -9,7 +9,6 @@ import android.os.Bundle;
 import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -24,6 +23,7 @@ import com.robl2e.thistweet.data.remote.AppResponseHandler;
 import com.robl2e.thistweet.data.remote.ErrorCodes;
 import com.robl2e.thistweet.ui.common.EndlessRecyclerViewScrollListener;
 import com.robl2e.thistweet.ui.createtweet.CreateNewTweetBottomDialog;
+import com.robl2e.thistweet.ui.home.TabPage;
 
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
@@ -31,11 +31,10 @@ import java.util.List;
 
 import okhttp3.Response;
 
-public class TweetListFragment extends Fragment {
+public class TweetListFragment extends Fragment implements TabPage {
     private static final String TAG = TweetListFragment.class.getSimpleName();
     private static final long REFRESH_DELAY = 500;
 
-    private Toolbar toolbar;
     private RecyclerView tweetList;
     private View emptyView;
     private FloatingActionButton newTweetFAB;
@@ -71,13 +70,11 @@ public class TweetListFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
         setupViews(view);
         initializeList();
-        initializeFAB();
     }
 
     private void setupViews(View view) {
         emptyView = view.findViewById(R.id.layout_empty_view);
         tweetList = (RecyclerView) view.findViewById(R.id.list_tweets);
-        newTweetFAB = (FloatingActionButton) view.findViewById(R.id.fab_new_tweet);
     }
 
     private void showEmptyView(boolean show) {
@@ -88,15 +85,6 @@ public class TweetListFragment extends Fragment {
             emptyView.setVisibility(View.INVISIBLE);
             tweetList.setVisibility(View.VISIBLE);
         }
-    }
-
-    private void initializeFAB() {
-        newTweetFAB.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                showNewTweetDialog();
-            }
-        });
     }
 
     private void showNewTweetDialog() {
@@ -204,6 +192,11 @@ public class TweetListFragment extends Fragment {
     private void updateListAdapterWithNewItems(int itemsToInsert) {
         int currentItemCount = adapter.getItemCount();
         adapter.notifyItemRangeInserted(currentItemCount, itemsToInsert);
+    }
+
+    @Override
+    public void onFABClicked(View v) {
+        showNewTweetDialog();
     }
 
     private static class TimeLineResponseHandler implements AppResponseHandler<List<Tweet>> {

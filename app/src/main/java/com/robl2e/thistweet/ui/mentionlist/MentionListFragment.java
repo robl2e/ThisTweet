@@ -7,8 +7,9 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.robl2e.thistweet.R;
+import com.robl2e.thistweet.ui.home.TabPage;
 
-public class MentionListFragment extends Fragment {
+public class MentionListFragment extends Fragment implements TabPage {
     public MentionListFragment() {
         // Required empty public constructor
     }
@@ -25,5 +26,10 @@ public class MentionListFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         return inflater.inflate(R.layout.fragment_mention_list, container, false);
+    }
+
+    @Override
+    public void onFABClicked(View v) {
+
     }
 }

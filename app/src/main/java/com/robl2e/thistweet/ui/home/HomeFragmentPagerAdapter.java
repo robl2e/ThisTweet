@@ -4,6 +4,7 @@ import android.content.Context;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
+import android.view.ViewGroup;
 
 import com.robl2e.thistweet.R;
 import com.robl2e.thistweet.ui.mentionlist.MentionListFragment;
@@ -16,14 +17,27 @@ import com.robl2e.thistweet.ui.tweetlist.TweetListFragment;
 public class HomeFragmentPagerAdapter extends FragmentPagerAdapter {
     private static final int PAGE_COUNT = 2;
 
-    private static final int PAGE_HOME = 0;
-    private static final int PAGE_MENTION = 1;
+    public static final int PAGE_HOME = 0;
+    public static final int PAGE_MENTION = 1;
+    private Fragment currentFragment;
 
     private final Context context;
 
     public HomeFragmentPagerAdapter(FragmentManager fm, Context context) {
         super(fm);
         this.context = context;
+    }
+
+    public Fragment getCurrentFragment() {
+        return currentFragment;
+    }
+
+    @Override
+    public void setPrimaryItem(ViewGroup container, int position, Object object) {
+        if (getCurrentFragment() != object) {
+            currentFragment = ((Fragment) object);
+        }
+        super.setPrimaryItem(container, position, object);
     }
 
     @Override
