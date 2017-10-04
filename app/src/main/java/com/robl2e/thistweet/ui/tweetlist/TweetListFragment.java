@@ -105,10 +105,7 @@ public abstract class TweetListFragment extends Fragment {
                                 super.onComplete(response, tweets);
                                 if (response.code() == ErrorCodes.API_TOO_MANY_REQUESTS) return;
 
-                                List<TweetViewModel> tweetViewModels = new ArrayList<>();
-                                for (Tweet tweet : tweets) {
-                                    tweetViewModels.add(TweetViewModel.convert(tweet));
-                                }
+                                List<TweetViewModel> tweetViewModels = TweetViewModel.convert(tweets);
                                 adapter.addItems(tweetViewModels);
                                 getActivity().runOnUiThread(new Runnable() {
                                     @Override
@@ -137,10 +134,7 @@ public abstract class TweetListFragment extends Fragment {
                 if (response.code() == ErrorCodes.API_TOO_MANY_REQUESTS) return;
                 Log.d(TAG, "Fetched timeline");
 
-                List<TweetViewModel> tweetViewModels = new ArrayList<>();
-                for (Tweet tweet : tweets) {
-                    tweetViewModels.add(TweetViewModel.convert(tweet));
-                }
+                List<TweetViewModel> tweetViewModels = TweetViewModel.convert(tweets);
                 adapter.setItems(tweetViewModels);
                 getActivity().runOnUiThread(new Runnable() {
                     @Override
