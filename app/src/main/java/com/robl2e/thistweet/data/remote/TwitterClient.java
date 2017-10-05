@@ -42,6 +42,8 @@ public class TwitterClient extends OAuthBaseClient{
     private static final String USER_TIMELINE_ENDPOINT = REST_URL + "/statuses/user_timeline.json";
     private static final String POST_STATUS_UPDATE_ENDPOINT = REST_URL + "/statuses/update.json";
 
+    private static final String USER_ACCOUNT_ENDPOINT = REST_URL + "/account/verify_credentials.json";
+
     private static final String PARAM_MAX_ID = "max_id";
     private static final String PARAM_SINCE_ID = "since_id";
     private static final String PARAM_STATUS = "status";
@@ -170,6 +172,34 @@ public class TwitterClient extends OAuthBaseClient{
                     return;
                 }
 
+                if (callback != null) {
+                    callback.onResponse(call, response);
+                }
+            }
+        });
+    }
+
+    public void getUserAccountRequest(final Callback callback) {
+        if (okHttpClient == null) return;
+
+        HttpUrl.Builder urlBuilder = HttpUrl
+                .parse(USER_ACCOUNT_ENDPOINT).newBuilder();
+
+        HttpUrl url = urlBuilder.build();
+        Request request = new Request.Builder()
+                .url(url)
+                .build();
+
+        okHttpClient.newCall(request).enqueue(new Callback() {
+            @Override
+            public void onFailure(Call call, IOException e) {
+                if (callback != null) {
+                    callback.onFailure(call, e);
+                }
+            }
+
+            @Override
+            public void onResponse(Call call, Response response) throws IOException {
                 if (callback != null) {
                     callback.onResponse(call, response);
                 }

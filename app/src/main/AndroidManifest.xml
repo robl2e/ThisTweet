@@ -38,6 +38,7 @@
         <activity
             android:name=".ui.home.HomeActivity"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ui.user.UserProfileActivity"></activity>
     </application>
 
 </manifest>

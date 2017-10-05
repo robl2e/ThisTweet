@@ -8,7 +8,7 @@ import android.util.Log;
 import com.robl2e.thistweet.data.model.timeline.Entities;
 import com.robl2e.thistweet.data.model.timeline.Media;
 import com.robl2e.thistweet.data.model.timeline.Tweet;
-import com.robl2e.thistweet.data.model.timeline.User;
+import com.robl2e.thistweet.data.model.user.User;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

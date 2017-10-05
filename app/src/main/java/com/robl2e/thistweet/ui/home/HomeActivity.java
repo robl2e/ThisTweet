@@ -13,9 +13,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.text.TextUtils;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 
 import com.robl2e.thistweet.R;
+import com.robl2e.thistweet.ui.user.UserProfileActivity;
 
 
 public class HomeActivity extends AppCompatActivity {
@@ -124,8 +127,26 @@ public class HomeActivity extends AppCompatActivity {
 
     private void setupViews() {
         toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+
         homeTab = (TabLayout) findViewById(R.id.tab_home);
         homeViewPager = (ViewPager) findViewById(R.id.viewpager_home);
         homeFAB = (FloatingActionButton) findViewById(R.id.fab_home);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu_home, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.menu_user_account:
+                UserProfileActivity.start(this);
+                return true;
+        }
+        return super.onOptionsItemSelected(item);
     }
 }

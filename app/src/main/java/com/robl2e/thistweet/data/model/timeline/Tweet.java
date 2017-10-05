@@ -2,6 +2,7 @@ package com.robl2e.thistweet.data.model.timeline;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
+import com.robl2e.thistweet.data.model.user.User;
 
 public class Tweet {
 
