@@ -144,7 +144,7 @@ public class HomeActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.menu_user_account:
-                UserProfileActivity.start(this);
+                UserProfileActivity.start(this, null);
                 return true;
         }
         return super.onOptionsItemSelected(item);

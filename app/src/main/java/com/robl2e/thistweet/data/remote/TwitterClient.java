@@ -10,6 +10,7 @@ import com.github.scribejava.apis.TwitterApi;
 import com.github.scribejava.core.builder.api.BaseApi;
 import com.github.scribejava.core.model.OAuth1AccessToken;
 import com.github.scribejava.core.model.Token;
+import com.robl2e.thistweet.data.local.timeline.TimelineParams;
 import com.robl2e.thistweet.data.local.timeline.TimelineType;
 
 import java.io.IOException;
@@ -47,6 +48,7 @@ public class TwitterClient extends OAuthBaseClient{
     private static final String PARAM_MAX_ID = "max_id";
     private static final String PARAM_SINCE_ID = "since_id";
     private static final String PARAM_STATUS = "status";
+    private static final String PARAM_USER_ID = "user_id";
 
     private OkHttpClient okHttpClient;
 
@@ -90,12 +92,17 @@ public class TwitterClient extends OAuthBaseClient{
     }
 
 
-    public void getTimelineRequest(@NonNull TimelineType type, Long maxId, final Callback callback) {
+    public void getTimelineRequest(@NonNull TimelineParams timelineParams, Long maxId, final Callback callback) {
         if (okHttpClient == null) return;
 
-        String endpoint = resolveEndpoint(type);
+        String endpoint = resolveEndpoint(timelineParams.type);
         HttpUrl.Builder urlBuilder = HttpUrl
                 .parse(endpoint).newBuilder();
+
+        if (timelineParams.type == TimelineType.USER_TIMELINE
+                && !TextUtils.isEmpty(timelineParams.id)) {
+            urlBuilder.addQueryParameter(PARAM_USER_ID, timelineParams.id);
+        }
 
         if (maxId != null) {
             urlBuilder.addQueryParameter(PARAM_MAX_ID, String.valueOf(maxId));

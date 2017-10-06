@@ -4,6 +4,9 @@ import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.Typeface;
+import android.support.annotation.Nullable;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
@@ -27,7 +30,7 @@ import jp.wasabeef.glide.transformations.RoundedCornersTransformation;
 import okhttp3.Response;
 
 public class UserProfileActivity extends AppCompatActivity {
-
+    private static final String EXTRA_USER_ID = "EXTRA_USER_ID";
     private UserRepository userRepository;
     private ImageView thumbnailImage;
     private TextView nameText;
@@ -37,8 +40,9 @@ public class UserProfileActivity extends AppCompatActivity {
     private TextView followersText;
     private Toolbar toolbar;
 
-    public static void start(Activity activity) {
+    public static void start(Activity activity, String userId) {
         Intent intent = new Intent(activity, UserProfileActivity.class);
+        intent.putExtra(EXTRA_USER_ID, userId);
         activity.startActivity(intent);
     }
 
@@ -49,6 +53,16 @@ public class UserProfileActivity extends AppCompatActivity {
         userRepository = new UserRepository(TwitterApplication.getRestClient());
         setupViews();
         setupToolbar();
+        showUserTimeline();
+    }
+
+    @Nullable
+    private String extractExtra() {
+        if (getIntent() == null) return null;
+
+        if (!getIntent().hasExtra(EXTRA_USER_ID)) return null;
+
+        return getIntent().getStringExtra(EXTRA_USER_ID);
     }
 
     private void setupViews() {
@@ -88,6 +102,26 @@ public class UserProfileActivity extends AppCompatActivity {
                 });
             }
         });
+    }
+
+    private void showUserTimeline() {
+        FragmentManager fm = getSupportFragmentManager();
+        Fragment fragment = fm.findFragmentById(R.id.layout_content);
+
+        if (fragment == null) {
+            String userId = extractExtra();
+            fragment = UserTweetListFragment.newInstance(userId);
+        }
+
+        if (fragment.isAdded()) {
+            fm.beginTransaction()
+                    .show(fragment)
+                    .commit();
+        } else {
+            fm.beginTransaction()
+                    .add(R.id.layout_content, fragment)
+                    .commit();
+        }
     }
 
     private void setupToolbar() {

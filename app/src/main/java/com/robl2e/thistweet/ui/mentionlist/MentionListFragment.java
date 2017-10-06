@@ -3,6 +3,7 @@ package com.robl2e.thistweet.ui.mentionlist;
 import android.os.Bundle;
 import android.view.View;
 
+import com.robl2e.thistweet.data.local.timeline.TimelineParams;
 import com.robl2e.thistweet.data.local.timeline.TimelineType;
 import com.robl2e.thistweet.ui.home.TabPage;
 import com.robl2e.thistweet.ui.tweetlist.TweetListFragment;
@@ -20,8 +21,8 @@ public class MentionListFragment extends TweetListFragment implements TabPage {
     }
 
     @Override
-    public TimelineType getTimelineType() {
-        return TimelineType.MENTIONS_TIMELINE;
+    public TimelineParams getTimelineParams() {
+        return new TimelineParams(TimelineType.MENTIONS_TIMELINE);
     }
 
     @Override

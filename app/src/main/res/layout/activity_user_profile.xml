@@ -11,29 +11,22 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@android:color/white"
-        android:elevation="0dp"
-        app:layout_scrollFlags="scroll|enterAlways">
+        android:elevation="0dp">
 
-        <android.support.design.widget.CollapsingToolbarLayout
-            android:id="@+id/collapsingToolbarLayout"
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            app:layout_scrollFlags="scroll|exitUntilCollapsed">
-
-            <android.support.v7.widget.Toolbar
-                android:id="@+id/toolbar"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@color/colorPrimary"
-                android:minHeight="?attr/actionBarSize"
-                app:layout_collapseMode="pin"
-                app:layout_scrollFlags="scroll|enterAlways"
-                app:titleTextColor="@color/primary_text" />
-        </android.support.design.widget.CollapsingToolbarLayout>
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            app:layout_collapseMode="pin"
+            app:layout_scrollFlags="scroll|enterAlwaysCollapsed"
+            app:titleTextColor="@color/primary_text" />
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:minHeight="0dp"
             app:layout_scrollFlags="scroll|exitUntilCollapsed">
 
             <View
@@ -56,8 +49,7 @@
                 android:layout_height="match_parent"
                 android:layout_below="@id/image_user_thumbnail"
                 android:layout_marginLeft="@dimen/content_border_padding"
-                android:orientation="vertical"
-                app:layout_behavior="@string/appbar_scrolling_view_behavior">
+                android:orientation="vertical">
 
                 <TextView
                     android:id="@+id/text_name"
@@ -116,4 +108,10 @@
             </LinearLayout>
         </RelativeLayout>
     </android.support.design.widget.AppBarLayout>
+
+    <FrameLayout
+        android:id="@+id/layout_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
 </android.support.design.widget.CoordinatorLayout>

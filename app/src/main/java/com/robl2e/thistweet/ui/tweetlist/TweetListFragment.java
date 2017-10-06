@@ -16,8 +16,8 @@ import android.widget.Toast;
 
 import com.robl2e.thistweet.R;
 import com.robl2e.thistweet.application.TwitterApplication;
+import com.robl2e.thistweet.data.local.timeline.TimelineParams;
 import com.robl2e.thistweet.data.local.timeline.TimelineRepository;
-import com.robl2e.thistweet.data.local.timeline.TimelineType;
 import com.robl2e.thistweet.data.model.timeline.Tweet;
 import com.robl2e.thistweet.data.remote.AppResponseHandler;
 import com.robl2e.thistweet.data.remote.ErrorCodes;
@@ -41,7 +41,7 @@ public abstract class TweetListFragment extends Fragment {
     private EndlessRecyclerViewScrollListener endlessScrollListener;
     private Handler handler;
 
-    public abstract TimelineType getTimelineType();
+    public abstract TimelineParams getTimelineParams();
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -98,7 +98,7 @@ public abstract class TweetListFragment extends Fragment {
                 handler.postDelayed(new Runnable() {
                     @Override
                     public void run() {
-                        timelineRepository.getTimeline(getTimelineType()
+                        timelineRepository.getTimeline(getTimelineParams()
                                 ,viewModel.getId(), new TimeLineResponseHandler(getActivity()) {
                             @Override
                             public void onComplete(Response response, final List<Tweet> tweets) {
@@ -127,7 +127,7 @@ public abstract class TweetListFragment extends Fragment {
     public void onStart() {
         super.onStart();
         endlessScrollListener.resetState();
-        timelineRepository.getTimeline(getTimelineType(),new TimeLineResponseHandler(getActivity()) {
+        timelineRepository.getTimeline(getTimelineParams(),new TimeLineResponseHandler(getActivity()) {
             @Override
             public void onComplete(Response response, List<Tweet> tweets) {
                 super.onComplete(response, tweets);

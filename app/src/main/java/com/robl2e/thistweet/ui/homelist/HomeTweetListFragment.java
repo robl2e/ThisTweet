@@ -3,6 +3,7 @@ package com.robl2e.thistweet.ui.homelist;
 import android.os.Bundle;
 import android.view.View;
 
+import com.robl2e.thistweet.data.local.timeline.TimelineParams;
 import com.robl2e.thistweet.data.local.timeline.TimelineType;
 import com.robl2e.thistweet.data.model.timeline.Tweet;
 import com.robl2e.thistweet.ui.createtweet.CreateNewTweetBottomDialog;
@@ -25,8 +26,8 @@ public class HomeTweetListFragment extends TweetListFragment implements TabPage 
     }
 
     @Override
-    public TimelineType getTimelineType() {
-        return TimelineType.HOME_TIMELINE;
+    public TimelineParams getTimelineParams() {
+        return new TimelineParams(TimelineType.HOME_TIMELINE);
     }
 
     @Override
