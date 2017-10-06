@@ -46,13 +46,17 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-[Video via Dropbox Link](https://www.dropbox.com/s/b4phshtp282cobe/ThisTweet_2017_10_01_17_35_44.mp4?dl=0).
+[Video via Dropbox Link](https://www.dropbox.com/s/41ljq2eldujdv14/ThisTweet_Assignment04_2017_10_06_14_10_05.mp4?dl=0).
 
 Video created with [AZ Screen Recorder](https://play.google.com/store/apps/details?id=com.hecorat.screenrecorder.free&hl=en).
 
 ## Notes
 
 Describe any challenges encountered while building the app.
+
+A difficult part of the assignment was getting the Coordinator layout scrolling behavior working for the user profile screen. I found it difficult to get
+the views arranged correctly to obtain the desired scrolling, collapsing effect. Another difficult aspect was having the FloatingActionButton behave correctly after
+refactoring from Activity to Fragment. I was able to solve the issue by moving the FloatingActionButton to the Activity level instead of Fragment level.
 
 ## Open-source libraries used
 
