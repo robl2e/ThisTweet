@@ -4,6 +4,7 @@
     <string name="sign_in">Sign in</string>
     <string name="error_login_unsuccessful">Could not login. Please try again</string>
     <string name="error_fetch_timeline">Could not fetch timeline. Please try again later</string>
+    <string name="error_fetch_user_profile">Could not fetch user profile. Please try again later</string>
     <string name="screen_name">\@%s</string>
     <string name="now">now</string>
     <string name="days_abbreviation">%dd</string>
@@ -18,8 +19,7 @@
     <string name="home">Home</string>
     <string name="no_tweets">You have no tweets</string>
     <string name="mention">Mention</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="user_account">User Account</string>
+    <string name="following_count">%s Following</string>
+    <string name="followers_count">%s Followers</string>
 </resources>

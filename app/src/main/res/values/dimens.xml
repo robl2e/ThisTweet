@@ -8,6 +8,7 @@
     <dimen name="margin_bottom_border_padding">16dp</dimen>
 
     <dimen name="content_border_padding">8dp</dimen>
+    <dimen name="content_border_padding_small">4dp</dimen>
 
     <dimen name="dialog_margin_left_border_padding">20dp</dimen>
     <dimen name="dialog_margin_right_border_padding">20dp</dimen>
