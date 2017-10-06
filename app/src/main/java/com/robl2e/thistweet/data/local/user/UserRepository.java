@@ -27,8 +27,8 @@ public class UserRepository {
         this.client = client;
     }
 
-    public void getUser(final AppResponseHandler<User> responseHandler) {
-        client.getUserAccountRequest(new Callback() {
+    public void getUser(String userId, final AppResponseHandler<User> responseHandler) {
+        client.getUserRequest(userId, new Callback() {
             @Override
             public void onFailure(Call call, IOException e) {
                 Log.e(TAG, Log.getStackTraceString(e));

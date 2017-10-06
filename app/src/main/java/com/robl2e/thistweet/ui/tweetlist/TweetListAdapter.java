@@ -12,6 +12,8 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.robl2e.thistweet.R;
+import com.robl2e.thistweet.data.model.user.User;
+
 import java.util.List;
 import java.util.TimeZone;
 import hirondelle.date4j.DateTime;
@@ -30,9 +32,18 @@ public class TweetListAdapter extends RecyclerView.Adapter<TweetListAdapter.View
     private List<TweetViewModel> items;
     private LayoutInflater inflater;
 
+    private Listener listener;
+    public interface Listener {
+        void onProfileImageClick(User user);
+    }
+
     public TweetListAdapter(Context context, List<TweetViewModel> items) {
         this.inflater = LayoutInflater.from(context);
         this.items = items;
+    }
+
+    public void setListener(Listener listener) {
+        this.listener = listener;
     }
 
     @Override
@@ -88,6 +99,17 @@ public class TweetListAdapter extends RecyclerView.Adapter<TweetListAdapter.View
         public ViewHolder(View itemView) {
             super(itemView);
             userProfileImage = (ImageView) itemView.findViewById(R.id.image_user_profile);
+            userProfileImage.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    int position = ViewHolder.this.getAdapterPosition();
+                    TweetViewModel viewModel = getItem(position);
+                    if (viewModel == null) return;
+
+                    if (listener != null) listener.onProfileImageClick(viewModel.getUser());
+                }
+            });
+
             usernameText = (TextView) itemView.findViewById(R.id.text_username);
             screenNameText = (TextView) itemView.findViewById(R.id.text_screename);
             createAtText = (TextView) itemView.findViewById(R.id.text_created_at);

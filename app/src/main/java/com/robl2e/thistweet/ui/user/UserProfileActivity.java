@@ -78,7 +78,8 @@ public class UserProfileActivity extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
-        userRepository.getUser(new AppResponseHandler<User>() {
+        String userId = extractExtra();
+        userRepository.getUser(userId, new AppResponseHandler<User>() {
             @Override
             public void onFailure(Exception e) {
                 runOnUiThread(new Runnable() {

@@ -19,9 +19,11 @@ import com.robl2e.thistweet.application.TwitterApplication;
 import com.robl2e.thistweet.data.local.timeline.TimelineParams;
 import com.robl2e.thistweet.data.local.timeline.TimelineRepository;
 import com.robl2e.thistweet.data.model.timeline.Tweet;
+import com.robl2e.thistweet.data.model.user.User;
 import com.robl2e.thistweet.data.remote.AppResponseHandler;
 import com.robl2e.thistweet.data.remote.ErrorCodes;
 import com.robl2e.thistweet.ui.common.EndlessRecyclerViewScrollListener;
+import com.robl2e.thistweet.ui.user.UserProfileActivity;
 
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
@@ -29,7 +31,7 @@ import java.util.List;
 
 import okhttp3.Response;
 
-public abstract class TweetListFragment extends Fragment {
+public abstract class TweetListFragment extends Fragment implements TweetListAdapter.Listener {
     private static final String TAG = TweetListFragment.class.getSimpleName();
     private static final long REFRESH_DELAY = 500;
 
@@ -85,6 +87,7 @@ public abstract class TweetListFragment extends Fragment {
 
         if (adapter == null) {
             adapter = new TweetListAdapter(getContext(), new ArrayList<TweetViewModel>());
+            adapter.setListener(this);
         }
         tweetList.setAdapter(adapter);
 
@@ -198,5 +201,12 @@ public abstract class TweetListFragment extends Fragment {
                 });
             }
         }
+    }
+
+    @Override
+    public void onProfileImageClick(User user) {
+        if (user == null) return;
+
+        UserProfileActivity.start(getActivity(), user.getIdStr());
     }
 }

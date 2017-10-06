@@ -44,6 +44,8 @@ public class TwitterClient extends OAuthBaseClient{
     private static final String POST_STATUS_UPDATE_ENDPOINT = REST_URL + "/statuses/update.json";
 
     private static final String USER_ACCOUNT_ENDPOINT = REST_URL + "/account/verify_credentials.json";
+    private static final String USER_SHOW_ENDPOINT = REST_URL + "/users/show.json";
+
 
     private static final String PARAM_MAX_ID = "max_id";
     private static final String PARAM_SINCE_ID = "since_id";
@@ -185,12 +187,24 @@ public class TwitterClient extends OAuthBaseClient{
             }
         });
     }
+    public void getUserRequest(final Callback callback) {
+        getUserRequest(null, callback);
+    }
 
-    public void getUserAccountRequest(final Callback callback) {
+    public void getUserRequest(String userId, final Callback callback) {
         if (okHttpClient == null) return;
 
+        String endpoint = USER_ACCOUNT_ENDPOINT;
+        boolean userIdExists = !TextUtils.isEmpty(userId);
+        if (userIdExists) {
+            endpoint = USER_SHOW_ENDPOINT;
+        }
         HttpUrl.Builder urlBuilder = HttpUrl
-                .parse(USER_ACCOUNT_ENDPOINT).newBuilder();
+                .parse(endpoint).newBuilder();
+
+        if (userIdExists) {
+            urlBuilder.addQueryParameter(PARAM_USER_ID, userId);
+        }
 
         HttpUrl url = urlBuilder.build();
         Request request = new Request.Builder()
