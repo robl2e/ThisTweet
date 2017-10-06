@@ -10,103 +10,111 @@
         android:id="@+id/app_bar_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:minHeight="300dp"
         android:background="@android:color/white"
         android:elevation="0dp">
 
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar"
+        <android.support.design.widget.CollapsingToolbarLayout
             android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="@color/colorPrimary"
-            android:minHeight="?attr/actionBarSize"
-            app:layout_collapseMode="pin"
-            app:layout_scrollFlags="scroll|enterAlwaysCollapsed"
-            app:titleTextColor="@color/primary_text" />
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:minHeight="0dp"
+            android:layout_height="match_parent"
+            app:titleEnabled="false"
+            app:contentScrim="?attr/colorPrimary"
             app:layout_scrollFlags="scroll|exitUntilCollapsed">
 
-            <View
+            <RelativeLayout
+                android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:background="@color/colorPrimary" />
+                android:layout_height="wrap_content">
 
-            <ImageView
-                android:id="@+id/image_user_thumbnail"
-                android:layout_width="90dp"
-                android:layout_height="90dp"
-                android:layout_marginLeft="@dimen/content_border_padding"
-                android:layout_marginTop="50dp"
-                tools:minHeight="100dp"
-                tools:minWidth="100dp"
-                tools:src="@drawable/ic_account_outline" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="@color/colorPrimary" />
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_below="@id/image_user_thumbnail"
-                android:layout_marginLeft="@dimen/content_border_padding"
-                android:orientation="vertical">
-
-                <TextView
-                    android:id="@+id/text_name"
-                    style="@style/Base.TextAppearance.AppCompat.Headline"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="@dimen/content_border_padding_small"
-                    android:textColor="@color/primary_text"
-                    android:textStyle="bold"
-                    tools:text="GoldenStateWarriors" />
-
-                <TextView
-                    android:id="@+id/text_screename"
-                    style="@style/Base.TextAppearance.AppCompat.Medium"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="@dimen/content_border_padding_small"
-                    android:textColor="@color/secondary_text"
-                    tools:text="\@warriors" />
-
-                <TextView
-                    android:id="@+id/text_tagline"
-                    style="@style/Base.TextAppearance.AppCompat.Medium"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="@dimen/content_border_padding_small"
-                    android:textColor="@color/primary_text"
-                    tools:text="2017 NBA Champions" />
+                <ImageView
+                    android:id="@+id/image_user_thumbnail"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_marginLeft="@dimen/content_border_padding"
+                    android:layout_marginTop="50dp"
+                    tools:minHeight="100dp"
+                    tools:minWidth="100dp"
+                    tools:src="@drawable/ic_account_outline" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="@dimen/activity_vertical_margin"
-                    android:orientation="horizontal">
+                    android:layout_height="match_parent"
+                    android:layout_below="@id/image_user_thumbnail"
+                    android:layout_marginLeft="@dimen/content_border_padding"
+                    android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/text_following_count"
+                        android:id="@+id/text_name"
+                        style="@style/Base.TextAppearance.AppCompat.Headline"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/content_border_padding_small"
+                        android:textColor="@color/primary_text"
+                        android:textStyle="bold"
+                        tools:text="GoldenStateWarriors" />
+
+                    <TextView
+                        android:id="@+id/text_screename"
                         style="@style/Base.TextAppearance.AppCompat.Medium"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginBottom="@dimen/content_border_padding_small"
-                        android:layout_marginLeft="@dimen/content_border_padding_small"
-                        android:layout_marginTop="@dimen/content_border_padding_small"
-                        tools:text="982 Following" />
+                        android:layout_margin="@dimen/content_border_padding_small"
+                        android:textColor="@color/secondary_text"
+                        tools:text="\@warriors" />
 
                     <TextView
-                        android:id="@+id/text_followers_count"
+                        android:id="@+id/text_tagline"
                         style="@style/Base.TextAppearance.AppCompat.Medium"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginBottom="@dimen/content_border_padding_small"
-                        android:layout_marginLeft="@dimen/margin_left_border_padding"
-                        android:layout_marginTop="@dimen/content_border_padding_small"
-                        tools:text="4.6M Followers" />
+                        android:layout_margin="@dimen/content_border_padding_small"
+                        android:textColor="@color/primary_text"
+                        tools:text="2017 NBA Champions" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/activity_vertical_margin"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/text_following_count"
+                            style="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/content_border_padding_small"
+                            android:layout_marginLeft="@dimen/content_border_padding_small"
+                            android:layout_marginTop="@dimen/content_border_padding_small"
+                            tools:text="982 Following" />
+
+                        <TextView
+                            android:id="@+id/text_followers_count"
+                            style="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/content_border_padding_small"
+                            android:layout_marginLeft="@dimen/margin_left_border_padding"
+                            android:layout_marginTop="@dimen/content_border_padding_small"
+                            tools:text="4.6M Followers" />
+                    </LinearLayout>
                 </LinearLayout>
-            </LinearLayout>
-        </RelativeLayout>
+            </RelativeLayout>
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/colorPrimary"
+                android:minHeight="?attr/actionBarSize"
+                app:layout_collapseMode="pin"
+                app:theme="@style/UserProfileToolbarStyle"
+                app:titleTextColor="@android:color/white" />
+        </android.support.design.widget.CollapsingToolbarLayout>
     </android.support.design.widget.AppBarLayout>
 
     <FrameLayout
