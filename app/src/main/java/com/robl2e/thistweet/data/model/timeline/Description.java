@@ -5,17 +5,20 @@ import java.util.List;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
+import org.parceler.Parcel;
+
+@Parcel
 public class Description {
 
     @SerializedName("urls")
     @Expose
-    private List<Object> urls = null;
+    List<Url> urls = null;
 
-    public List<Object> getUrls() {
+    public List<Url> getUrls() {
         return urls;
     }
 
-    public void setUrls(List<Object> urls) {
+    public void setUrls(List<Url> urls) {
         this.urls = urls;
     }
 

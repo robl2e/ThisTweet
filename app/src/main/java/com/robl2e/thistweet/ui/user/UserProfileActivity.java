@@ -18,7 +18,6 @@ import android.text.TextUtils;
 import android.text.style.ForegroundColorSpan;
 import android.text.style.StyleSpan;
 import android.view.MenuItem;
-import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.ImageView;
@@ -32,11 +31,13 @@ import com.robl2e.thistweet.data.local.user.UserRepository;
 import com.robl2e.thistweet.data.model.user.User;
 import com.robl2e.thistweet.data.remote.AppResponseHandler;
 
+import org.parceler.Parcels;
+
 import jp.wasabeef.glide.transformations.RoundedCornersTransformation;
 import okhttp3.Response;
 
 public class UserProfileActivity extends AppCompatActivity {
-    private static final String EXTRA_USER_ID = "EXTRA_USER_ID";
+    private static final String EXTRA_USER = "EXTRA_USER";
     private UserRepository userRepository;
     private ImageView thumbnailImage;
     private TextView nameText;
@@ -46,9 +47,9 @@ public class UserProfileActivity extends AppCompatActivity {
     private TextView followersText;
     private Toolbar toolbar;
 
-    public static void start(Activity activity, String userId) {
+    public static void start(Activity activity, User user) {
         Intent intent = new Intent(activity, UserProfileActivity.class);
-        intent.putExtra(EXTRA_USER_ID, userId);
+        intent.putExtra(EXTRA_USER, Parcels.wrap(user));
         activity.startActivity(intent);
     }
 
@@ -61,6 +62,11 @@ public class UserProfileActivity extends AppCompatActivity {
         setStatusBarView();
         setupToolbar();
         showUserTimeline();
+
+        User user = extractExtra();
+        if (user != null) {
+            bindUser(UserViewModel.convert(user));
+        }
     }
 
     private void setStatusBarView() {
@@ -80,12 +86,12 @@ public class UserProfileActivity extends AppCompatActivity {
     }
 
     @Nullable
-    private String extractExtra() {
+    private User extractExtra() {
         if (getIntent() == null) return null;
 
-        if (!getIntent().hasExtra(EXTRA_USER_ID)) return null;
+        if (!getIntent().hasExtra(EXTRA_USER)) return null;
 
-        return getIntent().getStringExtra(EXTRA_USER_ID);
+        return Parcels.unwrap(getIntent().getParcelableExtra(EXTRA_USER));
     }
 
     private void setupViews() {
@@ -101,7 +107,8 @@ public class UserProfileActivity extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
-        String userId = extractExtra();
+        User user = extractExtra();
+        String userId = user != null ? user.getIdStr() : null;
         userRepository.getUser(userId, new AppResponseHandler<User>() {
             @Override
             public void onFailure(Exception e) {
@@ -133,7 +140,8 @@ public class UserProfileActivity extends AppCompatActivity {
         Fragment fragment = fm.findFragmentById(R.id.layout_content);
 
         if (fragment == null) {
-            String userId = extractExtra();
+            User user = extractExtra();
+            String userId = user != null ? user.getIdStr() : null;
             fragment = UserTweetListFragment.newInstance(userId);
         }
 

@@ -5,11 +5,14 @@ import java.util.List;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
+import org.parceler.Parcel;
+
+@Parcel
 public class Urls {
 
     @SerializedName("urls")
     @Expose
-    private List<Url> urls = null;
+    List<Url> urls = null;
 
     public List<Url> getUrls() {
         return urls;

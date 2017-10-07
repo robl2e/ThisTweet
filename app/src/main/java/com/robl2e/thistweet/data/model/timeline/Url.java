@@ -2,23 +2,27 @@
 package com.robl2e.thistweet.data.model.timeline;
 
 import java.util.List;
+
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
+import org.parceler.Parcel;
+
+@Parcel
 public class Url {
 
     @SerializedName("expanded_url")
     @Expose
-    private String expandedUrl;
+    String expandedUrl;
     @SerializedName("url")
     @Expose
-    private String url;
+    String url;
     @SerializedName("indices")
     @Expose
-    private List<Integer> indices = null;
+    List<Integer> indices = null;
     @SerializedName("display_url")
     @Expose
-    private String displayUrl;
+    String displayUrl;
 
     public String getExpandedUrl() {
         return expandedUrl;

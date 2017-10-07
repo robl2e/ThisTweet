@@ -207,6 +207,6 @@ public abstract class TweetListFragment extends Fragment implements TweetListAda
     public void onProfileImageClick(User user) {
         if (user == null) return;
 
-        UserProfileActivity.start(getActivity(), user.getIdStr());
+        UserProfileActivity.start(getActivity(), user);
     }
 }

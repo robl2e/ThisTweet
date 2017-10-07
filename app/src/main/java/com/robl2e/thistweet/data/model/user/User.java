@@ -5,125 +5,128 @@ import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 import com.robl2e.thistweet.data.model.timeline.UserEntities;
 
+import org.parceler.Parcel;
+
+@Parcel
 public class User {
 
     @SerializedName("name")
     @Expose
-    private String name;
+    String name;
     @SerializedName("profile_sidebar_fill_color")
     @Expose
-    private String profileSidebarFillColor;
+    String profileSidebarFillColor;
     @SerializedName("profile_background_tile")
     @Expose
-    private Boolean profileBackgroundTile;
+    Boolean profileBackgroundTile;
     @SerializedName("profile_sidebar_border_color")
     @Expose
-    private String profileSidebarBorderColor;
+    String profileSidebarBorderColor;
     @SerializedName("profile_image_url")
     @Expose
-    private String profileImageUrl;
+    String profileImageUrl;
     @SerializedName("created_at")
     @Expose
-    private String createdAt;
+    String createdAt;
     @SerializedName("location")
     @Expose
-    private String location;
+    String location;
     @SerializedName("follow_request_sent")
     @Expose
-    private Boolean followRequestSent;
+    Boolean followRequestSent;
     @SerializedName("id_str")
     @Expose
-    private String idStr;
+    String idStr;
     @SerializedName("is_translator")
     @Expose
-    private Boolean isTranslator;
+    Boolean isTranslator;
     @SerializedName("profile_link_color")
     @Expose
-    private String profileLinkColor;
+    String profileLinkColor;
     @SerializedName("entities")
     @Expose
-    private UserEntities entities;
+    UserEntities entities;
     @SerializedName("default_profile")
     @Expose
-    private Boolean defaultProfile;
+    Boolean defaultProfile;
     @SerializedName("url")
     @Expose
-    private String url;
+    String url;
     @SerializedName("contributors_enabled")
     @Expose
-    private Boolean contributorsEnabled;
+    Boolean contributorsEnabled;
     @SerializedName("favourites_count")
     @Expose
-    private Integer favouritesCount;
+    Integer favouritesCount;
     @SerializedName("utc_offset")
     @Expose
-    private Integer utcOffset;
+    Integer utcOffset;
     @SerializedName("profile_image_url_https")
     @Expose
-    private String profileImageUrlHttps;
+    String profileImageUrlHttps;
     @SerializedName("id")
     @Expose
-    private Long id;
+    Long id;
     @SerializedName("listed_count")
     @Expose
-    private Integer listedCount;
+    Integer listedCount;
     @SerializedName("profile_use_background_image")
     @Expose
-    private Boolean profileUseBackgroundImage;
+    Boolean profileUseBackgroundImage;
     @SerializedName("profile_text_color")
     @Expose
-    private String profileTextColor;
+    String profileTextColor;
     @SerializedName("followers_count")
     @Expose
-    private Integer followersCount;
+    Integer followersCount;
     @SerializedName("lang")
     @Expose
-    private String lang;
+    String lang;
     @SerializedName("protected")
     @Expose
-    private Boolean _protected;
+    Boolean _protected;
     @SerializedName("geo_enabled")
     @Expose
-    private Boolean geoEnabled;
+    Boolean geoEnabled;
     @SerializedName("notifications")
     @Expose
-    private Boolean notifications;
+    Boolean notifications;
     @SerializedName("description")
     @Expose
-    private String description;
+    String description;
     @SerializedName("profile_background_color")
     @Expose
-    private String profileBackgroundColor;
+    String profileBackgroundColor;
     @SerializedName("verified")
     @Expose
-    private Boolean verified;
+    Boolean verified;
     @SerializedName("time_zone")
     @Expose
-    private String timeZone;
+    String timeZone;
     @SerializedName("profile_background_image_url_https")
     @Expose
-    private String profileBackgroundImageUrlHttps;
+    String profileBackgroundImageUrlHttps;
     @SerializedName("statuses_count")
     @Expose
-    private Integer statusesCount;
+    Integer statusesCount;
     @SerializedName("profile_background_image_url")
     @Expose
-    private String profileBackgroundImageUrl;
+    String profileBackgroundImageUrl;
     @SerializedName("default_profile_image")
     @Expose
-    private Boolean defaultProfileImage;
+    Boolean defaultProfileImage;
     @SerializedName("friends_count")
     @Expose
-    private Integer friendsCount;
+    Integer friendsCount;
     @SerializedName("following")
     @Expose
-    private Boolean following;
+    Boolean following;
     @SerializedName("show_all_inline_media")
     @Expose
-    private Boolean showAllInlineMedia;
+    Boolean showAllInlineMedia;
     @SerializedName("screen_name")
     @Expose
-    private String screenName;
+    String screenName;
 
     public String getName() {
         return name;

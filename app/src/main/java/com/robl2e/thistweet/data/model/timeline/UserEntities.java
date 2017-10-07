@@ -4,14 +4,17 @@ package com.robl2e.thistweet.data.model.timeline;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
+import org.parceler.Parcel;
+
+@Parcel
 public class UserEntities {
 
     @SerializedName("url")
     @Expose
-    private Urls url;
+    Urls url;
     @SerializedName("description")
     @Expose
-    private Description description;
+    Description description;
 
     public Urls getUrl() {
         return url;
